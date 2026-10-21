@@ -26,8 +26,10 @@ defineProps<{
 
 <style scoped>
 .breadcrumbs-nav {
-  margin-bottom: 1.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
 }
+
 .bc-list {
   display: flex;
   flex-wrap: wrap;
@@ -36,23 +38,31 @@ defineProps<{
   padding: 0;
   margin: 0;
   font-size: 0.825rem;
-  color: var(--vp-c-text-2);
+  color: var(--vp-c-text-3);
+  font-weight: 500;
 }
+
 .bc-item {
   display: flex;
   align-items: center;
 }
+
 .bc-sep {
-  margin: 0 0.45rem;
+  margin: 0 0.5rem;
   color: var(--vp-c-text-3);
+  opacity: 0.6;
 }
+
 .bc-link {
   color: var(--vp-c-text-2);
   text-decoration: none;
+  transition: color 0.15s ease;
 }
+
 .bc-link:hover {
   color: var(--vp-c-brand-1);
 }
+
 .bc-current {
   color: var(--vp-c-text-1);
   font-weight: 600;

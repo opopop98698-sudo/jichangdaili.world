@@ -1,112 +1,240 @@
 :root {
+  /* Brand color tokens - Apple Tech Blue */
   --vp-c-brand-1: #0066cc;
   --vp-c-brand-2: #0052a3;
   --vp-c-brand-3: #003d7a;
   --vp-c-brand-soft: rgba(0, 102, 204, 0.08);
 
-  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  /* Status color tokens (Light) */
+  --c-success: #059669;
+  --c-success-bg: rgba(5, 150, 105, 0.08);
+  --c-success-border: rgba(5, 150, 105, 0.22);
+  --c-danger: #dc2626;
+  --c-danger-bg: rgba(220, 38, 38, 0.08);
+  --c-danger-border: rgba(220, 38, 38, 0.22);
+  --c-warning: #d97706;
+  --c-warning-bg: rgba(217, 119, 6, 0.08);
+  --c-warning-border: rgba(217, 119, 6, 0.22);
+
+  /* Clean font stack with native CJK system rendering */
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --vp-font-family-mono: "SF Mono", "Segoe UI Mono", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 
   --vp-nav-height: 60px;
   --vp-layout-max-width: 1360px;
 }
 
-/* Light mode defaults with crisp, high-legibility contrasts */
+/* Dark mode overrides (Full WCAG AA contrast compliance) */
+.dark {
+  --vp-c-brand-1: #3b9eff;
+  --vp-c-brand-2: #60aeff;
+  --vp-c-brand-3: #8ec7ff;
+  --vp-c-brand-soft: rgba(59, 158, 255, 0.14);
+
+  --c-success: #34d399;
+  --c-success-bg: rgba(52, 211, 153, 0.12);
+  --c-success-border: rgba(52, 211, 153, 0.28);
+  --c-danger: #f87171;
+  --c-danger-bg: rgba(248, 113, 113, 0.12);
+  --c-danger-border: rgba(248, 113, 113, 0.28);
+  --c-warning: #fbbf24;
+  --c-warning-bg: rgba(251, 191, 36, 0.12);
+  --c-warning-border: rgba(251, 191, 36, 0.28);
+}
+
+/* Base HTML & typography settings */
 html {
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  scroll-behavior: smooth;
 }
 
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Accessible focus ring */
+/* Accessible focus outline */
 :focus-visible {
   outline: 2px solid var(--vp-c-brand-1);
-  outline-offset: 2px;
+  outline-offset: 3px;
 }
 
-/* Responsive table overflow wrapper by default */
-.vp-doc table {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-  -webkit-overflow-scrolling: touch;
+/* Document typography & breathing room (Apple Developer inspired) */
+.vp-doc {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--vp-c-text-1);
 }
 
-.vp-doc th, .vp-doc td {
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--vp-c-divider);
-}
-
-.vp-doc th {
-  background-color: var(--vp-c-bg-alt);
-  font-weight: 600;
-  text-align: left;
-}
-
-/* Content typography */
 .vp-doc h1 {
-  font-size: 2rem;
+  font-size: 2.15rem;
   line-height: 1.3;
+  margin-top: 0.5rem;
   margin-bottom: 1.25rem;
   font-weight: 800;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
+  color: var(--vp-c-text-1);
 }
 
 .vp-doc h2 {
-  font-size: 1.45rem;
+  font-size: 1.5rem;
   line-height: 1.35;
-  margin-top: 2.25rem;
-  margin-bottom: 0.85rem;
-  padding-bottom: 0.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--vp-c-divider);
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
+  color: var(--vp-c-text-1);
 }
 
 .vp-doc h3 {
   font-size: 1.2rem;
-  margin-top: 1.75rem;
-  margin-bottom: 0.65rem;
+  line-height: 1.4;
+  margin-top: 1.85rem;
+  margin-bottom: 0.75rem;
   font-weight: 600;
+  color: var(--vp-c-text-1);
 }
 
 .vp-doc p {
-  line-height: 1.75;
-  margin-top: 0.85rem;
-  margin-bottom: 0.85rem;
+  line-height: 1.8;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--vp-c-text-1);
 }
 
 .vp-doc ul, .vp-doc ol {
-  padding-left: 1.4rem;
-  margin: 0.85rem 0;
-  line-height: 1.7;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+  line-height: 1.8;
 }
 
-.vp-doc code {
+.vp-doc li {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.vp-doc blockquote {
+  margin: 1.5rem 0;
+  padding: 0.85rem 1.25rem;
+  border-left: 4px solid var(--vp-c-brand-1);
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 0 6px 6px 0;
+  color: var(--vp-c-text-2);
+}
+
+/* Inline code treatment */
+.vp-doc :not(pre) > code {
   font-size: 0.875em;
+  font-family: var(--vp-font-family-mono);
   padding: 0.15rem 0.4rem;
   border-radius: 4px;
   background-color: var(--vp-c-bg-alt);
   border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-brand-1);
+  word-break: break-word;
 }
 
-.vp-doc pre code {
-  border: none;
-  background: transparent;
-  padding: 0;
+/* Pre code block refinements */
+.vp-doc div[class*='language-'] {
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  margin: 1.5rem 0;
+  background-color: var(--vp-c-bg-alt);
+  transition: border-color 0.2s ease;
 }
 
-/* Mobile adjustments */
+.vp-doc div[class*='language-']:hover {
+  border-color: var(--vp-c-brand-soft);
+}
+
+.vp-doc [class*='language-'] > span.lang {
+  position: absolute;
+  top: 8px;
+  right: 48px;
+  font-size: 0.725rem;
+  font-weight: 600;
+  color: var(--vp-c-text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: var(--vp-font-family-mono);
+  user-select: none;
+}
+
+.vp-doc [class*='language-'] > button.copy {
+  top: 8px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  transition: all 0.2s ease;
+}
+
+.vp-doc [class*='language-'] > button.copy:hover {
+  background-color: var(--vp-c-default-soft);
+  border-color: var(--vp-c-brand-1);
+}
+
+/* Table layout with zebra stripes & row hover tracking */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+
+.vp-doc th, .vp-doc td {
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--vp-c-divider);
+  text-align: left;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-alt);
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-bottom: 2px solid var(--vp-c-divider);
+}
+
+.vp-doc tbody tr:nth-child(even) {
+  background-color: var(--vp-c-bg-soft);
+}
+
+.vp-doc tbody tr:hover {
+  background-color: var(--vp-c-brand-soft);
+  transition: background-color 0.15s ease;
+}
+
+/* Dark mode card hover enhancement */
+.dark .qe-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .vp-doc h1 {
-    font-size: 1.65rem;
+    font-size: 1.75rem;
   }
   .vp-doc h2 {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
+    margin-top: 2rem;
+  }
+  .vp-doc h3 {
+    font-size: 1.1rem;
+  }
+  .vp-doc table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }

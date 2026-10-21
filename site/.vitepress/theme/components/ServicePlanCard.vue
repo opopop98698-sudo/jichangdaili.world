@@ -61,7 +61,7 @@ defineProps<{
       </span>
       <div class="sp-actions">
         <a v-if="profileUrl" :href="profileUrl" class="sp-btn sp-btn-profile">
-          查看品牌档案
+          查看品牌档案 →
         </a>
         <a v-if="targetUrl" :href="targetUrl" target="_blank" rel="sponsored nofollow noopener noreferrer" class="sp-btn sp-btn-target">
           官网入口 ↗
@@ -73,128 +73,172 @@ defineProps<{
 
 <style scoped>
 .service-plan-card {
-  margin: 1.25rem 0;
-  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  padding: 1.35rem 1.5rem;
   background: var(--vp-c-bg-alt);
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
 }
+
 .sp-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  padding-bottom: 0.75rem;
+  gap: 0.65rem;
+  padding-bottom: 0.85rem;
   border-bottom: 1px solid var(--vp-c-divider);
 }
+
 .sp-brand-info {
   display: flex;
   align-items: center;
   gap: 0.65rem;
 }
+
 .sp-brand-name {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--vp-c-text-1);
+  letter-spacing: -0.015em;
 }
+
 .sp-badge {
-  font-size: 0.7rem;
-  font-weight: 600;
-  padding: 0.15rem 0.45rem;
+  font-size: 0.725rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
   border-radius: 4px;
 }
+
 .sp-badge.sponsored {
-  background: #fef3c7;
-  color: #92400e;
+  background: var(--c-warning-bg);
+  color: var(--c-warning);
+  border: 1px solid var(--c-warning-border);
 }
+
 .sp-badge.self-operated {
-  background: #dbeafe;
-  color: #1e40af;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border: 1px solid var(--vp-c-brand-soft);
 }
+
 .sp-badge.pending {
   background: var(--vp-c-default-soft);
   color: var(--vp-c-text-3);
+  border: 1px solid var(--vp-c-divider);
 }
+
 .sp-badge.organic-reviewed {
-  background: #d1fae5;
-  color: #065f46;
+  background: var(--c-success-bg);
+  color: var(--c-success);
+  border: 1px solid var(--c-success-border);
 }
+
 .sp-price-block {
   display: flex;
   align-items: baseline;
-  gap: 0.2rem;
+  gap: 0.25rem;
 }
+
 .sp-cur {
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 700;
   color: var(--vp-c-brand-1);
 }
+
 .sp-num {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   font-weight: 800;
   color: var(--vp-c-brand-1);
+  letter-spacing: -0.02em;
 }
+
 .sp-cycle {
-  font-size: 0.8rem;
+  font-size: 0.825rem;
   color: var(--vp-c-text-2);
 }
+
 .sp-unverified {
-  font-size: 0.825rem;
+  font-size: 0.85rem;
   color: var(--vp-c-text-3);
   font-style: italic;
 }
+
 .sp-body {
-  margin: 0.85rem 0;
+  margin: 1rem 0;
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
-  font-size: 0.875rem;
+  gap: 0.5rem;
+  font-size: 0.9rem;
 }
+
 .sp-row {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.65rem;
 }
+
 .sp-label {
   font-weight: 600;
   color: var(--vp-c-text-2);
-  min-width: 80px;
+  min-width: 85px;
 }
+
 .sp-val {
   color: var(--vp-c-text-1);
+  line-height: 1.5;
 }
+
 .sp-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.75rem;
-  padding-top: 0.75rem;
+  gap: 0.85rem;
+  padding-top: 0.85rem;
   border-top: 1px dashed var(--vp-c-divider);
 }
+
 .sp-audit-date {
-  font-size: 0.775rem;
+  font-size: 0.8rem;
   color: var(--vp-c-text-3);
 }
+
 .sp-actions {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.65rem;
 }
+
 .sp-btn {
-  font-size: 0.8rem;
+  font-size: 0.825rem;
   font-weight: 600;
-  padding: 0.35rem 0.75rem;
-  border-radius: 4px;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
   text-decoration: none;
+  transition: all 0.15s ease;
 }
+
 .sp-btn-profile {
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
   color: var(--vp-c-text-1);
 }
+
+.sp-btn-profile:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
 .sp-btn-target {
   background: var(--vp-c-brand-1);
   color: #fff !important;
+}
+
+.dark .sp-btn-target {
+  color: #111 !important;
+}
+
+.sp-btn-target:hover {
+  opacity: 0.92;
 }
 </style>
