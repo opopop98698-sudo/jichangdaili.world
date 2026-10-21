@@ -1,9 +1,11 @@
 <script setup lang="ts">
-const props = defineProps<{
-  type?: 'commercial' | 'safety' | 'benchmark';
-}>();
+const props = withDefaults(defineProps<{
+  type?: 'commercial' | 'safety' | 'benchmark' | 'warning';
+}>(), {
+  type: 'benchmark'
+});
 
-const config = {
+const configs = {
   commercial: {
     icon: '⚖️',
     title: '商业与利益冲突透明声明',
@@ -14,12 +16,19 @@ const config = {
     title: '安全与风险免责提示',
     className: 'type-safety'
   },
+  warning: {
+    icon: '⚠️',
+    title: '高风险安全防坑警示',
+    className: 'type-safety'
+  },
   benchmark: {
     icon: '🔬',
     title: '基准测试与数据可复查声明',
     className: 'type-benchmark'
   }
-}[props.type || 'benchmark'];
+};
+
+const config = configs[props.type] || configs.benchmark;
 </script>
 
 <template>

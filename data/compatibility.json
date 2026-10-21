@@ -7,17 +7,17 @@
     "protocols": ["Shadowsocks", "VMess", "VLESS (Reality/WS)", "Trojan", "Hysteria 2", "TUIC"],
     "tunSupport": "原生支持 (需安装服务模式)",
     "ruleEngine": "规则集 / Rule-Providers / Script扩展",
-    "recommendationLevel": "强烈推荐"
+    "recommendationLevel": "桌面替代CFW首选"
   },
   {
     "client": "v2rayN",
     "core": "Xray-core / sing-box",
-    "os": "Windows",
+    "os": "Windows / Linux / macOS (Preview)",
     "subFormats": ["Base64单节点列表", "v2rayN格式", "Clash YAML (需转换)", "sing-box JSON"],
     "protocols": ["VMess", "VLESS (Reality/gRPC/WS)", "Trojan", "Shadowsocks", "Hysteria 2"],
     "tunSupport": "支持 (内置 sing-box/tun2socks 驱动)",
     "ruleEngine": "GeoIP.dat / GeoSite.dat / 自定义路由",
-    "recommendationLevel": "强烈推荐"
+    "recommendationLevel": "多协议管理首选"
   },
   {
     "client": "v2rayNG",
@@ -27,7 +27,7 @@
     "protocols": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Hysteria 2"],
     "tunSupport": "原生 VpnService 系统级代理",
     "ruleEngine": "分应用代理 / GeoIP / 绕过局域网与大陆",
-    "recommendationLevel": "强烈推荐"
+    "recommendationLevel": "安卓主流推荐"
   },
   {
     "client": "Shadowrocket",
@@ -37,7 +37,7 @@
     "protocols": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard"],
     "tunSupport": "原生 iOS VPN",
     "ruleEngine": "规则分流 / CONF 配置文件 / HTTPS 解密",
-    "recommendationLevel": "iOS首选"
+    "recommendationLevel": "iOS高性价比首选"
   },
   {
     "client": "FlClash",
@@ -58,5 +58,105 @@
     "tunSupport": "全平台原生 TUN 支持",
     "ruleEngine": "sing-box 规则引擎 / 自动优选",
     "recommendationLevel": "全协议跨平台推荐"
+  },
+  {
+    "client": "Clash Nyanpasu",
+    "core": "Mihomo / Clash Core",
+    "os": "Windows / macOS / Linux",
+    "subFormats": ["Clash YAML", "Providers"],
+    "protocols": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2"],
+    "tunSupport": "支持 (内置 TUN 模式)",
+    "ruleEngine": "策略组 / 自定义扩展脚本",
+    "recommendationLevel": "进阶客制化桌面推荐"
+  },
+  {
+    "client": "Karing",
+    "core": "sing-box",
+    "os": "iOS / Android / Windows / macOS / Linux",
+    "subFormats": ["Clash YAML", "V2Ray Base64", "sing-box JSON", "SIP002", "Surge/QuantumultX (部分兼容)"],
+    "protocols": ["全主流协议 (SS/VMess/VLESS/Trojan/Hysteria 2/TUIC)"],
+    "tunSupport": "原生全平台 TUN / VPN 驱动",
+    "ruleEngine": "多订阅规则合并与自动分流",
+    "recommendationLevel": "全平台多格式新手友好推荐"
+  },
+  {
+    "client": "Stash",
+    "core": "Clash-compatible",
+    "os": "iOS / iPadOS / macOS",
+    "subFormats": ["Clash YAML", "Stash 增强配置"],
+    "protocols": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard"],
+    "tunSupport": "iOS NetworkExtension / Mac System Extension",
+    "ruleEngine": "Clash 策略组 / 规则集 / JavaScript 覆写",
+    "recommendationLevel": "苹果生态体验标杆"
+  },
+  {
+    "client": "Quantumult X",
+    "core": "Proprietary",
+    "os": "iOS / iPadOS",
+    "subFormats": ["QX 订阅格式", "Base64", "Clash 转换规则"],
+    "protocols": ["Shadowsocks", "VMess", "Trojan", "HTTP", "Socks5"],
+    "tunSupport": "iOS VPN",
+    "ruleEngine": "高灵活性 JS 重写 / 规则分流",
+    "recommendationLevel": "iOS极客脚本玩家推荐"
+  },
+  {
+    "client": "Surge",
+    "core": "Surge Custom Engine",
+    "os": "iOS / macOS",
+    "subFormats": ["Surge 专有托管配置", "Base64 单节点导入"],
+    "protocols": ["Snell", "Shadowsocks", "VMess", "Trojan", "WireGuard", "TUIC"],
+    "tunSupport": "增强模式 (Enhanced Mode) / 系统网卡接管",
+    "ruleEngine": "企业级规则引擎 / 抓包调试 / 策略路由",
+    "recommendationLevel": "苹果平台顶级商业专业版"
+  },
+  {
+    "client": "v2rayA",
+    "core": "Xray-core",
+    "os": "Linux / OpenWrt / Docker / NAS",
+    "subFormats": ["Base64订阅", "单节点链接", "Clash YAML (通过内核解析)"],
+    "protocols": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Hysteria 2"],
+    "tunSupport": "透明代理 (TProxy / Redirect) 与特定端口",
+    "ruleEngine": "网站白名单 / 分流规则 / Web 界面直观操作",
+    "recommendationLevel": "Linux主机与旁路由Web管理首选"
+  },
+  {
+    "client": "OpenClash",
+    "core": "Mihomo (Clash Meta)",
+    "os": "OpenWrt (19.07 ~ 23.05+)",
+    "subFormats": ["Clash YAML", "Providers"],
+    "protocols": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard"],
+    "tunSupport": "Fake-IP (TUN) / Redir-Host (兼容模式)",
+    "ruleEngine": "Clash 规则引擎 / 策略组 / 路由器局域网设备控制",
+    "recommendationLevel": "主流OpenWrt软路由首选"
+  },
+  {
+    "client": "Nikki",
+    "core": "Mihomo (Clash Meta)",
+    "os": "OpenWrt 24.10+ (仅限现代架构)",
+    "subFormats": ["Clash YAML"],
+    "protocols": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC"],
+    "tunSupport": "TProxy / TUN 基于 nftables 原生透明代理",
+    "ruleEngine": "Mihomo 原生分流规则",
+    "recommendationLevel": "新版OpenWrt原生nftables轻量首选"
+  },
+  {
+    "client": "PassWall2",
+    "core": "Xray-core / sing-box",
+    "os": "OpenWrt 21.02 ~ 23.05+",
+    "subFormats": ["Base64 订阅", "多协议单链接"],
+    "protocols": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Hysteria 2"],
+    "tunSupport": "TCP/UDP 透明代理 / TProxy",
+    "ruleEngine": "分流节点指定 / 局域网黑白名单 / DNS 防污染",
+    "recommendationLevel": "软路由多核心分流首选"
+  },
+  {
+    "client": "HomeProxy",
+    "core": "sing-box",
+    "os": "ImmortalWrt / OpenWrt 23.05+",
+    "subFormats": ["sing-box JSON", "Base64 节点解析"],
+    "protocols": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2"],
+    "tunSupport": "nftables 原生透明代理",
+    "ruleEngine": "sing-box 规则集 (SRS)",
+    "recommendationLevel": "ImmortalWrt极简透明代理推荐"
   }
 ]

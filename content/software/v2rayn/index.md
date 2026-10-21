@@ -1,58 +1,62 @@
 ---
-title: "v2rayN 官方软件档案与双核心架构技术规格"
-description: "v2rayN 官方技术档案。详细记录项目 GitHub 仓库、Xray 与 sing-box 核心切换、.NET 8 依赖、海量节点测速与路由自定义规则特性。"
+title: "v2rayN 官方软件档案：Xray 与 sing-box 双核心、协议支持与发布源"
+description: "v2rayN 官方技术档案。基于 .NET 8 开发的 Windows 经典多协议代理客户端，内置 Xray 与 sing-box 双核心，提供强大的路由编辑与批量节点管理功能。"
 status: "published"
 publishedAt: "2026-10-21"
 modifiedAt: "2026-10-21"
 ---
 
-# v2rayN 官方软件档案
+# v2rayN 官方技术档案
 
 <Breadcrumbs :crumbs="[
-  { title: '软件档案', url: '/software/' },
+  { title: '客户端下载', url: '/clients/' },
+  { title: '软件档案库', url: '/software/' },
   { title: 'v2rayN' }
 ]" />
 
-<ClientIdentityCard 
-  name="v2rayN"
-  category="Windows 经典多核心代理外壳"
-  repo="https://github.com/2dust/v2rayN"
-  version="6.60"
-  license="GPL-3.0"
-  core="Xray-core / sing-box 双核心自由切换"
-  :platforms="['Windows 10 / Windows 11 (依赖 .NET 8 Desktop Runtime)']"
-  :protocols="['VMess', 'VLESS (Reality/gRPC/WS)', 'Trojan', 'Shadowsocks', 'Socks5', 'HTTP', 'Hysteria 2', 'TUIC']"
+<AnswerFirst 
+  conclusion="v2rayN 是 Windows 平台上资历最深、多协议适应性最广的经典代理客户端。基于微软 .NET 8 桌面运行时构建，原生支持 Xray-core 与 sing-box 核心无缝切换。它对 VLESS Reality、gRPC、Hysteria 2 等现代协议具有第一梯队的原生支持能力，是追求节点精细调试与多协议批量管理用户的必备工具。"
+  scope="Windows 10 / Windows 11 · 适用架构: x64 / ARM64"
+  verdict="需要管理大量单节点、依赖 VLESS Reality 协议用户的首选。"
 />
 
 ---
 
-## 1. 项目背景与技术定位
+## 1. 软件核心技术参数
 
-v2rayN 是由开发者 2dust 主导开发并长期维护的 Windows 平台开源网络代理工具。与一体化的客户端不同，v2rayN 在本质上是一个**高度模块化的 GUI 控制外壳**。它将底层网络转发与加密协议完全委托给独立的可执行文件（如 `xray.exe` 或 `sing-box.exe`），外壳程序仅负责进程调度、配置生成、多线程延迟测速与直观的路由规则编辑。
-
-- **多核心灵活切换**：用户可以在核心类型设置中，一秒在成熟稳健的 Xray-core 与轻量快速的 sing-box 核心之间自由切换，无惧新旧协议断层。
-- **海量节点批处理能力**：即使在面对数千个散落节点的超大型机场订阅时，v2rayN 的真连接延迟测速与可用性过滤效率依然居于行业领先地位。
-- **运行环境要求**：软件基于 C# / WPF 开发，自 6.x 版本起全面转向 .NET 8，宿主机必须提前安装对应的运行时环境。
-
----
-
-## 2. 官方发布包类型选择指南
-
-在官方 GitHub Releases 页面中，v2rayN 通常会提供两个截然不同的压缩包：
-
-| 构建包文件名 | 包含内容 | 适合用户群 |
-| :--- | :--- | :--- |
-| **`v2rayN-With-Core.zip`** | 包含 v2rayN 界面 + 完整的 Xray-core、sing-box 核心及最新的 GeoIP/GeoSite 规则库 | **强烈推荐**。新手无需手动下载配置核心，解压即可直接使用 |
-| **`v2rayN.zip`** | 仅包含 v2rayN 界面外壳可执行文件，无任何底层核心 | 适合已有固定核心版本、想要手动管理 `bin` 目录的高级技术用户 |
+| 参数项 | 权威数据与核验标准 |
+| :--- | :--- |
+| **官方代码仓库** | [github.com/2dust/v2rayN](https://github.com/2dust/v2rayN) |
+| **开源许可证** | GPL-3.0 License |
+| **收费模式** | 完全免费开源 (Free and Open Source) |
+| **开发框架** | C# / .NET 8 Desktop Runtime (WPF) |
+| **内置代理核心** | Xray-core / sing-box 可自选切换 |
+| **最新核验版本** | v6.60+ (2026-10-21 核验) |
 
 ---
 
-## 3. 关联教程与任务直达
+## 2. 跨平台版本与构建包类型
+
+- **Windows 主力版**：提供 `v2rayN-With-Core.zip`（包含所有官方编译好的 Xray/sing-box 二进制核心，解压即用）与 `v2rayN.zip`（仅主程序外壳，需自行放置 core）；
+- **运行环境前提**：系统必须提前安装微软官方 **.NET 8.0 Desktop Runtime**（若未安装，程序双击将闪退报错）；
+- **跨平台探索**：作者团队近期开发了基于 Avalonia 框架的 macOS / Linux 跨平台预览版本。
+
+---
+
+## 3. 协议支持与特色能力
+
+- **全面支持现代协议**：VMess, VLESS (Reality, gRPC, WebSocket), Trojan, Shadowsocks, Socks5, HTTP, Hysteria 2, TUIC；
+- **TUN 虚拟网卡支持**：内置通过 sing-box 核心或 tun2socks 驱动的系统级流量捕获；
+- **批量与测速工具**：支持批量真连接测速、Ping 延迟测速、路由规则自定义、GeoIP 与 GeoSite 数据库一键更新。
+
+---
+
+## 4. 相关教程与实操指引
 
 <RelatedTasks 
   :tasks="[
-    { title: 'v2rayN 安装与环境搭建指南', url: '/install/v2rayn/', taskType: 'install', description: '配置 .NET 8 桌面运行时并初始化 Xray 核心' },
-    { title: 'Base64 订阅链接与节点导入', url: '/subscription/links/', taskType: 'subscription', description: '从剪贴板快速导入节点并执行延迟测试' },
-    { title: '已连接但无法上网排错', url: '/troubleshooting/no-internet/', taskType: 'troubleshooting', description: '解决 Windows 代理开关与端口错位故障' }
+    { title: 'v2rayN 解压与首次配置实操', url: '/install/v2rayn/', taskType: 'install', description: '配置 .NET 8 桌面运行时与核心激活' },
+    { title: 'v2rayN 闪退崩溃故障排查', url: '/troubleshooting/troubleshoot-v2rayn-crash-on-splash-screen/', taskType: 'troubleshoot', description: '解决缺少桌面运行时导致的启动崩溃' },
+    { title: 'Windows 客户端下载专题', url: '/clients/windows/', taskType: 'install', description: 'Windows 代理软件横向对比' }
   ]"
 />

@@ -1,113 +1,52 @@
 ---
-title: "代理软件档案库：主流客户端技术指标与官方渠道"
-description: "收录 Clash Verge Rev、v2rayN、v2rayNG、Shadowrocket、FlClash、Hiddify 及 sing-box 等主流代理客户端的完整软件档案、协议支持矩阵与官方安全来源。"
+title: "代理客户端官方软件档案库：源码鉴真、内核对照与协议支持矩阵"
+description: "机场代理官方软件档案库。收录 Clash Verge Rev、v2rayN、Shadowrocket、Hiddify、Karing、OpenClash、Nikki 等 2026 全平台主流代理工具的官方发布源、开源许可证、底层核心、协议支持与安全警示。"
 status: "published"
 publishedAt: "2026-10-21"
 modifiedAt: "2026-10-21"
 ---
 
-# 代理软件官方档案库
+# 代理客户端官方软件档案库
 
-<Breadcrumbs :crumbs="[{ title: '软件档案', url: '/software/' }]" />
+<Breadcrumbs :crumbs="[{ title: '客户端下载', url: '/clients/' }, { title: '软件档案库', url: '/software/' }]" />
 
 <AnswerFirst 
-  conclusion="本档案库为每个主流开源代理软件建立独立的数字化档案，严格追踪其官方代码仓库、底层内置核心、许可证协议、全平台支持架构及最新核验版本。拒绝任何中间商套壳打包，为用户提供最纯净、可验证的技术背景参考。"
-  scope="全平台主流客户端 · 开源/商业核验标准"
-  verdict="所有档案条目均直接关联官方原始分发渠道，绝不分发加壳或未验证二进制。"
+  conclusion="本档案库是机场代理 (jichangdaili.world) 建立的客观软件事实注册中心。所有入库客户端均经过官方代码仓库鉴真、开源许可证核实与底层协议支持复测。我们对存在停更、安全劫持风险（如 NekoBox 假包）或严格系统依赖（如 Nikki 必须依赖 OpenWrt 24.10+）的软件进行客观标注，严禁任何形式的恶意加壳与二次捆绑。"
+  scope="全平台代理客户端 · 开源与合规商用软件技术档案"
+  verdict="认准官方发布源，下载前必查架构与数字签名。"
 />
 
 ---
 
-## 1. 已建立档案的客户端名录
+## 1. 核心客户端技术档案索引
 
-<div class="software-cards-grid">
-  <div class="sc-card">
-    <div class="sc-header">
-      <h3 class="sc-name">Clash Verge Rev</h3>
-      <span class="sc-badge">强烈推荐</span>
-    </div>
-    <p class="sc-desc">基于 Tauri 框架打造的现代开源 Clash 客户端，内置新一代 Mihomo (Clash Meta) 核心，原生支持 TUN 模式与脚本扩展。</p>
-    <div class="sc-meta">
-      <span>底层核心: Mihomo</span>
-      <span>核验版本: v1.7.7</span>
-    </div>
-    <div class="sc-footer">
-      <a href="/software/clash-verge-rev/" class="sc-link">查看完整软件档案 →</a>
-    </div>
-  </div>
+### 桌面主力客户端 (Windows / macOS / Linux)
+- [Clash Verge Rev 官方档案](/software/clash-verge-rev/)：Tauri 架构、Mihomo 核心、原版 CFW 首选替代品。
+- [v2rayN 官方档案](/software/v2rayn/)：.NET 8 开发、Xray/sing-box 多核心切换、批量节点管理标杆。
+- [FlClash 官方档案](/software/flclash/)：Flutter 跨平台轻量界面、多端配置统一、资源占用极低。
+- [Clash Nyanpasu 官方档案](/software/clash-nyanpasu/)：Tauri 框架、多核心支持、强大自定义扩展插件生态。
+- [Hiddify 官方档案](/software/hiddify/)：基于 sing-box 核心、原生支持 20+ 种代理协议、全平台自动优选。
+- [Karing 官方档案](/software/karing/)：全平台 sing-box 客户端、自动解析多种复杂订阅格式。
+- [Clash Mi 官方档案](/software/clash-mi/)：Mihomo 内核轻量跨平台客户端、原生 Clash YAML 规则解析。
 
-  <div class="sc-card">
-    <div class="sc-header">
-      <h3 class="sc-name">v2rayN</h3>
-      <span class="sc-badge">资深推荐</span>
-    </div>
-    <p class="sc-desc">Windows 平台极其经典的代理客户端外壳，基于 .NET 8 开发，支持 Xray-core 与 sing-box 双核心无缝切换与海量节点测速。</p>
-    <div class="sc-meta">
-      <span>底层核心: Xray / sing-box</span>
-      <span>核验版本: v6.60</span>
-    </div>
-    <div class="sc-footer">
-      <a href="/software/v2rayn/" class="sc-link">查看完整软件档案 →</a>
-    </div>
-  </div>
-</div>
+### 移动端主力客户端 (Android / iOS)
+- [Shadowrocket (小火箭) 官方档案](/software/shadowrocket/)：iOS 最经典高性价比规则代理工具、自研高效引擎。
+- [v2rayNG 官方档案](/software/v2rayng/)：Android 平台开源标杆、Xray 核心、分应用代理与省电优化。
+- [Stash 官方档案](/software/stash/)：苹果生态（iOS / Mac）首选 Clash 兼容客户端、策略组与覆写支持完备。
+- [Quantumult X 官方档案](/software/quantumult-x/)：iOS 进阶极客工具、JavaScript 重写与极致网络吞吐。
+- [Surge 官方档案](/software/surge/)：苹果平台工业级网络调试与规则分流天花板。
 
-<style scoped>
-.software-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0;
-}
-.sc-card {
-  display: flex;
-  flex-direction: column;
-  padding: 1.25rem 1.5rem;
-  background: var(--vp-c-bg-alt);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  gap: 0.65rem;
-}
-.sc-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.sc-name {
-  margin: 0;
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--vp-c-text-1);
-}
-.sc-badge {
-  font-size: 0.725rem;
-  font-weight: 600;
-  color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
-}
-.sc-desc {
-  margin: 0;
-  font-size: 0.875rem;
-  color: var(--vp-c-text-2);
-  line-height: 1.5;
-}
-.sc-meta {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.775rem;
-  color: var(--vp-c-text-3);
-  padding: 0.5rem 0;
-  border-top: 1px dashed var(--vp-c-divider);
-}
-.sc-footer {
-  margin-top: auto;
-}
-.sc-link {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--vp-c-brand-1);
-  text-decoration: none;
-}
-</style>
+### 路由器与网关客户端 (OpenWrt / Linux 网关)
+- [OpenClash 官方档案](/software/openclash/)：OpenWrt 社区功能最强大的 Mihomo 路由插件、Fake-IP 规则分流统治者。
+- [Nikki 官方档案](/software/nikki/)：专为 OpenWrt 24.10+ 原生 nftables 打造的现代化轻量代理插件。
+- [PassWall2 官方档案](/software/passwall2/)：多核心灵活切换、精细访问控制黑白名单。
+- [v2rayA 官方档案](/software/v2raya/)：基于 Web UI 控制台的 Linux/服务器全局透明代理工具。
+- [sing-box 官方档案](/software/sing-box/)：新一代通用代理核心与全平台原生客户端参考实现。
+
+---
+
+## 2. 软件档案收录底线与安全准则
+
+1. **唯一官方源原则**：所有开源软件必须能溯源至开发者本人维护的 GitHub / GitLab 官方 Releases；
+2. **拒绝加壳分发**：本站绝不提供任何经过第三方二次编译、去除原作者信息、注入推广链接或加壳免杀处理的安装文件；
+3. **安全风险公开**：对于已被第三方恶意注册或劫持的应用商店条目（如 NekoBox Google Play 版本），进行无死角的高警示拦截标注。

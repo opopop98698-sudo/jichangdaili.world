@@ -9,7 +9,7 @@
     "license": "GPL-3.0",
     "priceType": "free-open-source",
     "bundledCore": "Mihomo (Clash Meta)",
-    "description": "基于 Tauri 框架开发的现代化开源 Clash GUI 客户端，原生内置 Mihomo (Clash Meta) 核心，支持 TUN 模式、脚本扩展与多语言界面。",
+    "description": "基于 Tauri 框架开发的现代化开源 Clash GUI 客户端，原生内置 Mihomo (Clash Meta) 核心，支持 TUN 模式、脚本扩展与多语言界面，为目前替代原版 Clash for Windows 的首选桌面客户端。",
     "platforms": [
       {
         "os": "Windows",
@@ -52,13 +52,25 @@
     "license": "GPL-3.0",
     "priceType": "free-open-source",
     "bundledCore": "Xray-core / sing-box",
-    "description": "Windows 平台经典的代理客户端外壳，基于 .NET 8 开发，支持 Xray 与 sing-box 核心无缝切换，具备强大的路由规则编辑与批量节点管理功能。",
+    "description": "Windows 平台经典的代理客户端外壳，基于 .NET 8 开发，支持 Xray 与 sing-box 核心无缝切换，具备强大的路由规则编辑与批量节点管理功能，近期亦推出了基于 Avalonia 的跨平台版本。",
     "platforms": [
       {
         "os": "Windows",
         "supportedVersions": "Windows 10 / Windows 11 (需要 .NET 8 Desktop Runtime)",
         "architectures": ["x64", "arm64"],
         "packageTypes": ["portable-zip (with-core / without-core)"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 12+ (Avalonia Preview)",
+        "architectures": ["Apple Silicon (arm64)", "Intel (x64)"],
+        "packageTypes": ["tar.gz"]
+      },
+      {
+        "os": "Linux",
+        "supportedVersions": "Ubuntu 22.04+ (Avalonia Preview)",
+        "architectures": ["x64"],
+        "packageTypes": ["tar.gz", "deb"]
       }
     ],
     "protocolsSupported": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Socks5", "HTTP", "Hysteria 2", "TUIC"],
@@ -83,13 +95,13 @@
     "license": "GPL-3.0",
     "priceType": "free-open-source",
     "bundledCore": "Xray-core",
-    "description": "Android 平台主流的代理客户端，支持 VpnService 全局与分应用代理，对低功耗待机与网络切换具有良好优化。",
+    "description": "Android 平台主流的开源代理客户端，基于 Xray 核心开发，支持 VpnService 全局与分应用代理，对低功耗待机与网络切换具有良好优化。",
     "platforms": [
       {
         "os": "Android",
         "supportedVersions": "Android 5.0+",
         "architectures": ["arm64-v8a", "armeabi-v7a", "x86_64", "universal"],
-        "packageTypes": ["apk"]
+        "packageTypes": ["apk", "Google Play"]
       }
     ],
     "protocolsSupported": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Socks5", "Hysteria 2"],
@@ -107,45 +119,46 @@
   {
     "id": "shadowrocket",
     "name": "Shadowrocket",
-    "aliases": ["小火箭"],
+    "aliases": ["小火箭", "Rocket"],
     "category": "mobile-client",
     "officialRepo": null,
-    "officialSite": "https://apps.apple.com/app/shadowrocket/id932747118",
-    "license": "Proprietary",
-    "priceType": "paid-commercial",
-    "bundledCore": "Custom iOS NetworkExtension Core",
-    "description": "iOS 与 iPadOS 平台普及度极高的规则代理工具，支持扫码快速添加、按需连接、iCloud 同步与规则分流。",
+    "officialSite": null,
+    "license": "Proprietary Commercial",
+    "priceType": "app-store-paid",
+    "bundledCore": "Custom proprietary engine",
+    "description": "iOS 平台最经典的规则代理客户端，价格亲民，支持节点订阅、测速、分流规则配置与详细网络流量日志记录，需非国区 Apple ID 购买。",
     "platforms": [
       {
         "os": "iOS",
         "supportedVersions": "iOS 12.0+ / iPadOS 12.0+",
         "architectures": ["arm64"],
-        "packageTypes": ["App Store Official ($2.99 USD)"]
+        "packageTypes": ["App Store (US/HK/JP/etc.)"]
       }
     ],
-    "protocolsSupported": ["Shadowsocks", "ShadowsocksR", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard", "Snell"],
+    "protocolsSupported": ["Shadowsocks", "ShadowsocksR", "VMess", "VLESS", "Trojan", "Hysteria", "Hysteria 2", "TUIC", "WireGuard", "Snell"],
     "features": {
       "tunMode": true,
       "systemProxy": false,
-      "ruleProviders": true,
+      "ruleProviders": false,
       "proxyProviders": false,
       "scriptExtension": true,
       "builtInDns": true
     },
-    "verifiedVersion": "2.2.62",
+    "cautionNotice": "中国大陆区 App Store 未上架，需登录美区/港区等海外 Apple ID 购买（售价通常为 $2.99）。严禁使用陌生人提供的共享 Apple ID 登录 iCloud，以免设备被锁。",
+    "verifiedVersion": "2.2.60",
     "lastVerifiedAt": "2026-10-21"
   },
   {
     "id": "flclash",
     "name": "FlClash",
-    "aliases": ["FlClash Multiplatform"],
+    "aliases": ["FlClash App"],
     "category": "gui-client",
     "officialRepo": "https://github.com/chen08209/FlClash",
     "officialSite": null,
     "license": "GPL-3.0",
     "priceType": "free-open-source",
     "bundledCore": "Mihomo (Clash Meta)",
-    "description": "基于 Flutter 开发的现代跨平台代理客户端，在 Windows、macOS、Linux、Android 上提供高度统一的 Material You 视觉与操作体验。",
+    "description": "基于 Flutter 开发的跨平台开源 Clash 客户端，界面轻量流畅，全平台统一交互设计，内置 Mihomo 核心，支持 Windows、macOS、Linux 与 Android。",
     "platforms": [
       {
         "os": "Windows",
@@ -167,7 +180,7 @@
       },
       {
         "os": "Linux",
-        "supportedVersions": "Mainstream distributions",
+        "supportedVersions": "Ubuntu, Debian, Arch",
         "architectures": ["x64"],
         "packageTypes": ["AppImage", "deb"]
       }
@@ -194,7 +207,7 @@
     "license": "GPL-3.0",
     "priceType": "free-open-source",
     "bundledCore": "sing-box",
-    "description": "基于 sing-box 核心的多协议跨平台通用客户端，注重开箱即用与自动节点优选，原生支持 20+ 种代理协议。",
+    "description": "基于 sing-box 核心的多协议跨平台通用客户端，注重开箱即用与自动节点优选，原生支持 20+ 种代理协议，覆盖全平台操作系统。",
     "platforms": [
       {
         "os": "Windows",
@@ -242,14 +255,14 @@
   {
     "id": "sing-box",
     "name": "sing-box",
-    "aliases": ["sing-box core", "SBox"],
+    "aliases": ["sing-box core", "SBox", "SFA", "SFI", "SFM"],
     "category": "core-and-client",
     "officialRepo": "https://github.com/SagerNet/sing-box",
     "officialSite": "https://sing-box.sagernet.org",
     "license": "GPL-3.0-or-later",
     "priceType": "free-open-source",
     "bundledCore": "Self (Official Reference Implementation)",
-    "description": "新一代跨平台通用网络代理通用核心，使用 Go 编写，性能极致，具备独创的 JSON 结构与规则集 (SRS) 二进制格式。",
+    "description": "新一代跨平台通用网络代理核心，使用 Go 编写，性能优异，具备创新的 JSON 配置结构与 SRS 规则集格式，官方提供覆盖 Android (SFA)、iOS (SFI)、macOS (SFM) 的原生客户端。",
     "platforms": [
       {
         "os": "Cross-Platform CLI",
@@ -274,6 +287,619 @@
       "builtInDns": true
     },
     "verifiedVersion": "1.10.1",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "clash-nyanpasu",
+    "name": "Clash Nyanpasu",
+    "aliases": ["Nyanpasu", "Clash-Nyanpasu"],
+    "category": "gui-client",
+    "officialRepo": "https://github.com/libnyanpasu/clash-nyanpasu",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Mihomo / Clash Core",
+    "description": "基于 Tauri 架构开发的现代化 Clash 桌面客户端，支持多核心自由切换与高度定制化的配置增强插件，界面精致现代，兼容 Windows、macOS 与 Linux。",
+    "platforms": [
+      {
+        "os": "Windows",
+        "supportedVersions": "Windows 10 / Windows 11",
+        "architectures": ["x64", "arm64"],
+        "packageTypes": ["installer (.exe)", "portable (.zip)"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 12+",
+        "architectures": ["Apple Silicon (arm64)", "Intel (x64)"],
+        "packageTypes": ["dmg"]
+      },
+      {
+        "os": "Linux",
+        "supportedVersions": "Ubuntu, Debian, Arch",
+        "architectures": ["x64"],
+        "packageTypes": ["deb", "rpm", "AppImage"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria", "Hysteria 2", "TUIC"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": true,
+      "builtInDns": true
+    },
+    "verifiedVersion": "1.6.1",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "karing",
+    "name": "Karing",
+    "aliases": ["Karing App"],
+    "category": "gui-client",
+    "officialRepo": "https://github.com/KaringX/karing",
+    "officialSite": "https://karing.app",
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "sing-box",
+    "description": "全平台覆盖的 sing-box 客户端，支持 iOS、Android、Windows、macOS 与 Linux。界面新手友好，能够自动解析 Clash、V2Ray、sing-box 等多种复杂订阅格式。",
+    "platforms": [
+      {
+        "os": "Windows",
+        "supportedVersions": "Windows 10+",
+        "architectures": ["x64", "arm64"],
+        "packageTypes": ["msix", "zip"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 12+",
+        "architectures": ["Universal (arm64 / x64)"],
+        "packageTypes": ["dmg", "pkg"]
+      },
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 15.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store Official"]
+      },
+      {
+        "os": "Android",
+        "supportedVersions": "Android 7.0+",
+        "architectures": ["arm64-v8a", "universal"],
+        "packageTypes": ["apk", "Google Play"]
+      },
+      {
+        "os": "Linux",
+        "supportedVersions": "Ubuntu 22.04+",
+        "architectures": ["x64"],
+        "packageTypes": ["deb", "rpm"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria", "Hysteria 2", "TUIC", "WireGuard"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "1.0.30",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "clash-mi",
+    "name": "Clash Mi",
+    "aliases": ["ClashMi"],
+    "category": "gui-client",
+    "officialRepo": "https://github.com/ClashMi/ClashMi",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Mihomo (Clash Meta)",
+    "description": "基于 Mihomo 内核开发的轻量级跨平台客户端，支持标准 Clash YAML 订阅与规则分流，提供原生简洁的跨端体验。",
+    "platforms": [
+      {
+        "os": "Windows",
+        "supportedVersions": "Windows 10+",
+        "architectures": ["x64"],
+        "packageTypes": ["exe", "zip"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 12+",
+        "architectures": ["arm64", "x64"],
+        "packageTypes": ["dmg"]
+      },
+      {
+        "os": "Android",
+        "supportedVersions": "Android 8.0+",
+        "architectures": ["arm64-v8a"],
+        "packageTypes": ["apk"]
+      },
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 15.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "1.2.0",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "mihomo-party",
+    "name": "Mihomo Party",
+    "aliases": ["MihomoParty"],
+    "category": "gui-client",
+    "officialRepo": "https://github.com/mihomo-party-org/mihomo-party",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Mihomo (Clash Meta)",
+    "description": "曾广泛流行的 Mihomo 桌面图形客户端，提供优雅的策略组分流管理与节点测试功能，适合历史教程与迁移场景参考。",
+    "platforms": [
+      {
+        "os": "Windows",
+        "supportedVersions": "Windows 10 / Windows 11",
+        "architectures": ["x64"],
+        "packageTypes": ["exe", "zip"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 12+",
+        "architectures": ["arm64", "x64"],
+        "packageTypes": ["dmg"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "cautionNotice": "本项目当前社区维护活跃度存在波动，不建议作为 2026 年全新装机的主力首选，建议优先考虑持续迭代的 Clash Verge Rev 或 FlClash。",
+    "verifiedVersion": "1.5.8",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "clash-meta-android",
+    "name": "Clash Meta for Android",
+    "aliases": ["CMFA", "ClashMetaAndroid"],
+    "category": "mobile-client",
+    "officialRepo": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Mihomo (Clash Meta)",
+    "description": "基于原版 Clash for Android 二次开发并深度集成 Mihomo 核心的 Android 客户端，支持最新的现代代理协议与高级分流规则。",
+    "platforms": [
+      {
+        "os": "Android",
+        "supportedVersions": "Android 7.0+",
+        "architectures": ["arm64-v8a", "armeabi-v7a", "x86_64", "universal"],
+        "packageTypes": ["apk"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "2.10.1",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "nekobox",
+    "name": "NekoBox for Android",
+    "aliases": ["NekoBox", "NB4A"],
+    "category": "mobile-client",
+    "officialRepo": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "sing-box",
+    "description": "基于 sing-box 核心构建的高性能 Android 代理客户端，提供细致的路由规则配置与底层网络参数调优。",
+    "platforms": [
+      {
+        "os": "Android",
+        "supportedVersions": "Android 6.0+",
+        "architectures": ["arm64-v8a", "armeabi-v7a", "x86_64"],
+        "packageTypes": ["apk (GitHub Releases only)"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria", "Hysteria 2", "TUIC", "WireGuard", "ShadowTLS"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": false,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "cautionNotice": "重要安全警告：NekoBox 官方项目维护资源有限，并已发布明确公告：Google Play 商店中同名版本已被未经授权的第三方控制并可能包含恶意篡改代码！请用户务必仅从官方 GitHub Releases 页面下载安装 APK，严禁通过应用商店下载。",
+    "verifiedVersion": "1.3.1",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "stash",
+    "name": "Stash",
+    "aliases": ["Stash App", "Stash iOS", "Stash Mac"],
+    "category": "mobile-client",
+    "officialRepo": null,
+    "officialSite": "https://stash.ws",
+    "license": "Proprietary Commercial",
+    "priceType": "app-store-paid",
+    "bundledCore": "Clash-compatible rule engine",
+    "description": "专为 iOS、iPadOS 与 macOS 设计的高级规则网络代理工具，被誉为「苹果生态下的 Clash」，原生兼容 Clash 规则配置、覆写脚本与高级策略组。",
+    "platforms": [
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 15.0+ / iPadOS 15.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store (US/HK/JP)"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 12+",
+        "architectures": ["Universal (arm64 / x64)"],
+        "packageTypes": ["Mac App Store"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "ShadowsocksR", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard", "Snell"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": true,
+      "builtInDns": true
+    },
+    "cautionNotice": "需非国区 Apple ID 购买（通常售价 $3.99）。支持一键导入主流 Clash YAML 订阅与规则集合。",
+    "verifiedVersion": "2.6.4",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "quantumult-x",
+    "name": "Quantumult X",
+    "aliases": ["圈X", "QX"],
+    "category": "mobile-client",
+    "officialRepo": null,
+    "officialSite": null,
+    "license": "Proprietary Commercial",
+    "priceType": "app-store-paid",
+    "bundledCore": "Proprietary high-performance engine",
+    "description": "iOS 平台备受进阶玩家推崇的高性能代理客户端，以极致的网络吞吐与强大的 JavaScript 脚本重写重定向能力著称。",
+    "platforms": [
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 14.0+ / iPadOS 14.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store (US/HK/JP)"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "ShadowsocksR", "VMess", "Trojan", "HTTP", "Socks5"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": false,
+      "proxyProviders": false,
+      "scriptExtension": true,
+      "builtInDns": true
+    },
+    "cautionNotice": "需非国区 Apple ID 购买（通常售价 $7.99）。原生不直接支持 Hysteria 2 / TUIC 等 UDP 新协议，更适合标准 SS / VMess / Trojan 节点。",
+    "verifiedVersion": "1.5.0",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "surge",
+    "name": "Surge",
+    "aliases": ["Surge 5", "Surge Mac", "Surge iOS"],
+    "category": "gui-client",
+    "officialRepo": null,
+    "officialSite": "https://nssurge.com",
+    "license": "Proprietary Commercial",
+    "priceType": "commercial-subscription",
+    "bundledCore": "Surge Custom Network Engine",
+    "description": "苹果生态（iOS / macOS）顶级网络调试与高级规则代理软件，以行业标杆级的稳定性、详细的抓包分析与企业级策略路由享誉业界。",
+    "platforms": [
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 16.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store (In-App Purchase)"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 12+",
+        "architectures": ["Universal (arm64 / x64)"],
+        "packageTypes": ["Official License Key Download (.dmg)"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "Trojan", "Snell", "Socks5", "HTTP", "WireGuard", "TUIC"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": true,
+      "builtInDns": true
+    },
+    "cautionNotice": "专业商业软件，售价较高（iOS Pro 约 $49.99，Mac 授权约 $49.99 - $99.99），适合有专业网络抓包与重度定制需求的企业开发者与发烧友。",
+    "verifiedVersion": "5.9.0",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "streisand",
+    "name": "Streisand",
+    "aliases": ["Streisand iOS"],
+    "category": "mobile-client",
+    "officialRepo": null,
+    "officialSite": null,
+    "license": "Proprietary",
+    "priceType": "app-store-paid",
+    "bundledCore": "sing-box / Xray ports",
+    "description": "iOS 平台针对现代代理协议优化的高性价比客户端，全面支持 VLESS、VMess、Trojan、Hysteria 与 Hysteria 2。",
+    "platforms": [
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 15.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store"]
+      }
+    ],
+    "protocolsSupported": ["VLESS", "VMess", "Trojan", "Shadowsocks", "Hysteria", "Hysteria 2", "TUIC"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": false,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "1.6.0",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "potatso",
+    "name": "Potatso",
+    "aliases": ["Potatso Lite"],
+    "category": "mobile-client",
+    "officialRepo": null,
+    "officialSite": null,
+    "license": "Proprietary",
+    "priceType": "app-store-paid",
+    "bundledCore": "Shadowsocks native",
+    "description": "iOS 平台入门级代理工具，界面极其简洁，主要针对经典 Shadowsocks 与 Socks5 协议提供快速连接与二维码导入。",
+    "platforms": [
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 12.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "ShadowsocksR", "Socks5", "HTTP"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": false,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": false
+    },
+    "cautionNotice": "仅适合单一协议与轻量使用，不支持 VLESS、Hysteria 等现代复杂协议。",
+    "verifiedVersion": "3.1.2",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "oneclick",
+    "name": "OneClick",
+    "aliases": ["OneClick App"],
+    "category": "mobile-client",
+    "officialRepo": null,
+    "officialSite": null,
+    "license": "Proprietary",
+    "priceType": "app-store-paid",
+    "bundledCore": "Multi-protocol core",
+    "description": "iOS 平台支持一键订阅导入与基础节点分流的通用代理工具，适合不想进行繁琐分流配置的基础用户。",
+    "platforms": [
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 14.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store"]
+      }
+    ],
+    "protocolsSupported": ["VMess", "Shadowsocks", "Trojan"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": false,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": false
+    },
+    "verifiedVersion": "2.1.0",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "v2raya",
+    "name": "v2rayA",
+    "aliases": ["v2rayA WebUI"],
+    "category": "web-client",
+    "officialRepo": "https://github.com/v2rayA/v2rayA",
+    "officialSite": "https://v2raya.org",
+    "license": "AGPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Xray-core / V2Ray",
+    "description": "基于 Web UI 架构的通用透明代理客户端，特别适合部署于 Linux 物理服务器、NAS（群晖/威联通/TrueNAS）与旁路由网关设备。",
+    "platforms": [
+      {
+        "os": "Linux",
+        "supportedVersions": "Debian, Ubuntu, Arch, Alpine, Docker",
+        "architectures": ["x64", "arm64", "armv7"],
+        "packageTypes": ["deb", "rpm", "docker-compose", "AUR"]
+      },
+      {
+        "os": "OpenWrt / Routers",
+        "supportedVersions": "OpenWrt 21.02+",
+        "architectures": ["mips", "arm", "aarch64", "x86_64"],
+        "packageTypes": ["ipk"]
+      }
+    ],
+    "protocolsSupported": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Hysteria 2", "TUIC"],
+    "features": {
+      "tunMode": false,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "2.2.5",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "openclash",
+    "name": "OpenClash",
+    "aliases": ["LuCI OpenClash"],
+    "category": "router-client",
+    "officialRepo": "https://github.com/vernesong/OpenClash",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Mihomo (Clash Meta) / Clash Premium",
+    "description": "OpenWrt 路由器平台上功能最为强劲、生态最为成熟的图形化代理插件，支持 Fake-IP、TUN 模式与全面的 Clash 规则订阅自动化更新。",
+    "platforms": [
+      {
+        "os": "OpenWrt / 软路由",
+        "supportedVersions": "OpenWrt 19.07 ~ 23.05+",
+        "architectures": ["x86_64", "aarch64", "arm", "mips", "mipsel"],
+        "packageTypes": ["ipk (luci-app-openclash)"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria", "Hysteria 2", "TUIC", "WireGuard"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "cautionNotice": "对路由器内存与 CPU 算力有一定要求（建议 512MB 以上空闲内存）。安装时需预装 luci-compat、dnsmasq-full 等底层系统依赖包。",
+    "verifiedVersion": "0.46.068",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "passwall2",
+    "name": "PassWall2",
+    "aliases": ["LuCI PassWall", "PassWall"],
+    "category": "router-client",
+    "officialRepo": "https://github.com/xiaorouji/openwrt-passwall",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Xray-core / sing-box / Shadowsocks-Rust",
+    "description": "OpenWrt 社区老牌实用的路由透明代理客户端，以多核心自由搭配、灵活的分流规则与访问控制黑白名单著称。",
+    "platforms": [
+      {
+        "os": "OpenWrt / 软路由",
+        "supportedVersions": "OpenWrt 21.02 ~ 23.05+",
+        "architectures": ["x86_64", "aarch64", "arm", "mips"],
+        "packageTypes": ["ipk (luci-app-passwall)"]
+      }
+    ],
+    "protocolsSupported": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Hysteria 2", "TUIC"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": false,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "4.76",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "nikki",
+    "name": "Nikki",
+    "aliases": ["luci-app-nikki"],
+    "category": "router-client",
+    "officialRepo": "https://github.com/nikkinikkinikki/nikki",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Mihomo (Clash Meta)",
+    "description": "专为最新 OpenWrt 24.10+ 开发的现代化轻量级 Mihomo 透明代理插件，全面拥抱原生 nftables 防火墙架构，资源占用低且配置直接。",
+    "platforms": [
+      {
+        "os": "OpenWrt / 软路由",
+        "supportedVersions": "OpenWrt 24.10 及以上（严格依赖现代架构）",
+        "architectures": ["x86_64", "aarch64", "arm"],
+        "packageTypes": ["ipk (luci-app-nikki)"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "cautionNotice": "系统版本强依赖：Nikki 专门基于 OpenWrt 24.10+ 的原生 nftables 架构编写，严禁在旧版 OpenWrt 21/22/23 或使用传统 iptables 的旧固件上强行安装，否则会导致网络崩溃。",
+    "verifiedVersion": "1.3.0",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "homeproxy",
+    "name": "HomeProxy",
+    "aliases": ["luci-app-homeproxy"],
+    "category": "router-client",
+    "officialRepo": "https://github.com/immortalwrt/homeproxy",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "sing-box",
+    "description": "ImmortalWrt 官方维护的路由代理管理插件，原生基于 sing-box 核心构建，直接调用 nftables 实现极简高效的家庭网关透明代理。",
+    "platforms": [
+      {
+        "os": "OpenWrt / ImmortalWrt",
+        "supportedVersions": "ImmortalWrt 23.05+ / OpenWrt 23.05+",
+        "architectures": ["x86_64", "aarch64", "arm"],
+        "packageTypes": ["ipk (luci-app-homeproxy)"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria", "Hysteria 2", "TUIC", "WireGuard", "Direct"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": true,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "0.8.2",
     "lastVerifiedAt": "2026-10-21"
   }
 ]

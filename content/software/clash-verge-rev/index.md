@@ -1,59 +1,75 @@
 ---
-title: "Clash Verge Rev 官方软件档案与全平台技术规格"
-description: "Clash Verge Rev 官方技术档案。详细记录项目 GitHub 仓库、Mihomo 内核集成、全平台安装包构建形态、协议兼容性与 Wintun 驱动支持标准。"
+title: "Clash Verge Rev 官方软件档案：内核、协议支持与安全发布源"
+description: "Clash Verge Rev 官方技术档案。基于 Tauri 框架开发的现代化开源 Clash GUI 客户端，内置 Mihomo (Clash Meta) 核心，原生支持 TUN 模式、脚本扩展与多语言界面，为 2026 年替代原版 CFW 的首选。"
 status: "published"
 publishedAt: "2026-10-21"
 modifiedAt: "2026-10-21"
 ---
 
-# Clash Verge Rev 官方软件档案
+# Clash Verge Rev 官方技术档案
 
 <Breadcrumbs :crumbs="[
-  { title: '软件档案', url: '/software/' },
+  { title: '客户端下载', url: '/clients/' },
+  { title: '软件档案库', url: '/software/' },
   { title: 'Clash Verge Rev' }
 ]" />
 
-<ClientIdentityCard 
-  name="Clash Verge Rev"
-  category="开源桌面多平台客户端"
-  repo="https://github.com/clash-verge-rev/clash-verge-rev"
-  version="1.7.7"
-  license="GPL-3.0"
-  core="Mihomo (Clash Meta) v1.18.9+"
-  :platforms="['Windows 10/11 (x64/arm64)', 'macOS 11+ (Apple Silicon/Intel)', 'Linux (deb/rpm/AppImage)']"
-  :protocols="['Shadowsocks', 'ShadowsocksR', 'VMess', 'VLESS (Reality)', 'Trojan', 'Hysteria', 'Hysteria 2', 'TUIC', 'WireGuard']"
+<AnswerFirst 
+  conclusion="Clash Verge Rev 是目前 Windows、macOS 与 Linux 平台上生态最健康、维护最活跃的开源 Clash 桌面客户端。采用 Tauri 框架打造，内存占用仅为原版 CFW 的三分之一，原生内置现代 Mihomo 核心，全面兼容 Hysteria 2、TUIC、VLESS Reality 等新一代代理协议，并支持通过一键服务模式激活 TUN 全局虚拟网卡。"
+  scope="Windows 10/11 · macOS 11+ · Linux · 架构: x64 / ARM64"
+  verdict="2026 替代原版 Clash for Windows 首选，安装版与便携版均可开箱即用。"
 />
 
 ---
 
-## 1. 项目背景与技术谱系
+## 1. 软件核心技术参数
 
-Clash Verge Rev 是在原版 Clash Verge 项目维护停滞后，由开源社区开发者接盘并持续进行现代化重构的分支项目。它彻底解决了原版在 Windows 11 下的诸多兼容性痛点，并将底层内核全面升级至功能最为完备的 Mihomo（原 Clash.Meta）内核。
-
-- **前端架构**：采用 Rust + Tauri 框架重构，相比于原版基于 Electron 的旧客户端，空闲状态内存开销从 300MB+ 大幅缩减至 100MB 左右。
-- **系统集成**：具备原生的 Windows Service 服务模式安装器，能够直接调用 Wintun 驱动实现纳秒级的 TUN 虚拟网卡切换。
-- **扩展生态**：支持通过 JavaScript 脚本扩展 (Merge / Script) 动态重写订阅中的节点与分流策略，无缝兼容各大主流机场与自建节点。
-
----
-
-## 2. 官方发布包构建与系统支持矩阵
-
-| 操作系统 | 推荐安装包文件 | 支持最低版本 | 驱动与系统权限要求 |
-| :--- | :--- | :--- | :--- |
-| **Windows 64位** | `Clash.Verge_1.7.7_x64_zh-CN.msi` | Windows 10 (Build 1809+) / Windows 11 | 需要管理员权限安装 Service Mode 驱动 |
-| **Windows ARM** | `Clash.Verge_1.7.7_arm64.msi` | Windows 11 ARM64 (骁龙 X Elite 等) | 原生 ARM 指令集运行，能效极高 |
-| **macOS (M芯片)** | `Clash.Verge_1.7.7_aarch64.dmg` | macOS 11.0 (Big Sur) 及以上 | 首次启动需授予辅助功能与网络过滤权限 |
-| **macOS (Intel)** | `Clash.Verge_1.7.7_x64.dmg` | macOS 10.15 (Catalina) 及以上 | 标准 DMG 拖入 Applications 即可 |
-| **Linux 发行版** | `clash-verge_1.7.7_amd64.deb / AppImage` | Ubuntu 20.04+ / Debian 11+ / Arch | 需配置 setcap 或通过 systemd 运行 |
+| 参数项 | 权威数据与核验标准 |
+| :--- | :--- |
+| **官方代码仓库** | [github.com/clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) |
+| **开源许可证** | GPL-3.0 License |
+| **收费模式** | 完全免费开源 (Free and Open Source) |
+| **前端架构** | Tauri (Rust 底层) + React / TypeScript |
+| **内置代理核心** | Mihomo (Clash Meta 官方维护分支) |
+| **最新核验版本** | v1.7.7 (2026-10-21 核验) |
 
 ---
 
-## 3. 关联教程与任务直达
+## 2. 跨平台支持与构建安装包类型
+
+```
++----------------+-------------------------------+-----------------------------------+
+| 操作系统       | 支持的系统版本                | 构建包格式与 CPU 架构             |
++----------------+-------------------------------+-----------------------------------+
+| Windows        | Windows 10 (1809+) / Win 11   | .exe (安装版) / .zip (便携版)     |
+|                |                               | [x64, arm64]                      |
++----------------+-------------------------------+-----------------------------------+
+| macOS          | macOS 11.0 (Big Sur) 及以上   | .dmg / .tar.gz                    |
+|                |                               | [Apple Silicon (arm64), Intel(x64)]|
++----------------+-------------------------------+-----------------------------------+
+| Linux          | Ubuntu 20.04+, Debian, Arch   | .deb / .rpm / .AppImage / AUR     |
+|                |                               | [x64, arm64]                      |
++----------------+-------------------------------+-----------------------------------+
+```
+
+---
+
+## 3. 协议支持与核心能力矩阵
+
+- **代理协议原生支持**：Shadowsocks, ShadowsocksR, VMess, VLESS (支持 Reality / gRPC / WebSocket), Trojan, Hysteria 2, TUIC v5, WireGuard, Socks5, HTTP(S)。
+- **网络接管能力**：
+  - **系统代理 (System Proxy)**：一键修改 Windows / macOS 系统代理设置；
+  - **服务模式 (Service Mode)**：通过注册系统服务激活 Wintun 网卡驱动，实现无需浏览器配置的全局流量劫持；
+  - **高级分流引擎**：支持经典规则集、Rule-Providers、Proxy-Providers 与 JavaScript 自定义扩展覆写脚本。
+
+---
+
+## 4. 相关教程与实操指引
 
 <RelatedTasks 
   :tasks="[
-    { title: 'Windows 11 安装实操教程', url: '/install/clash-verge-rev-windows-setup-walkthrough/', taskType: 'install', description: '图文逐步完成服务模式安装与开机自启' },
-    { title: 'Clash YAML 配置文件阅读指南', url: '/subscription/how-to-read-clash-yaml-proxies-groups-rules/', taskType: 'subscription', description: '深入拆解节点、策略组与分流规则' },
-    { title: '端口 7890 冲突排错方案', url: '/troubleshooting/port-7890-already-in-use-diagnosis-and-fix/', taskType: 'troubleshooting', description: '解决启动提示 address already in use 报错' }
+    { title: 'Clash Verge Rev Windows 安装步骤', url: '/install/verge-rev/', taskType: 'install', description: 'Windows 11 下服务模式与 TUN 驱动配置' },
+    { title: '从旧版 CFW 迁移至 Verge Rev 教程', url: '/clients/clash-for-windows-migration-and-alternatives-guide/', taskType: 'install', description: '保留配置与规则平滑升级' },
+    { title: 'Windows 客户端下载专题', url: '/clients/windows/', taskType: 'install', description: 'x64 与 ARM64 安装包选择' }
   ]"
 />
