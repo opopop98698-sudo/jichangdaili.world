@@ -14,7 +14,7 @@
     "typecheck": "tsc --noEmit",
     "test": "node scripts/run-tests.js",
     "build": "node scripts/prepare-content.js && node scripts/check-content.js && node scripts/check-links.js && node scripts/check-secrets.js && vitepress build site && node scripts/generate-sitemap.js",
-    "preview": "vitepress preview site",
+    "preview": "node scripts/preview-server.js",
     "check:all": "node scripts/check-all.js"
   },
   "devDependencies": {
