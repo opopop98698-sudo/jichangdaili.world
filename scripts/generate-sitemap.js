@@ -46,9 +46,23 @@ function scanHtml(current) {
       else if (canonicalPath.split('/').filter(Boolean).length === 1) priority = '0.9';
       else if (canonicalPath.split('/').filter(Boolean).length === 2) priority = '0.8';
 
+      // Determine lastmod from generated markdown source or fallback to today
+      let lastmod = today;
+      const mdCandidate1 = path.join(rootDir, 'site', 'generated', rel.replace(/\.html$/, '.md'));
+      const mdCandidate2 = path.join(rootDir, 'site', 'generated', rel.replace(/\/index\.html$/, '.md'));
+      const mdCandidate3 = path.join(rootDir, 'site', 'generated', rel.replace(/\.html$/, '/index.md'));
+      const foundMd = [mdCandidate1, mdCandidate2, mdCandidate3].find(p => fs.existsSync(p));
+      if (foundMd) {
+        const mdContent = fs.readFileSync(foundMd, 'utf8');
+        const match = mdContent.match(/modifiedAt:\s*["']?(\d{4}-\d{2}-\d{2})["']?/);
+        if (match) {
+          lastmod = match[1];
+        }
+      }
+
       urls.push({
         loc: `https://jichangdaili.world${canonicalPath}`,
-        lastmod: today,
+        lastmod,
         priority
       });
     }

@@ -1,4 +1,39 @@
 import { defineConfig } from 'vitepress';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const rootDir = path.resolve(__dirname, '../..');
+
+// Read optional search engine verifications from data/verification.json or env
+let verifications: Record<string, string> = {};
+const verificationFile = path.join(rootDir, 'data', 'verification.json');
+if (fs.existsSync(verificationFile)) {
+  try {
+    verifications = JSON.parse(fs.readFileSync(verificationFile, 'utf8'));
+  } catch (e) {}
+}
+
+const googleVerify = process.env.GOOGLE_SITE_VERIFICATION || verifications.google;
+const bingVerify = process.env.BING_SITE_VERIFICATION || verifications.bing;
+const baiduVerify = process.env.BAIDU_SITE_VERIFICATION || verifications.baidu;
+const shenmaVerify = process.env.SHENMA_SITE_VERIFICATION || verifications.shenma;
+
+const verificationHead: [string, Record<string, string>][] = [];
+if (googleVerify && typeof googleVerify === 'string' && googleVerify.trim()) {
+  verificationHead.push(['meta', { name: 'google-site-verification', content: googleVerify.trim() }]);
+}
+if (bingVerify && typeof bingVerify === 'string' && bingVerify.trim()) {
+  verificationHead.push(['meta', { name: 'msvalidate.01', content: bingVerify.trim() }]);
+}
+if (baiduVerify && typeof baiduVerify === 'string' && baiduVerify.trim()) {
+  verificationHead.push(['meta', { name: 'baidu-site-verification', content: baiduVerify.trim() }]);
+}
+if (shenmaVerify && typeof shenmaVerify === 'string' && shenmaVerify.trim()) {
+  verificationHead.push(['meta', { name: 'shenma-site-verification', content: shenmaVerify.trim() }]);
+}
 
 // 9 Top Navigation Items in exact specified order
 const nav = [
@@ -214,12 +249,13 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
     ['meta', { property: 'og:image', content: 'https://jichangdaili.world/logo.png' }],
-    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:image', content: 'https://jichangdaili.world/logo.png' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['meta', { name: 'author', content: '机场代理编辑团队' }],
     ['meta', { property: 'og:site_name', content: '机场代理 (jichangdaili.world)' }],
-    ['meta', { property: 'og:type', content: 'website' }]
+    ['meta', { property: 'og:type', content: 'website' }],
+    ...verificationHead
   ],
   themeConfig: {
     logo: {
@@ -289,17 +325,66 @@ export default defineConfig({
     const canonicalUrl = `https://jichangdaili.world${canonicalPath}`;
 
     pageData.frontmatter.head = pageData.frontmatter.head || [];
-    pageData.frontmatter.head.push([
-      'link',
-      { rel: 'canonical', href: canonicalUrl }
-    ]);
+
+    const is404 = rawPath === '404.md' || canonicalPath === '/404/';
+    if (is404) {
+      pageData.frontmatter.head.push([
+        'meta',
+        { name: 'robots', content: 'noindex, nofollow' }
+      ]);
+      return;
+    }
 
     const isHome = canonicalPath === '/';
     const pageTitle = pageData.title || pageData.frontmatter.title || '机场代理';
     const pageDesc = pageData.description || pageData.frontmatter.description || '代理客户端官方下载、全平台安装、订阅配置与兼容机场指南。';
 
+    // Canonical link
+    pageData.frontmatter.head.push([
+      'link',
+      { rel: 'canonical', href: canonicalUrl }
+    ]);
+
+    // Open Graph per-page tags
+    pageData.frontmatter.head.push([
+      'meta',
+      { property: 'og:url', content: canonicalUrl }
+    ]);
+    pageData.frontmatter.head.push([
+      'meta',
+      { property: 'og:title', content: pageTitle }
+    ]);
+    pageData.frontmatter.head.push([
+      'meta',
+      { property: 'og:description', content: pageDesc }
+    ]);
+
+    // Twitter Card per-page tags
+    pageData.frontmatter.head.push([
+      'meta',
+      { name: 'twitter:title', content: pageTitle }
+    ]);
+    pageData.frontmatter.head.push([
+      'meta',
+      { name: 'twitter:description', content: pageDesc }
+    ]);
+
+    // Article published and modified timestamps
+    if (pageData.frontmatter.publishedAt) {
+      pageData.frontmatter.head.push([
+        'meta',
+        { property: 'article:published_time', content: `${pageData.frontmatter.publishedAt}T08:00:00+08:00` }
+      ]);
+    }
+    if (pageData.frontmatter.modifiedAt) {
+      pageData.frontmatter.head.push([
+        'meta',
+        { property: 'article:modified_time', content: `${pageData.frontmatter.modifiedAt}T08:00:00+08:00` }
+      ]);
+    }
+
     if (isHome) {
-      const homeSchema = {
+      const homeWebSiteSchema = {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         'name': '机场代理',
@@ -311,10 +396,26 @@ export default defineConfig({
           'query-input': 'required name=search_term_string'
         }
       };
+      const homeOrgSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        'name': '机场代理',
+        'url': 'https://jichangdaili.world/',
+        'logo': 'https://jichangdaili.world/logo.png',
+        'sameAs': [
+          'https://jichangdaili.world/about/',
+          'https://jichangdaili.world/reviews/methodology/'
+        ]
+      };
       pageData.frontmatter.head.push([
         'script',
         { type: 'application/ld+json' },
-        JSON.stringify(homeSchema)
+        JSON.stringify(homeWebSiteSchema)
+      ]);
+      pageData.frontmatter.head.push([
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify(homeOrgSchema)
       ]);
     } else {
       // Build BreadcrumbList
@@ -327,6 +428,7 @@ export default defineConfig({
         troubleshooting: '故障排查',
         reviews: '客户端评测',
         learn: '新手课堂',
+        brands: '品牌核验名录',
         about: '关于我们',
         disclosure: '推广披露',
         privacy: '隐私政策',
@@ -367,6 +469,8 @@ export default defineConfig({
 
       // Determine page schema type
       let specificSchema: any;
+      const isSectionHub = segments.length === 1 && Boolean(sectionNames[segments[0]]);
+
       if (canonicalPath === '/about/') {
         specificSchema = {
           '@context': 'https://schema.org',
@@ -380,6 +484,24 @@ export default defineConfig({
             'url': 'https://jichangdaili.world/'
           }
         };
+      } else if (isSectionHub) {
+        specificSchema = {
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          'headline': pageTitle,
+          'description': pageDesc,
+          'url': canonicalUrl,
+          'inLanguage': 'zh-CN',
+          'publisher': {
+            '@type': 'Organization',
+            'name': '机场代理',
+            'url': 'https://jichangdaili.world/',
+            'logo': {
+              '@type': 'ImageObject',
+              'url': 'https://jichangdaili.world/logo.png'
+            }
+          }
+        };
       } else {
         specificSchema = {
           '@context': 'https://schema.org',
@@ -388,9 +510,11 @@ export default defineConfig({
           'description': pageDesc,
           'url': canonicalUrl,
           'inLanguage': 'zh-CN',
+          'datePublished': pageData.frontmatter.publishedAt ? `${pageData.frontmatter.publishedAt}T08:00:00+08:00` : "2026-10-21T08:00:00+08:00",
+          'dateModified': pageData.frontmatter.modifiedAt ? `${pageData.frontmatter.modifiedAt}T08:00:00+08:00` : "2026-10-21T08:00:00+08:00",
           'author': {
             '@type': 'Organization',
-            'name': '机场代理编辑团队',
+            'name': pageData.frontmatter.author || '机场代理编辑团队',
             'url': 'https://jichangdaili.world/about/'
           },
           'publisher': {
