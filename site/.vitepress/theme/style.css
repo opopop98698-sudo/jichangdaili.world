@@ -238,3 +238,20 @@ body {
     -webkit-overflow-scrolling: touch;
   }
 }
+
+
+/* Site Brand Logo Styling */
+.VPNavBarTitle .logo {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+  object-fit: cover;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease;
+}
+
+.VPNavBarTitle:hover .logo {
+  transform: scale(1.08);
+}

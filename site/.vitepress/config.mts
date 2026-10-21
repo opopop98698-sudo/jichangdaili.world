@@ -180,12 +180,18 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
+    ['meta', { property: 'og:image', content: 'https://jichangdaili.world/logo.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:image', content: 'https://jichangdaili.world/logo.png' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['meta', { name: 'author', content: '机场代理编辑团队' }],
     ['meta', { property: 'og:site_name', content: '机场代理 (jichangdaili.world)' }],
     ['meta', { property: 'og:type', content: 'website' }]
   ],
   themeConfig: {
+    logo: '/logo.png',
     siteTitle: '机场代理',
     nav,
     sidebar,
