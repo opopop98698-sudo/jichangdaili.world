@@ -56,6 +56,19 @@ function checkLinksInFile(filePath, relPath) {
 
     totalCheckedLinks++;
     const cleanHref = href.split('#')[0].split('?')[0];
+
+    // Static asset check (images, docs, files)
+    if (/\.(png|jpe?g|webp|gif|svg|ico|pdf|zip|txt|xml|json)$/i.test(cleanHref)) {
+      const assetPathInAssets = path.join(rootDir, 'public-assets', cleanHref);
+      const assetPathInGenerated = path.join(generatedDir, 'public', cleanHref);
+      const assetPathInSite = path.join(rootDir, 'site', 'public', cleanHref);
+      if (!fs.existsSync(assetPathInAssets) && !fs.existsSync(assetPathInGenerated) && !fs.existsSync(assetPathInSite)) {
+        console.error(`[check-links] Dead asset in ${relPath}: "${href}" -> file does not exist in public assets.`);
+        linkErrors++;
+      }
+      continue;
+    }
+
     const normalizedHref = cleanHref.endsWith('/') ? cleanHref : `${cleanHref}/`;
 
     if (!validRoutes.has(normalizedHref)) {

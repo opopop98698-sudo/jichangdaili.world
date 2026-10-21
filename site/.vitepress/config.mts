@@ -17,6 +17,14 @@ const nav = [
 const sidebar = {
   '/recommend/': [
     {
+      text: '权威横评与实测大百科',
+      items: [
+        { text: '光速云深度实测指南 (第一主推)', link: '/recommend/guangsu-cloud-in-depth-review-and-plans-guide/' },
+        { text: '15 家含测速证据横评报告', link: '/recommend/speedtest-measured-airports-2026-review/' },
+        { text: '42 家机场价格与套餐大百科', link: '/recommend/42-airports-complete-pricing-and-plans-encyclopedia/' }
+      ]
+    },
+    {
       text: '机场推荐选型指南',
       items: [
         { text: '栏目总览', link: '/recommend/' },

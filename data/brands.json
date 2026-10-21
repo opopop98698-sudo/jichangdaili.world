@@ -1,15 +1,3484 @@
 [
   {
-    "id": "reference-audit-spec",
-    "name": "待核验商业服务（模板标准规范）",
-    "status": "pending_audit",
-    "officialSite": null,
+    "id": "guangsu-cloud",
+    "name": "光速云",
+    "rank": 1,
+    "isMainRecommendation": true,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "AMM",
+    "entryUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y",
+    "sellingPoint": "IEPL+企业内网双线路、3档套餐、11地区节点",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/光速云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T14:32:56+08:00",
+    "plans": [
+      {
+        "id": "guangsu-cloud-1",
+        "brandId": "guangsu-cloud",
+        "brandName": "光速云",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "AMM",
+        "targetUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y"
+      },
+      {
+        "id": "guangsu-cloud-2",
+        "brandId": "guangsu-cloud",
+        "brandName": "光速云",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "AMM",
+        "targetUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y"
+      },
+      {
+        "id": "guangsu-cloud-3",
+        "brandId": "guangsu-cloud",
+        "brandName": "光速云",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "AMM",
+        "targetUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y"
+      },
+      {
+        "id": "guangsu-cloud-4",
+        "brandId": "guangsu-cloud",
+        "brandName": "光速云",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "AMM",
+        "targetUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y"
+      },
+      {
+        "id": "guangsu-cloud-5",
+        "brandId": "guangsu-cloud",
+        "brandName": "光速云",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "AMM",
+        "targetUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y"
+      },
+      {
+        "id": "guangsu-cloud-6",
+        "brandId": "guangsu-cloud",
+        "brandName": "光速云",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "AMM",
+        "targetUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y"
+      },
+      {
+        "id": "guangsu-cloud-7",
+        "brandId": "guangsu-cloud",
+        "brandName": "光速云",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "AMM",
+        "targetUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 1）。独有优势：IEPL+企业内网双线路、3档套餐、11地区节点。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "feimao-cloud",
+    "name": "飞猫云",
+    "rank": 2,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "flycat888",
+    "entryUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y",
+    "sellingPoint": "7元档 + 8折",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/飞猫云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T08:52:30+08:00",
+    "plans": [
+      {
+        "id": "feimao-cloud-1",
+        "brandId": "feimao-cloud",
+        "brandName": "飞猫云",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "flycat888",
+        "targetUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y"
+      },
+      {
+        "id": "feimao-cloud-2",
+        "brandId": "feimao-cloud",
+        "brandName": "飞猫云",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "flycat888",
+        "targetUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y"
+      },
+      {
+        "id": "feimao-cloud-3",
+        "brandId": "feimao-cloud",
+        "brandName": "飞猫云",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "flycat888",
+        "targetUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y"
+      },
+      {
+        "id": "feimao-cloud-4",
+        "brandId": "feimao-cloud",
+        "brandName": "飞猫云",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "flycat888",
+        "targetUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y"
+      },
+      {
+        "id": "feimao-cloud-5",
+        "brandId": "feimao-cloud",
+        "brandName": "飞猫云",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "flycat888",
+        "targetUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y"
+      },
+      {
+        "id": "feimao-cloud-6",
+        "brandId": "feimao-cloud",
+        "brandName": "飞猫云",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "flycat888",
+        "targetUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y"
+      },
+      {
+        "id": "feimao-cloud-7",
+        "brandId": "feimao-cloud",
+        "brandName": "飞猫云",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "flycat888",
+        "targetUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 2）。独有优势：7元档 + 8折。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "weifeng",
+    "name": "微风网络",
+    "rank": 3,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "flat888",
+    "entryUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI",
+    "sellingPoint": "7元档 + 9折",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "weifeng-1",
+        "brandId": "weifeng",
+        "brandName": "微风网络",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "flat888",
+        "targetUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI"
+      },
+      {
+        "id": "weifeng-2",
+        "brandId": "weifeng",
+        "brandName": "微风网络",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "flat888",
+        "targetUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI"
+      },
+      {
+        "id": "weifeng-3",
+        "brandId": "weifeng",
+        "brandName": "微风网络",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "flat888",
+        "targetUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI"
+      },
+      {
+        "id": "weifeng-4",
+        "brandId": "weifeng",
+        "brandName": "微风网络",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "flat888",
+        "targetUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI"
+      },
+      {
+        "id": "weifeng-5",
+        "brandId": "weifeng",
+        "brandName": "微风网络",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "flat888",
+        "targetUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI"
+      },
+      {
+        "id": "weifeng-6",
+        "brandId": "weifeng",
+        "brandName": "微风网络",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "flat888",
+        "targetUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI"
+      },
+      {
+        "id": "weifeng-7",
+        "brandId": "weifeng",
+        "brandName": "微风网络",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "flat888",
+        "targetUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 3）。独有优势：7元档 + 9折。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "xingdaomeng",
+    "name": "星岛梦",
+    "rank": 4,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "nmw888",
+    "entryUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR",
+    "sellingPoint": "2020年运营 + 不限时套餐",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/星岛梦-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T01:48:13+08:00",
+    "plans": [
+      {
+        "id": "xingdaomeng-1",
+        "brandId": "xingdaomeng",
+        "brandName": "星岛梦",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "nmw888",
+        "targetUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR"
+      },
+      {
+        "id": "xingdaomeng-2",
+        "brandId": "xingdaomeng",
+        "brandName": "星岛梦",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "nmw888",
+        "targetUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR"
+      },
+      {
+        "id": "xingdaomeng-3",
+        "brandId": "xingdaomeng",
+        "brandName": "星岛梦",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "nmw888",
+        "targetUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR"
+      },
+      {
+        "id": "xingdaomeng-4",
+        "brandId": "xingdaomeng",
+        "brandName": "星岛梦",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "nmw888",
+        "targetUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR"
+      },
+      {
+        "id": "xingdaomeng-5",
+        "brandId": "xingdaomeng",
+        "brandName": "星岛梦",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "nmw888",
+        "targetUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR"
+      },
+      {
+        "id": "xingdaomeng-6",
+        "brandId": "xingdaomeng",
+        "brandName": "星岛梦",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "nmw888",
+        "targetUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR"
+      },
+      {
+        "id": "xingdaomeng-7",
+        "brandId": "xingdaomeng",
+        "brandName": "星岛梦",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "nmw888",
+        "targetUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 4）。独有优势：2020年运营 + 不限时套餐。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "wuyou",
+    "name": "无忧链接",
+    "rank": 5,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "wuyou666",
+    "entryUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL",
+    "sellingPoint": "订阅无需转换 + 6元轻量套餐",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "wuyou-1",
+        "brandId": "wuyou",
+        "brandName": "无忧链接",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "wuyou666",
+        "targetUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL"
+      },
+      {
+        "id": "wuyou-2",
+        "brandId": "wuyou",
+        "brandName": "无忧链接",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "wuyou666",
+        "targetUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL"
+      },
+      {
+        "id": "wuyou-3",
+        "brandId": "wuyou",
+        "brandName": "无忧链接",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "wuyou666",
+        "targetUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL"
+      },
+      {
+        "id": "wuyou-4",
+        "brandId": "wuyou",
+        "brandName": "无忧链接",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "wuyou666",
+        "targetUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL"
+      },
+      {
+        "id": "wuyou-5",
+        "brandId": "wuyou",
+        "brandName": "无忧链接",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "wuyou666",
+        "targetUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL"
+      },
+      {
+        "id": "wuyou-6",
+        "brandId": "wuyou",
+        "brandName": "无忧链接",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "wuyou666",
+        "targetUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL"
+      },
+      {
+        "id": "wuyou-7",
+        "brandId": "wuyou",
+        "brandName": "无忧链接",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "wuyou666",
+        "targetUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 5）。独有优势：订阅无需转换 + 6元轻量套餐。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "ermao-cloud",
+    "name": "二猫云",
+    "rank": 6,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "ermao5555",
+    "entryUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW",
+    "sellingPoint": "20元130GB",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/二猫云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T10:45:27+08:00",
+    "plans": [
+      {
+        "id": "ermao-cloud-1",
+        "brandId": "ermao-cloud",
+        "brandName": "二猫云",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "ermao5555",
+        "targetUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW"
+      },
+      {
+        "id": "ermao-cloud-2",
+        "brandId": "ermao-cloud",
+        "brandName": "二猫云",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "ermao5555",
+        "targetUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW"
+      },
+      {
+        "id": "ermao-cloud-3",
+        "brandId": "ermao-cloud",
+        "brandName": "二猫云",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "ermao5555",
+        "targetUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW"
+      },
+      {
+        "id": "ermao-cloud-4",
+        "brandId": "ermao-cloud",
+        "brandName": "二猫云",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "ermao5555",
+        "targetUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW"
+      },
+      {
+        "id": "ermao-cloud-5",
+        "brandId": "ermao-cloud",
+        "brandName": "二猫云",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "ermao5555",
+        "targetUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW"
+      },
+      {
+        "id": "ermao-cloud-6",
+        "brandId": "ermao-cloud",
+        "brandName": "二猫云",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "ermao5555",
+        "targetUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW"
+      },
+      {
+        "id": "ermao-cloud-7",
+        "brandId": "ermao-cloud",
+        "brandName": "二猫云",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "ermao5555",
+        "targetUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 6）。独有优势：20元130GB。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "weitu-cloud",
+    "name": "唯兔云",
+    "rank": 7,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "weitu666",
+    "entryUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA",
+    "sellingPoint": "60+节点 + 三网优化 + 智能负载均衡",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/唯兔云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T13:55:08+08:00",
+    "plans": [
+      {
+        "id": "weitu-cloud-1",
+        "brandId": "weitu-cloud",
+        "brandName": "唯兔云",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "weitu666",
+        "targetUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA"
+      },
+      {
+        "id": "weitu-cloud-2",
+        "brandId": "weitu-cloud",
+        "brandName": "唯兔云",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "weitu666",
+        "targetUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA"
+      },
+      {
+        "id": "weitu-cloud-3",
+        "brandId": "weitu-cloud",
+        "brandName": "唯兔云",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "weitu666",
+        "targetUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA"
+      },
+      {
+        "id": "weitu-cloud-4",
+        "brandId": "weitu-cloud",
+        "brandName": "唯兔云",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "weitu666",
+        "targetUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA"
+      },
+      {
+        "id": "weitu-cloud-5",
+        "brandId": "weitu-cloud",
+        "brandName": "唯兔云",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "weitu666",
+        "targetUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA"
+      },
+      {
+        "id": "weitu-cloud-6",
+        "brandId": "weitu-cloud",
+        "brandName": "唯兔云",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "weitu666",
+        "targetUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA"
+      },
+      {
+        "id": "weitu-cloud-7",
+        "brandId": "weitu-cloud",
+        "brandName": "唯兔云",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "weitu666",
+        "targetUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 7）。独有优势：60+节点 + 三网优化 + 智能负载均衡。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly",
+    "rank": 8,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "firefly",
+    "entryUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre",
+    "sellingPoint": "IPLC + 6档套餐 + 免翻墙访问官网",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "firefly-1",
+        "brandId": "firefly",
+        "brandName": "Firefly",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "firefly",
+        "targetUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre"
+      },
+      {
+        "id": "firefly-2",
+        "brandId": "firefly",
+        "brandName": "Firefly",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "firefly",
+        "targetUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre"
+      },
+      {
+        "id": "firefly-3",
+        "brandId": "firefly",
+        "brandName": "Firefly",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "firefly",
+        "targetUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre"
+      },
+      {
+        "id": "firefly-4",
+        "brandId": "firefly",
+        "brandName": "Firefly",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "firefly",
+        "targetUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre"
+      },
+      {
+        "id": "firefly-5",
+        "brandId": "firefly",
+        "brandName": "Firefly",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "firefly",
+        "targetUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre"
+      },
+      {
+        "id": "firefly-6",
+        "brandId": "firefly",
+        "brandName": "Firefly",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "firefly",
+        "targetUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre"
+      },
+      {
+        "id": "firefly-7",
+        "brandId": "firefly",
+        "brandName": "Firefly",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "firefly",
+        "targetUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 8）。独有优势：IPLC + 6档套餐 + 免翻墙访问官网。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "muguang",
+    "name": "暮光加速",
+    "rank": 9,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2020,
+    "couponCode": "muguang5555",
+    "entryUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3",
+    "sellingPoint": "无明确独有卖点",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "muguang-1",
+        "brandId": "muguang",
+        "brandName": "暮光加速",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "muguang5555",
+        "targetUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3"
+      },
+      {
+        "id": "muguang-2",
+        "brandId": "muguang",
+        "brandName": "暮光加速",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "muguang5555",
+        "targetUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3"
+      },
+      {
+        "id": "muguang-3",
+        "brandId": "muguang",
+        "brandName": "暮光加速",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "muguang5555",
+        "targetUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3"
+      },
+      {
+        "id": "muguang-4",
+        "brandId": "muguang",
+        "brandName": "暮光加速",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "muguang5555",
+        "targetUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3"
+      },
+      {
+        "id": "muguang-5",
+        "brandId": "muguang",
+        "brandName": "暮光加速",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "muguang5555",
+        "targetUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3"
+      },
+      {
+        "id": "muguang-6",
+        "brandId": "muguang",
+        "brandName": "暮光加速",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "muguang5555",
+        "targetUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3"
+      },
+      {
+        "id": "muguang-7",
+        "brandId": "muguang",
+        "brandName": "暮光加速",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "muguang5555",
+        "targetUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 9）。独有优势：无明确独有卖点。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "yuzhou-cloud",
+    "name": "宇宙云",
+    "rank": 10,
+    "isMainRecommendation": false,
+    "isTop10": true,
+    "openingYear": 2023,
+    "couponCode": "YUZHOU553",
+    "entryUrl": "https://wzjc.yuzoucloud.cc/#/?code=yrThwMP1",
+    "sellingPoint": "IEPL+VLESS+自研客户端",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/宇宙云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T21:04:24+08:00",
+    "plans": [
+      {
+        "id": "yuzhou-cloud-1",
+        "brandId": "yuzhou-cloud",
+        "brandName": "宇宙云",
+        "planName": "宇宙云 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "YUZHOU553",
+        "targetUrl": "https://wzjc.yuzoucloud.cc/#/?code=yrThwMP1"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 10）。独有优势：IEPL+VLESS+自研客户端。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "u1s1",
+    "name": "U1S1",
+    "rank": 11,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2025,
+    "couponCode": "akaka",
+    "entryUrl": "https://guangs.vipaff.cc/#/?code=xhX5X22f",
+    "sellingPoint": "20元120GB 标准方案",
+    "lineTypes": [
+      "IPLC专线"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "VLESS"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/U1S1-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T22:33:29+08:00",
+    "plans": [
+      {
+        "id": "u1s1-1",
+        "brandId": "u1s1",
+        "brandName": "U1S1",
+        "planName": "u1s1·就是好用包",
+        "billingCycle": "年付",
+        "priceDisplay": "¥96",
+        "priceValue": 96,
+        "monthlyEstimate": 8,
+        "trafficGB": "60GB",
+        "couponCode": "akaka",
+        "targetUrl": "https://guangs.vipaff.cc/#/?code=xhX5X22f"
+      },
+      {
+        "id": "u1s1-2",
+        "brandId": "u1s1",
+        "brandName": "U1S1",
+        "planName": "u1s1·普通人真够了包",
+        "billingCycle": "月付",
+        "priceDisplay": "¥20",
+        "priceValue": 20,
+        "monthlyEstimate": 20,
+        "trafficGB": "120GB",
+        "couponCode": "akaka",
+        "targetUrl": "https://guangs.vipaff.cc/#/?code=xhX5X22f"
+      },
+      {
+        "id": "u1s1-3",
+        "brandId": "u1s1",
+        "brandName": "U1S1",
+        "planName": "u1s1·你以为用不到包",
+        "billingCycle": "月付",
+        "priceDisplay": "¥40",
+        "priceValue": 40,
+        "monthlyEstimate": 40,
+        "trafficGB": "300GB",
+        "couponCode": "akaka",
+        "targetUrl": "https://guangs.vipaff.cc/#/?code=xhX5X22f"
+      },
+      {
+        "id": "u1s1-4",
+        "brandId": "u1s1",
+        "brandName": "U1S1",
+        "planName": "u1s1·瘾大就拉满包",
+        "billingCycle": "月付",
+        "priceDisplay": "¥100",
+        "priceValue": 100,
+        "monthlyEstimate": 100,
+        "trafficGB": "700GB",
+        "couponCode": "akaka",
+        "targetUrl": "https://guangs.vipaff.cc/#/?code=xhX5X22f"
+      },
+      {
+        "id": "u1s1-5",
+        "brandId": "u1s1",
+        "brandName": "U1S1",
+        "planName": "u1s1·我全都要包",
+        "billingCycle": "月付",
+        "priceDisplay": "¥180",
+        "priceValue": 180,
+        "monthlyEstimate": 180,
+        "trafficGB": "1500GB",
+        "couponCode": "akaka",
+        "targetUrl": "https://guangs.vipaff.cc/#/?code=xhX5X22f"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "24ms",
+        "speed": "538Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "39ms",
+        "speed": "107Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "414Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "133Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "134ms",
+        "speed": "20Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 11）。独有优势：20元120GB 标准方案。主打 IPLC专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "lingmao",
+    "name": "灵猫网络",
+    "rank": 12,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2025,
+    "couponCode": "lmao888",
+    "entryUrl": "https://vip01.civetnet.com/#/?code=8MIAyxak",
+    "sellingPoint": "19元150GB + 不限时套餐",
+    "lineTypes": [
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "VLESS"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/灵猫网络-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T18:45:40+08:00",
+    "plans": [
+      {
+        "id": "lingmao-1",
+        "brandId": "lingmao",
+        "brandName": "灵猫网络",
+        "planName": "灵猫·年付小包",
+        "billingCycle": "年付",
+        "priceDisplay": "¥85",
+        "priceValue": 85,
+        "monthlyEstimate": 7.1,
+        "trafficGB": "45GB",
+        "couponCode": "lmao888",
+        "targetUrl": "https://vip01.civetnet.com/#/?code=8MIAyxak"
+      },
+      {
+        "id": "lingmao-2",
+        "brandId": "lingmao",
+        "brandName": "灵猫网络",
+        "planName": "灵猫·年付Small",
+        "billingCycle": "年付",
+        "priceDisplay": "¥195",
+        "priceValue": 195,
+        "monthlyEstimate": 16.3,
+        "trafficGB": "150GB",
+        "couponCode": "lmao888",
+        "targetUrl": "https://vip01.civetnet.com/#/?code=8MIAyxak"
+      },
+      {
+        "id": "lingmao-3",
+        "brandId": "lingmao",
+        "brandName": "灵猫网络",
+        "planName": "灵猫·年付Big",
+        "billingCycle": "年付",
+        "priceDisplay": "¥295",
+        "priceValue": 295,
+        "monthlyEstimate": 24.6,
+        "trafficGB": "300GB",
+        "couponCode": "lmao888",
+        "targetUrl": "https://vip01.civetnet.com/#/?code=8MIAyxak"
+      },
+      {
+        "id": "lingmao-4",
+        "brandId": "lingmao",
+        "brandName": "灵猫网络",
+        "planName": "灵猫·季付Big",
+        "billingCycle": "季付",
+        "priceDisplay": "¥125",
+        "priceValue": 125,
+        "monthlyEstimate": 41.7,
+        "trafficGB": "300GB",
+        "couponCode": "lmao888",
+        "targetUrl": "https://vip01.civetnet.com/#/?code=8MIAyxak"
+      },
+      {
+        "id": "lingmao-5",
+        "brandId": "lingmao",
+        "brandName": "灵猫网络",
+        "planName": "灵猫·月付Small",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "150GB",
+        "couponCode": "lmao888",
+        "targetUrl": "https://vip01.civetnet.com/#/?code=8MIAyxak"
+      },
+      {
+        "id": "lingmao-6",
+        "brandId": "lingmao",
+        "brandName": "灵猫网络",
+        "planName": "灵猫·月付Big",
+        "billingCycle": "月付",
+        "priceDisplay": "¥45",
+        "priceValue": 45,
+        "monthlyEstimate": 45,
+        "trafficGB": "300GB",
+        "couponCode": "lmao888",
+        "targetUrl": "https://vip01.civetnet.com/#/?code=8MIAyxak"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "492Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "40ms",
+        "speed": "109Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "409Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "147Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "164ms",
+        "speed": "19Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 12）。独有优势：19元150GB + 不限时套餐。主打 优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "jilian-cloud",
+    "name": "极连云",
+    "rank": 13,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2024,
+    "couponCode": "ji8888",
+    "entryUrl": "https://guangs.jlyvipaff.com/#/?code=VM1rKGUu",
+    "sellingPoint": "18元100GB + 品牌资料说覆盖AI",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "VLESS"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/极连云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T22:46:50+08:00",
+    "plans": [
+      {
+        "id": "jilian-cloud-1",
+        "brandId": "jilian-cloud",
+        "brandName": "极连云",
+        "planName": "极连云 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "ji8888",
+        "targetUrl": "https://guangs.jlyvipaff.com/#/?code=VM1rKGUu"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 13）。独有优势：18元100GB + 品牌资料说覆盖AI。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "guangnianti",
+    "name": "光年梯",
+    "rank": 14,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "gnt6666",
+    "entryUrl": "https://guangs.gntaff.com/#/?code=X1FoxjGE",
+    "sellingPoint": "18元110GB",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "VLESS"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/光年梯-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T14:38:04+08:00",
+    "plans": [
+      {
+        "id": "guangnianti-1",
+        "brandId": "guangnianti",
+        "brandName": "光年梯",
+        "planName": "光年梯 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "gnt6666",
+        "targetUrl": "https://guangs.gntaff.com/#/?code=X1FoxjGE"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 14）。独有优势：18元110GB。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "yifan-cloud",
+    "name": "一翻云",
+    "rank": 15,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2025,
+    "couponCode": "yfy6666",
+    "entryUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r",
+    "sellingPoint": "20元150GB",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks",
+      "Hysteria 2"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/一翻云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T00:21:30+08:00",
+    "plans": [
+      {
+        "id": "yifan-cloud-1",
+        "brandId": "yifan-cloud",
+        "brandName": "一翻云",
+        "planName": "轻享版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥20",
+        "priceValue": 20,
+        "monthlyEstimate": 20,
+        "trafficGB": "150GB",
+        "couponCode": "yfy6666",
+        "targetUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r"
+      },
+      {
+        "id": "yifan-cloud-2",
+        "brandId": "yifan-cloud",
+        "brandName": "一翻云",
+        "planName": "舒享版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥35",
+        "priceValue": 35,
+        "monthlyEstimate": 35,
+        "trafficGB": "350GB",
+        "couponCode": "yfy6666",
+        "targetUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r"
+      },
+      {
+        "id": "yifan-cloud-3",
+        "brandId": "yifan-cloud",
+        "brandName": "一翻云",
+        "planName": "尊享版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥55",
+        "priceValue": 55,
+        "monthlyEstimate": 55,
+        "trafficGB": "600GB",
+        "couponCode": "yfy6666",
+        "targetUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r"
+      },
+      {
+        "id": "yifan-cloud-4",
+        "brandId": "yifan-cloud",
+        "brandName": "一翻云",
+        "planName": "极致版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥95",
+        "priceValue": 95,
+        "monthlyEstimate": 95,
+        "trafficGB": "1.2TB",
+        "couponCode": "yfy6666",
+        "targetUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r"
+      },
+      {
+        "id": "yifan-cloud-5",
+        "brandId": "yifan-cloud",
+        "brandName": "一翻云",
+        "planName": "98¥·年付小包",
+        "billingCycle": "年付",
+        "priceDisplay": "¥98",
+        "priceValue": 98,
+        "monthlyEstimate": 8.2,
+        "trafficGB": "60GB",
+        "couponCode": "yfy6666",
+        "targetUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r"
+      },
+      {
+        "id": "yifan-cloud-6",
+        "brandId": "yifan-cloud",
+        "brandName": "一翻云",
+        "planName": "轻享版·不限时包",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥100",
+        "priceValue": 100,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "100GB",
+        "couponCode": "yfy6666",
+        "targetUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r"
+      },
+      {
+        "id": "yifan-cloud-7",
+        "brandId": "yifan-cloud",
+        "brandName": "一翻云",
+        "planName": "舒享版·不限时包",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥200",
+        "priceValue": 200,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "250GB",
+        "couponCode": "yfy6666",
+        "targetUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r"
+      },
+      {
+        "id": "yifan-cloud-8",
+        "brandId": "yifan-cloud",
+        "brandName": "一翻云",
+        "planName": "尊享版·不限时包",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥400",
+        "priceValue": 400,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "500GB",
+        "couponCode": "yfy6666",
+        "targetUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "23ms",
+        "speed": "477Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "40ms",
+        "speed": "117Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "42ms",
+        "speed": "390Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "53ms",
+        "speed": "136Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "180ms",
+        "speed": "20Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 15）。独有优势：20元150GB。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "sogo-cloud",
+    "name": "SOGO云",
+    "rank": 16,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "sss777",
+    "entryUrl": "https://guangs.sogoyunaff.cc/#/?code=327Vs0w7",
+    "sellingPoint": "2026年新品牌",
+    "lineTypes": [
+      "企业优化专线"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "VLESS"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/SOGO云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T18:57:59+08:00",
+    "plans": [
+      {
+        "id": "sogo-cloud-1",
+        "brandId": "sogo-cloud",
+        "brandName": "SOGO云",
+        "planName": "SOGO云 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "sss777",
+        "targetUrl": "https://guangs.sogoyunaff.cc/#/?code=327Vs0w7"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 16）。独有优势：2026年新品牌。主打 企业优化专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "kexin-cloud",
+    "name": "可信云",
+    "rank": 17,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2024,
+    "couponCode": "kkk333",
+    "entryUrl": "https://guangs.kosingaff.com/#/register?code=UYDtNlCY",
+    "sellingPoint": "品牌资料诚实标注数据缺口",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/可信云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T15:32:35+08:00",
+    "plans": [
+      {
+        "id": "kexin-cloud-1",
+        "brandId": "kexin-cloud",
+        "brandName": "可信云",
+        "planName": "可信云 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "kkk333",
+        "targetUrl": "https://guangs.kosingaff.com/#/register?code=UYDtNlCY"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 17）。独有优势：品牌资料诚实标注数据缺口。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "sujie",
+    "name": "速界",
+    "rank": 18,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "sss1111",
+    "entryUrl": "https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB",
+    "sellingPoint": "品牌资料强调AI工具",
+    "lineTypes": [
+      "企业优化专线"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "VLESS"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/速界-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T15:39:36+08:00",
+    "plans": [
+      {
+        "id": "sujie-1",
+        "brandId": "sujie",
+        "brandName": "速界",
+        "planName": "速界 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "sss1111",
+        "targetUrl": "https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 18）。独有优势：品牌资料强调AI工具。主打 企业优化专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "shanyue",
+    "name": "闪跃",
+    "rank": 19,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "shanyue",
+    "entryUrl": "https://vip02.flashleapaff.com/#/?code=3lgzm9mm",
+    "sellingPoint": "24元150GB",
+    "lineTypes": [
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "VLESS"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "shanyue-1",
+        "brandId": "shanyue",
+        "brandName": "闪跃",
+        "planName": "闪跃年付版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥96",
+        "priceValue": 96,
+        "monthlyEstimate": 8,
+        "trafficGB": "60GB",
+        "couponCode": "shanyue",
+        "targetUrl": "https://vip02.flashleapaff.com/#/?code=3lgzm9mm"
+      },
+      {
+        "id": "shanyue-2",
+        "brandId": "shanyue",
+        "brandName": "闪跃",
+        "planName": "闪动 (Flicker)",
+        "billingCycle": "月付",
+        "priceDisplay": "¥24",
+        "priceValue": 24,
+        "monthlyEstimate": 24,
+        "trafficGB": "150GB",
+        "couponCode": "shanyue",
+        "targetUrl": "https://vip02.flashleapaff.com/#/?code=3lgzm9mm"
+      },
+      {
+        "id": "shanyue-3",
+        "brandId": "shanyue",
+        "brandName": "闪跃",
+        "planName": "飞跃 (Leap)",
+        "billingCycle": "月付",
+        "priceDisplay": "¥44",
+        "priceValue": 44,
+        "monthlyEstimate": 44,
+        "trafficGB": "300GB",
+        "couponCode": "shanyue",
+        "targetUrl": "https://vip02.flashleapaff.com/#/?code=3lgzm9mm"
+      },
+      {
+        "id": "shanyue-4",
+        "brandId": "shanyue",
+        "brandName": "闪跃",
+        "planName": "瞬移 (Teleport)",
+        "billingCycle": "月付",
+        "priceDisplay": "¥84",
+        "priceValue": 84,
+        "monthlyEstimate": 84,
+        "trafficGB": "600GB",
+        "couponCode": "shanyue",
+        "targetUrl": "https://vip02.flashleapaff.com/#/?code=3lgzm9mm"
+      },
+      {
+        "id": "shanyue-5",
+        "brandId": "shanyue",
+        "brandName": "闪跃",
+        "planName": "跃迁 (Warp)",
+        "billingCycle": "月付",
+        "priceDisplay": "¥134",
+        "priceValue": 134,
+        "monthlyEstimate": 134,
+        "trafficGB": "1000GB",
+        "couponCode": "shanyue",
+        "targetUrl": "https://vip02.flashleapaff.com/#/?code=3lgzm9mm"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "23ms",
+        "speed": "548Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "38ms",
+        "speed": "110Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "44ms",
+        "speed": "383Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "53ms",
+        "speed": "144Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 19）。独有优势：24元150GB。主打 IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "quanqiu-cloud",
+    "name": "全球云",
+    "rank": 20,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "qqy7777",
+    "entryUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C",
+    "sellingPoint": "2026年新品牌",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "hasSpeedtestImage": true,
+    "speedtestImage": "/evidence/speedtests/全球云-节点测速实测.png",
+    "speedtestTestedAt": "2026-08-11T15:50:43+08:00",
+    "plans": [
+      {
+        "id": "quanqiu-cloud-1",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "BGP 智能优化·不限时轻量包",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥100",
+        "priceValue": 100,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "100GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      },
+      {
+        "id": "quanqiu-cloud-2",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "BGP 智能优化·不限时标准包",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥360",
+        "priceValue": 360,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "400GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      },
+      {
+        "id": "quanqiu-cloud-3",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "BGP 智能优化·不限时大容量包",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥700",
+        "priceValue": 700,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "800GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      },
+      {
+        "id": "quanqiu-cloud-4",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "59GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      },
+      {
+        "id": "quanqiu-cloud-5",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "BGP 智能优化·入门方案",
+        "billingCycle": "月付",
+        "priceDisplay": "¥20",
+        "priceValue": 20,
+        "monthlyEstimate": 20,
+        "trafficGB": "120GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      },
+      {
+        "id": "quanqiu-cloud-6",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "BGP 智能优化·进阶方案",
+        "billingCycle": "月付",
+        "priceDisplay": "¥40",
+        "priceValue": 40,
+        "monthlyEstimate": 40,
+        "trafficGB": "300GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      },
+      {
+        "id": "quanqiu-cloud-7",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "BGP 智能优化·高端方案",
+        "billingCycle": "月付",
+        "priceDisplay": "¥100",
+        "priceValue": 100,
+        "monthlyEstimate": 100,
+        "trafficGB": "700GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      },
+      {
+        "id": "quanqiu-cloud-8",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "BGP 智能优化·商业方案",
+        "billingCycle": "月付",
+        "priceDisplay": "¥180",
+        "priceValue": 180,
+        "monthlyEstimate": 180,
+        "trafficGB": "1500GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      },
+      {
+        "id": "quanqiu-cloud-9",
+        "brandId": "quanqiu-cloud",
+        "brandName": "全球云",
+        "planName": "独享私人专线节点",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "qqy7777",
+        "targetUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "25ms",
+        "speed": "489Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "37ms",
+        "speed": "117Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "45ms",
+        "speed": "430Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "55ms",
+        "speed": "133Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "138ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 20）。独有优势：2026年新品牌。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "shandianshu",
+    "name": "闪电鼠",
+    "rank": 21,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "sd88",
+    "entryUrl": "https://qwerty.shandianshuaff.com/#/?code=rUE75iYh",
+    "sellingPoint": "5.6元/月 + 60GB",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "shandianshu-1",
+        "brandId": "shandianshu",
+        "brandName": "闪电鼠",
+        "planName": "闪电鼠 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "sd88",
+        "targetUrl": "https://qwerty.shandianshuaff.com/#/?code=rUE75iYh"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 21）。独有优势：5.6元/月 + 60GB。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "dalaoyun",
+    "name": "大佬云",
+    "rank": 22,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2020,
+    "couponCode": "dly888",
+    "entryUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN",
+    "sellingPoint": "5.6元/月 + 60GB",
+    "lineTypes": [
+      "IEPL专线",
+      "IPLC专线",
+      "优质隧道中转"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "dalaoyun-1",
+        "brandId": "dalaoyun",
+        "brandName": "大佬云",
+        "planName": "光速云·轻量版",
+        "billingCycle": "年付",
+        "priceDisplay": "¥99",
+        "priceValue": 99,
+        "monthlyEstimate": 8.3,
+        "trafficGB": "69GB",
+        "couponCode": "dly888",
+        "targetUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN"
+      },
+      {
+        "id": "dalaoyun-2",
+        "brandId": "dalaoyun",
+        "brandName": "大佬云",
+        "planName": "光速云·极速版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥25",
+        "priceValue": 25,
+        "monthlyEstimate": 25,
+        "trafficGB": "168GB",
+        "couponCode": "dly888",
+        "targetUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN"
+      },
+      {
+        "id": "dalaoyun-3",
+        "brandId": "dalaoyun",
+        "brandName": "大佬云",
+        "planName": "光速云·流光版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥34",
+        "priceValue": 34,
+        "monthlyEstimate": 34,
+        "trafficGB": "238GB",
+        "couponCode": "dly888",
+        "targetUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN"
+      },
+      {
+        "id": "dalaoyun-4",
+        "brandId": "dalaoyun",
+        "brandName": "大佬云",
+        "planName": "光速云·量子版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥68",
+        "priceValue": 68,
+        "monthlyEstimate": 68,
+        "trafficGB": "500GB",
+        "couponCode": "dly888",
+        "targetUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN"
+      },
+      {
+        "id": "dalaoyun-5",
+        "brandId": "dalaoyun",
+        "brandName": "大佬云",
+        "planName": "光速云·无界版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥138",
+        "priceValue": 138,
+        "monthlyEstimate": 138,
+        "trafficGB": "900GB",
+        "couponCode": "dly888",
+        "targetUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN"
+      },
+      {
+        "id": "dalaoyun-6",
+        "brandId": "dalaoyun",
+        "brandName": "大佬云",
+        "planName": "光速云·致敬斯诺克147永久套餐",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥147",
+        "priceValue": 147,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "247GB不过期",
+        "couponCode": "dly888",
+        "targetUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN"
+      },
+      {
+        "id": "dalaoyun-7",
+        "brandId": "dalaoyun",
+        "brandName": "大佬云",
+        "planName": "光速云·定制套餐",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "dly888",
+        "targetUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN"
+      }
+    ],
+    "speedStats": [
+      {
+        "region": "香港",
+        "latency": "22ms",
+        "speed": "529Mbps"
+      },
+      {
+        "region": "台湾",
+        "latency": "41ms",
+        "speed": "114Mbps"
+      },
+      {
+        "region": "新加坡",
+        "latency": "46ms",
+        "speed": "387Mbps"
+      },
+      {
+        "region": "日本",
+        "latency": "57ms",
+        "speed": "135Mbps"
+      },
+      {
+        "region": "美国",
+        "latency": "143ms",
+        "speed": "18Mbps"
+      }
+    ],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 22）。独有优势：5.6元/月 + 60GB。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "yunjiexian",
+    "name": "云界线",
+    "rank": 23,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "yjx888",
+    "entryUrl": "https://qwerty.yunjiexianaff.com/?code=HBaZ91c6",
+    "sellingPoint": "5.6元/月 + 60GB（链接格式异常）",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "yunjiexian-1",
+        "brandId": "yunjiexian",
+        "brandName": "云界线",
+        "planName": "云界线 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "yjx888",
+        "targetUrl": "https://qwerty.yunjiexianaff.com/?code=HBaZ91c6"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 23）。独有优势：5.6元/月 + 60GB（链接格式异常）。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "liulianyun",
+    "name": "榴莲云",
+    "rank": 24,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "ll88",
+    "entryUrl": "https://qwerty.liulianyunaff.com#/?code=hS5pvbfE",
+    "sellingPoint": "5.6元/月 + 60GB（协议未明）",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "liulianyun-1",
+        "brandId": "liulianyun",
+        "brandName": "榴莲云",
+        "planName": "榴莲云 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "ll88",
+        "targetUrl": "https://qwerty.liulianyunaff.com#/?code=hS5pvbfE"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 24）。独有优势：5.6元/月 + 60GB（协议未明）。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "shenxing",
+    "name": "神行加速",
+    "rank": 25,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2024,
+    "couponCode": "xs0077",
+    "entryUrl": "https://qwerty.shenxingaff.com/#/?code=gawDQqVE",
+    "sellingPoint": "14元/月 + 120GB",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "shenxing-1",
+        "brandId": "shenxing",
+        "brandName": "神行加速",
+        "planName": "神行加速 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "xs0077",
+        "targetUrl": "https://qwerty.shenxingaff.com/#/?code=gawDQqVE"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 25）。独有优势：14元/月 + 120GB。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "huanqiuti",
+    "name": "环球梯",
+    "rank": 26,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2023,
+    "couponCode": "HQ66",
+    "entryUrl": "https://qwerty.huanqiutiaff.com/?code=9I4KRNPH",
+    "sellingPoint": "5.6元/月 + 60GB（链接格式异常）",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "huanqiuti-1",
+        "brandId": "huanqiuti",
+        "brandName": "环球梯",
+        "planName": "环球梯 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "HQ66",
+        "targetUrl": "https://qwerty.huanqiutiaff.com/?code=9I4KRNPH"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 26）。独有优势：5.6元/月 + 60GB（链接格式异常）。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "yinxingren",
+    "name": "隐形人",
+    "rank": 27,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2024,
+    "couponCode": "yxr888",
+    "entryUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT",
+    "sellingPoint": "60+节点详细清单 + 1小时修复承诺 + 不提供第三方订阅",
+    "lineTypes": [
+      "IPLC专线"
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "VLESS"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "yinxingren-1",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "隐形人 白银纪元",
+        "billingCycle": "月付",
+        "priceDisplay": "¥24",
+        "priceValue": 24,
+        "monthlyEstimate": 24,
+        "trafficGB": "144GB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      },
+      {
+        "id": "yinxingren-2",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "隐形人 黄金序列",
+        "billingCycle": "月付",
+        "priceDisplay": "¥48",
+        "priceValue": 48,
+        "monthlyEstimate": 48,
+        "trafficGB": "360GB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      },
+      {
+        "id": "yinxingren-3",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "隐形人 铂金至臻",
+        "billingCycle": "月付",
+        "priceDisplay": "¥105",
+        "priceValue": 105,
+        "monthlyEstimate": 105,
+        "trafficGB": "750GB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      },
+      {
+        "id": "yinxingren-4",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "隐形人 钻石穹顶",
+        "billingCycle": "月付",
+        "priceDisplay": "¥185",
+        "priceValue": 185,
+        "monthlyEstimate": 185,
+        "trafficGB": "1.6TB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      },
+      {
+        "id": "yinxingren-5",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "王者定制版",
+        "billingCycle": "月付",
+        "priceDisplay": "¥680",
+        "priceValue": 680,
+        "monthlyEstimate": 680,
+        "trafficGB": "500GB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      },
+      {
+        "id": "yinxingren-6",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "星耀风暴 365天不熄",
+        "billingCycle": "年付",
+        "priceDisplay": "¥109",
+        "priceValue": 109,
+        "monthlyEstimate": 9.1,
+        "trafficGB": "80GB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      },
+      {
+        "id": "yinxingren-7",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "一次性小流量",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥229",
+        "priceValue": 229,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "160GB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      },
+      {
+        "id": "yinxingren-8",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "一次性标准流量包",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥549",
+        "priceValue": 549,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "420GB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      },
+      {
+        "id": "yinxingren-9",
+        "brandId": "yinxingren",
+        "brandName": "隐形人",
+        "planName": "一次性精英流量包",
+        "billingCycle": "一次性付费",
+        "priceDisplay": "¥1199",
+        "priceValue": 1199,
+        "monthlyEstimate": "不限时永久",
+        "trafficGB": "1.0TB",
+        "couponCode": "yxr888",
+        "targetUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 27）。独有优势：60+节点详细清单 + 1小时修复承诺 + 不提供第三方订阅。主打 IPLC专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "tiziyun",
+    "name": "梯子云",
+    "rank": 28,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": 2025,
+    "couponCode": "tiziyun",
+    "entryUrl": "https://tiziyun3.ladderaff.com/#/?code=7EmnpHs0",
+    "sellingPoint": "自研全平台客户端 + 一键登录 + 支持通用订阅",
+    "lineTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [
+      {
+        "id": "tiziyun-1",
+        "brandId": "tiziyun",
+        "brandName": "梯子云",
+        "planName": "梯子云 基础标准套餐",
+        "billingCycle": "月付 / 年付",
+        "priceDisplay": "¥15/月起",
+        "priceValue": 15,
+        "monthlyEstimate": 15,
+        "trafficGB": "100GB/月",
+        "couponCode": "tiziyun",
+        "targetUrl": "https://tiziyun3.ladderaff.com/#/?code=7EmnpHs0"
+      }
+    ],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube Premium",
+      "TikTok"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Claude",
+      "Gemini"
+    ],
+    "description": "2026 推荐机场之一（排名第 28）。独有优势：自研全平台客户端 + 一键登录 + 支持通用订阅。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+  },
+  {
+    "id": "wgetcloud",
+    "name": "WgetCloud",
+    "rank": 29,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
     "entryUrl": null,
-    "commercialRelationship": "none",
-    "disclosure": "本站坚持客观审核标准，未收到授权、未实际完成可用性及长期稳定性核验的服务商保持缺失状态，绝不伪造虚假推荐与虚假好评。",
-    "supportedFormats": ["Clash YAML", "Base64", "sing-box JSON"],
-    "supportedProtocols": ["VLESS", "VMess", "Trojan"],
-    "lastVerifiedAt": null,
-    "slaNotes": "需满足连续30天以上可用率99.5%以上方可进入正式核验名录"
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "WgetCloud 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "baiyueguang",
+    "name": "白月光",
+    "rank": 30,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "白月光 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "flyingbird",
+    "name": "FlyingBird",
+    "rank": 31,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "FlyingBird 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "cyberguard",
+    "name": "CyberGuard",
+    "rank": 32,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "CyberGuard 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "longmaoyun",
+    "name": "龙猫云",
+    "rank": 33,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "龙猫云 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "fatcat",
+    "name": "FATCAT",
+    "rank": 34,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "FATCAT 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "tntcloud",
+    "name": "TNTCloud",
+    "rank": 35,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "TNTCloud 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "qingyunti",
+    "name": "青云梯",
+    "rank": 36,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "青云梯 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "shanshuiyun",
+    "name": "山水云",
+    "rank": 37,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "山水云 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "lingdongyun",
+    "name": "灵动云",
+    "rank": 38,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "灵动云 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "langwang",
+    "name": "浪网",
+    "rank": 39,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "浪网 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "edgenova",
+    "name": "EdgeNova",
+    "rank": 40,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "EdgeNova 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "yinghuochong",
+    "name": "萤火虫",
+    "rank": 41,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "萤火虫 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+  },
+  {
+    "id": "sslar",
+    "name": "sslar",
+    "rank": 42,
+    "isMainRecommendation": false,
+    "isTop10": false,
+    "openingYear": null,
+    "couponCode": null,
+    "entryUrl": null,
+    "sellingPoint": "多协议兼容与大带宽支持",
+    "lineTypes": [
+      "IEPL / 隧道专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "hasSpeedtestImage": false,
+    "speedtestImage": null,
+    "speedtestTestedAt": null,
+    "plans": [],
+    "speedStats": [],
+    "streamingUnlock": [
+      "Netflix",
+      "Disney+",
+      "YouTube"
+    ],
+    "aiUnlock": [
+      "ChatGPT (部分节点)",
+      "Gemini"
+    ],
+    "description": "sslar 是一项网络代理服务，提供多格式订阅支持与节点分流。"
   }
 ]

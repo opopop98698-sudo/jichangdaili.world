@@ -70,11 +70,8 @@ if (fs.existsSync(publicAssetsDir)) {
   const publicDestSite = path.join(rootDir, 'site', 'public');
   fs.mkdirSync(publicDestGenerated, { recursive: true });
   fs.mkdirSync(publicDestSite, { recursive: true });
-  const assetFiles = fs.readdirSync(publicAssetsDir);
-  for (const f of assetFiles) {
-    fs.copyFileSync(path.join(publicAssetsDir, f), path.join(publicDestGenerated, f));
-    fs.copyFileSync(path.join(publicAssetsDir, f), path.join(publicDestSite, f));
-  }
+  fs.cpSync(publicAssetsDir, publicDestGenerated, { recursive: true });
+  fs.cpSync(publicAssetsDir, publicDestSite, { recursive: true });
 }
 
 console.log(`[prepare-content] Whitelist sync complete!`);
