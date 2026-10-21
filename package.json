@@ -1,0 +1,26 @@
+{
+  "name": "jichangdaili-world",
+  "version": "1.0.0",
+  "description": "机场代理 (jichangdaili.world) - 代理客户端下载、系统安装、订阅配置、故障排查与兼容机场指南",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/prepare-content.js && vitepress dev site/generated --config ../site/.vitepress/config.mts",
+    "content:plan": "node scripts/plan-content.js",
+    "content:prepare": "node scripts/prepare-content.js",
+    "check:content": "node scripts/check-content.js",
+    "check:links": "node scripts/check-links.js",
+    "check:secrets": "node scripts/check-secrets.js",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/run-tests.js",
+    "build": "node scripts/prepare-content.js && node scripts/check-content.js && node scripts/check-links.js && node scripts/check-secrets.js && vitepress build site/generated --config ../site/.vitepress/config.mts && node scripts/generate-sitemap.js",
+    "preview": "vitepress preview site/generated --config ../site/.vitepress/config.mts",
+    "check:all": "node scripts/check-all.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}

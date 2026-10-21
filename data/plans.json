@@ -1,0 +1,18 @@
+[
+  {
+    "id": "spec-sample-schema",
+    "brandId": "reference-audit-spec",
+    "planName": "标准核验套餐数据结构",
+    "currency": "CNY",
+    "price": null,
+    "billingCycle": "monthly",
+    "trafficGB": null,
+    "resetCycle": "calendar-month",
+    "multiplier": "1.0x",
+    "deviceLimit": "3-5",
+    "isSponsored": false,
+    "targetUrl": null,
+    "status": "unverified",
+    "verificationNote": "真实价格与套餐在未接入真实商家或实测前一律置空，防止误导用户"
+  }
+]

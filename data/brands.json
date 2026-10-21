@@ -1,0 +1,15 @@
+[
+  {
+    "id": "reference-audit-spec",
+    "name": "待核验商业服务（模板标准规范）",
+    "status": "pending_audit",
+    "officialSite": null,
+    "entryUrl": null,
+    "commercialRelationship": "none",
+    "disclosure": "本站坚持客观审核标准，未收到授权、未实际完成可用性及长期稳定性核验的服务商保持缺失状态，绝不伪造虚假推荐与虚假好评。",
+    "supportedFormats": ["Clash YAML", "Base64", "sing-box JSON"],
+    "supportedProtocols": ["VLESS", "VMess", "Trojan"],
+    "lastVerifiedAt": null,
+    "slaNotes": "需满足连续30天以上可用率99.5%以上方可进入正式核验名录"
+  }
+]

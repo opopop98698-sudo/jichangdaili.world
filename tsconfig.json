@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
+  "include": [
+    "site/env.d.ts",
+    "site/.vitepress/**/*.ts",
+    "site/.vitepress/**/*.mts",
+    "scripts/**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "site/generated",
+    "site/.vitepress/dist",
+    "site/.vitepress/cache"
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "client": "Clash Verge Rev",
+    "core": "Mihomo (Clash Meta)",
+    "os": "Windows / macOS / Linux",
+    "subFormats": ["Clash YAML", "Proxy-Providers (HTTP/File)"],
+    "protocols": ["Shadowsocks", "VMess", "VLESS (Reality/WS)", "Trojan", "Hysteria 2", "TUIC"],
+    "tunSupport": "原生支持 (需安装服务模式)",
+    "ruleEngine": "规则集 / Rule-Providers / Script扩展",
+    "recommendationLevel": "强烈推荐"
+  },
+  {
+    "client": "v2rayN",
+    "core": "Xray-core / sing-box",
+    "os": "Windows",
+    "subFormats": ["Base64单节点列表", "v2rayN格式", "Clash YAML (需转换)", "sing-box JSON"],
+    "protocols": ["VMess", "VLESS (Reality/gRPC/WS)", "Trojan", "Shadowsocks", "Hysteria 2"],
+    "tunSupport": "支持 (内置 sing-box/tun2socks 驱动)",
+    "ruleEngine": "GeoIP.dat / GeoSite.dat / 自定义路由",
+    "recommendationLevel": "强烈推荐"
+  },
+  {
+    "client": "v2rayNG",
+    "core": "Xray-core",
+    "os": "Android",
+    "subFormats": ["Base64订阅", "剪贴板单链接批量导入"],
+    "protocols": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Hysteria 2"],
+    "tunSupport": "原生 VpnService 系统级代理",
+    "ruleEngine": "分应用代理 / GeoIP / 绕过局域网与大陆",
+    "recommendationLevel": "强烈推荐"
+  },
+  {
+    "client": "Shadowrocket",
+    "core": "iOS NetworkExtension",
+    "os": "iOS / iPadOS",
+    "subFormats": ["二维码扫描", "Base64订阅", "Clash YAML (有限兼容)"],
+    "protocols": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard"],
+    "tunSupport": "原生 iOS VPN",
+    "ruleEngine": "规则分流 / CONF 配置文件 / HTTPS 解密",
+    "recommendationLevel": "iOS首选"
+  },
+  {
+    "client": "FlClash",
+    "core": "Mihomo (Clash Meta)",
+    "os": "Windows / macOS / Linux / Android",
+    "subFormats": ["Clash YAML"],
+    "protocols": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC"],
+    "tunSupport": "支持",
+    "ruleEngine": "Clash 规则与策略组",
+    "recommendationLevel": "多端统一视觉推荐"
+  },
+  {
+    "client": "Hiddify",
+    "core": "sing-box",
+    "os": "Windows / macOS / Linux / Android / iOS",
+    "subFormats": ["sing-box JSON", "Base64", "Clash YAML (自动转换)"],
+    "protocols": ["全协议支持 (20+ 协议)"],
+    "tunSupport": "全平台原生 TUN 支持",
+    "ruleEngine": "sing-box 规则引擎 / 自动优选",
+    "recommendationLevel": "全协议跨平台推荐"
+  }
+]

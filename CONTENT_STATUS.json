@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-10-21T14:45:00Z",
+  "publishedNodes": [
+    { "id": "home", "url": "/", "title": "机场代理：客户端下载、订阅配置与兼容机场指南" },
+    { "id": "sec-recommend", "url": "/recommend/", "title": "机场推荐｜机场代理" },
+    { "id": "sec-free", "url": "/free/", "title": "免费机场｜机场代理" },
+    { "id": "sec-clients", "url": "/clients/", "title": "客户端下载｜机场代理" },
+    { "id": "sec-install", "url": "/install/", "title": "安装教程｜机场代理" },
+    { "id": "sec-subscription", "url": "/subscription/", "title": "订阅配置｜机场代理" },
+    { "id": "sec-troubleshooting", "url": "/troubleshooting/", "title": "故障排查｜机场代理" },
+    { "id": "sec-reviews", "url": "/reviews/", "title": "客户端评测｜机场代理" },
+    { "id": "sec-learn", "url": "/learn/", "title": "新手课堂｜机场代理" },
+    { "id": "topic-clients-windows", "url": "/clients/windows/", "title": "Windows 客户端" },
+    { "id": "art-clients-windows-installer-vs-portable-zip-guide", "url": "/clients/windows-installer-vs-portable-zip-guide/", "title": "Windows代理客户端安装版与便携版怎么下载：文件形态与适用情况" },
+    { "id": "topic-install-verge-rev", "url": "/install/verge-rev/", "title": "Clash Verge Rev 安装" },
+    { "id": "art-install-clash-verge-rev-windows-setup-walkthrough", "url": "/install/clash-verge-rev-windows-setup-walkthrough/", "title": "Clash Verge Rev在Windows 11上的安装与首次启动教程" },
+    { "id": "topic-subscription-clash-yaml", "url": "/subscription/clash-yaml/", "title": "Clash YAML 配置" },
+    { "id": "art-subscription-how-to-read-clash-yaml-proxies-groups-rules", "url": "/subscription/how-to-read-clash-yaml-proxies-groups-rules/", "title": "Clash YAML怎么读：节点、策略组、规则与外部资源的关系" },
+    { "id": "topic-troubleshooting-startup", "url": "/troubleshooting/startup/", "title": "客户端启动失败" },
+    { "id": "art-troubleshooting-port-7890-already-in-use-diagnosis-and-fix", "url": "/troubleshooting/port-7890-already-in-use-diagnosis-and-fix/", "title": "报错“bind: address already in use: 7890”端口占用诊断与解决" },
+    { "id": "topic-troubleshooting-no-internet", "url": "/troubleshooting/no-internet/", "title": "已连接但无法上网" },
+    { "id": "art-troubleshooting-turn-off-proxy-and-lose-internet-completely", "url": "/troubleshooting/turn-off-proxy-and-lose-internet-completely/", "title": "关闭代理客户端后整台电脑彻底无法上网的紧急恢复指南" },
+    { "id": "software-index", "url": "/software/", "title": "代理软件官方档案库" },
+    { "id": "software-clash-verge-rev", "url": "/software/clash-verge-rev/", "title": "Clash Verge Rev 官方软件档案" },
+    { "id": "software-v2rayn", "url": "/software/v2rayn/", "title": "v2rayN 官方软件档案" },
+    { "id": "brands-index", "url": "/brands/", "title": "服务商品牌档案与核验标准名录" },
+    { "id": "brands-reference-audit-spec", "url": "/brands/reference-audit-spec/", "title": "标准核验服务商技术规范档案" }
+  ]
+}

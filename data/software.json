@@ -1,0 +1,279 @@
+[
+  {
+    "id": "clash-verge-rev",
+    "name": "Clash Verge Rev",
+    "aliases": ["Clash Verge", "Verge Rev"],
+    "category": "gui-client",
+    "officialRepo": "https://github.com/clash-verge-rev/clash-verge-rev",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Mihomo (Clash Meta)",
+    "description": "基于 Tauri 框架开发的现代化开源 Clash GUI 客户端，原生内置 Mihomo (Clash Meta) 核心，支持 TUN 模式、脚本扩展与多语言界面。",
+    "platforms": [
+      {
+        "os": "Windows",
+        "supportedVersions": "Windows 10 (1809+) / Windows 11",
+        "architectures": ["x64", "arm64"],
+        "packageTypes": ["nsis-installer (.exe)", "portable (.zip)"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 11+ (Big Sur 及以上)",
+        "architectures": ["Apple Silicon (arm64)", "Intel (x64)"],
+        "packageTypes": ["dmg", "tar.gz"]
+      },
+      {
+        "os": "Linux",
+        "supportedVersions": "Ubuntu 20.04+, Debian 11+, Fedora 36+, Arch Linux",
+        "architectures": ["x64", "arm64"],
+        "packageTypes": ["deb", "rpm", "AppImage", "tar.gz"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "ShadowsocksR", "VMess", "VLESS", "Trojan", "Socks5", "HTTP", "Hysteria", "Hysteria 2", "TUIC", "WireGuard"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": true,
+      "builtInDns": true
+    },
+    "verifiedVersion": "1.7.7",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "v2rayn",
+    "name": "v2rayN",
+    "aliases": ["v2rayN-core", "v2rayN GUI"],
+    "category": "gui-client",
+    "officialRepo": "https://github.com/2dust/v2rayN",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Xray-core / sing-box",
+    "description": "Windows 平台经典的代理客户端外壳，基于 .NET 8 开发，支持 Xray 与 sing-box 核心无缝切换，具备强大的路由规则编辑与批量节点管理功能。",
+    "platforms": [
+      {
+        "os": "Windows",
+        "supportedVersions": "Windows 10 / Windows 11 (需要 .NET 8 Desktop Runtime)",
+        "architectures": ["x64", "arm64"],
+        "packageTypes": ["portable-zip (with-core / without-core)"]
+      }
+    ],
+    "protocolsSupported": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Socks5", "HTTP", "Hysteria 2", "TUIC"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": false,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "6.60",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "v2rayng",
+    "name": "v2rayNG",
+    "aliases": ["v2rayNG Android"],
+    "category": "mobile-client",
+    "officialRepo": "https://github.com/2dust/v2rayNG",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Xray-core",
+    "description": "Android 平台主流的代理客户端，支持 VpnService 全局与分应用代理，对低功耗待机与网络切换具有良好优化。",
+    "platforms": [
+      {
+        "os": "Android",
+        "supportedVersions": "Android 5.0+",
+        "architectures": ["arm64-v8a", "armeabi-v7a", "x86_64", "universal"],
+        "packageTypes": ["apk"]
+      }
+    ],
+    "protocolsSupported": ["VMess", "VLESS", "Trojan", "Shadowsocks", "Socks5", "Hysteria 2"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": false,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "1.9.15",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "shadowrocket",
+    "name": "Shadowrocket",
+    "aliases": ["小火箭"],
+    "category": "mobile-client",
+    "officialRepo": null,
+    "officialSite": "https://apps.apple.com/app/shadowrocket/id932747118",
+    "license": "Proprietary",
+    "priceType": "paid-commercial",
+    "bundledCore": "Custom iOS NetworkExtension Core",
+    "description": "iOS 与 iPadOS 平台普及度极高的规则代理工具，支持扫码快速添加、按需连接、iCloud 同步与规则分流。",
+    "platforms": [
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 12.0+ / iPadOS 12.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store Official ($2.99 USD)"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "ShadowsocksR", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC", "WireGuard", "Snell"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": false,
+      "ruleProviders": true,
+      "proxyProviders": false,
+      "scriptExtension": true,
+      "builtInDns": true
+    },
+    "verifiedVersion": "2.2.62",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "flclash",
+    "name": "FlClash",
+    "aliases": ["FlClash Multiplatform"],
+    "category": "gui-client",
+    "officialRepo": "https://github.com/chen08209/FlClash",
+    "officialSite": null,
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "Mihomo (Clash Meta)",
+    "description": "基于 Flutter 开发的现代跨平台代理客户端，在 Windows、macOS、Linux、Android 上提供高度统一的 Material You 视觉与操作体验。",
+    "platforms": [
+      {
+        "os": "Windows",
+        "supportedVersions": "Windows 10+",
+        "architectures": ["x64", "arm64"],
+        "packageTypes": ["installer (.exe)", "portable (.zip)"]
+      },
+      {
+        "os": "Android",
+        "supportedVersions": "Android 7.0+",
+        "architectures": ["arm64-v8a", "universal"],
+        "packageTypes": ["apk"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 11+",
+        "architectures": ["arm64", "x64"],
+        "packageTypes": ["dmg"]
+      },
+      {
+        "os": "Linux",
+        "supportedVersions": "Mainstream distributions",
+        "architectures": ["x64"],
+        "packageTypes": ["AppImage", "deb"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria 2", "TUIC"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "0.8.69",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "hiddify",
+    "name": "Hiddify",
+    "aliases": ["Hiddify App", "Hiddify Next"],
+    "category": "gui-client",
+    "officialRepo": "https://github.com/hiddify/hiddify-app",
+    "officialSite": "https://hiddify.com",
+    "license": "GPL-3.0",
+    "priceType": "free-open-source",
+    "bundledCore": "sing-box",
+    "description": "基于 sing-box 核心的多协议跨平台通用客户端，注重开箱即用与自动节点优选，原生支持 20+ 种代理协议。",
+    "platforms": [
+      {
+        "os": "Windows",
+        "supportedVersions": "Windows 10+",
+        "architectures": ["x64", "arm64"],
+        "packageTypes": ["installer (.exe)", "portable (.zip)", "Microsoft Store"]
+      },
+      {
+        "os": "Android",
+        "supportedVersions": "Android 7.0+",
+        "architectures": ["arm64-v8a", "universal"],
+        "packageTypes": ["apk", "Google Play"]
+      },
+      {
+        "os": "macOS",
+        "supportedVersions": "macOS 12+",
+        "architectures": ["arm64", "x64"],
+        "packageTypes": ["dmg", "pkg"]
+      },
+      {
+        "os": "Linux",
+        "supportedVersions": "Ubuntu 22.04+, Debian 12+",
+        "architectures": ["x64"],
+        "packageTypes": ["AppImage", "deb", "rpm"]
+      },
+      {
+        "os": "iOS",
+        "supportedVersions": "iOS 15.0+",
+        "architectures": ["arm64"],
+        "packageTypes": ["App Store Official"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria", "Hysteria 2", "TUIC", "SSH", "WireGuard", "ShadowTLS"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": true,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "2.5.7",
+    "lastVerifiedAt": "2026-10-21"
+  },
+  {
+    "id": "sing-box",
+    "name": "sing-box",
+    "aliases": ["sing-box core", "SBox"],
+    "category": "core-and-client",
+    "officialRepo": "https://github.com/SagerNet/sing-box",
+    "officialSite": "https://sing-box.sagernet.org",
+    "license": "GPL-3.0-or-later",
+    "priceType": "free-open-source",
+    "bundledCore": "Self (Official Reference Implementation)",
+    "description": "新一代跨平台通用网络代理通用核心，使用 Go 编写，性能极致，具备独创的 JSON 结构与规则集 (SRS) 二进制格式。",
+    "platforms": [
+      {
+        "os": "Cross-Platform CLI",
+        "supportedVersions": "Windows, Linux, macOS, FreeBSD, Android",
+        "architectures": ["amd64", "arm64", "armv7", "riscv64", "mips"],
+        "packageTypes": ["binary-tar.gz", "zip"]
+      },
+      {
+        "os": "GUI Clients",
+        "supportedVersions": "Windows, macOS, iOS (App Store), Android (Google Play/APK)",
+        "architectures": ["x64", "arm64"],
+        "packageTypes": ["Native Apps"]
+      }
+    ],
+    "protocolsSupported": ["Shadowsocks", "VMess", "VLESS", "Trojan", "Hysteria", "Hysteria 2", "TUIC", "WireGuard", "Tor", "ShadowTLS", "Direct"],
+    "features": {
+      "tunMode": true,
+      "systemProxy": true,
+      "ruleProviders": true,
+      "proxyProviders": false,
+      "scriptExtension": false,
+      "builtInDns": true
+    },
+    "verifiedVersion": "1.10.1",
+    "lastVerifiedAt": "2026-10-21"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "ev-clash-verge-rev-win11-tun",
+    "softwareId": "clash-verge-rev",
+    "version": "1.7.7",
+    "testedAt": "2026-10-21",
+    "testEnvironment": "Windows 11 Pro 23H2 (Build 22631.4317), x64, Intel i7-13700K",
+    "methodology": "全新安装Clash Verge Rev，启用Service Mode，加载含有1000条标准ACL4SSR分流规则配置，测试开启TUN模式与DNS防泄露。",
+    "observedResults": {
+      "idleMemoryMB": 128,
+      "tunAdapterCreationTimeMs": 1400,
+      "dnsLeakStatus": "Passed (No ISP resolver leak)",
+      "exitCleanliness": "System proxy auto-cleared; Wintun adapter successfully detached"
+    },
+    "limitations": "仅在Windows 11 x64环境测试，ARM64 Windows及Windows 7/8需参考社区反馈。"
+  },
+  {
+    "id": "ev-v2rayn-win11-xray-singbox",
+    "softwareId": "v2rayn",
+    "version": "6.60",
+    "testedAt": "2026-10-21",
+    "testEnvironment": "Windows 11 Pro 23H2, .NET Desktop Runtime 8.0.10, Xray-core 1.8.24, sing-box 1.10.1",
+    "methodology": "解压v2rayN-With-Core.zip至非系统盘纯英文路径，分别在核心切换设置中选择Xray与sing-box执行真连接延迟测试与网页代理。",
+    "observedResults": {
+      "idleMemoryMB": 95,
+      "coreSwitchSuccess": true,
+      "portListeningStatus": "10808 (Socks) / 10809 (HTTP) active"
+    },
+    "limitations": "依赖宿主机必须提前安装Microsoft .NET 8 Desktop Runtime，否则报错闪退。"
+  }
+]

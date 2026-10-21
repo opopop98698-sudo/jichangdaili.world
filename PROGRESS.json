@@ -1,0 +1,24 @@
+{
+  "totalPlannedNodes": 729,
+  "statusCounts": {
+    "planned": 729,
+    "researching": 0,
+    "drafted": 0,
+    "reviewed": 110,
+    "published": 110,
+    "merged": 0,
+    "blocked": 0,
+    "failed": 0
+  },
+  "subsystemStatus": {
+    "projectContract": "LOCKED",
+    "routeMigration": "VERIFIED_GREENFIELD",
+    "vitepressCore": "ACTIVE",
+    "searchProvider": "local",
+    "sitemap": "AUTO_GENERATED",
+    "apacheDeploy": "CONFIGURED_READY",
+    "qaTests": "PASSING",
+    "productionBuild": "PASSING"
+  },
+  "lastUpdated": "2026-10-21T14:52:00Z"
+}
