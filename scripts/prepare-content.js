@@ -66,11 +66,14 @@ syncDir(contentDir, generatedDir);
 
 // 4. Copy public assets if any
 if (fs.existsSync(publicAssetsDir)) {
-  const publicDest = path.join(generatedDir, 'public');
-  fs.mkdirSync(publicDest, { recursive: true });
+  const publicDestGenerated = path.join(generatedDir, 'public');
+  const publicDestSite = path.join(rootDir, 'site', 'public');
+  fs.mkdirSync(publicDestGenerated, { recursive: true });
+  fs.mkdirSync(publicDestSite, { recursive: true });
   const assetFiles = fs.readdirSync(publicAssetsDir);
   for (const f of assetFiles) {
-    fs.copyFileSync(path.join(publicAssetsDir, f), path.join(publicDest, f));
+    fs.copyFileSync(path.join(publicAssetsDir, f), path.join(publicDestGenerated, f));
+    fs.copyFileSync(path.join(publicAssetsDir, f), path.join(publicDestSite, f));
   }
 }
 

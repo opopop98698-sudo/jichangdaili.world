@@ -174,6 +174,7 @@ export default defineConfig({
   description: '代理客户端官方下载、全平台安装、订阅配置、故障排查、客观评测与兼容机场指南。',
   lang: 'zh-CN',
   cleanUrls: true,
+  srcDir: 'generated',
   sitemap: {
     hostname: 'https://jichangdaili.world'
   },

@@ -5,7 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/prepare-content.js && vitepress dev site/generated --config ../site/.vitepress/config.mts",
+    "dev": "node scripts/prepare-content.js && vitepress dev site",
     "content:plan": "node scripts/plan-content.js",
     "content:prepare": "node scripts/prepare-content.js",
     "check:content": "node scripts/check-content.js",
@@ -13,8 +13,8 @@
     "check:secrets": "node scripts/check-secrets.js",
     "typecheck": "tsc --noEmit",
     "test": "node scripts/run-tests.js",
-    "build": "node scripts/prepare-content.js && node scripts/check-content.js && node scripts/check-links.js && node scripts/check-secrets.js && vitepress build site/generated --config ../site/.vitepress/config.mts && node scripts/generate-sitemap.js",
-    "preview": "vitepress preview site/generated --config ../site/.vitepress/config.mts",
+    "build": "node scripts/prepare-content.js && node scripts/check-content.js && node scripts/check-links.js && node scripts/check-secrets.js && vitepress build site && node scripts/generate-sitemap.js",
+    "preview": "vitepress preview site",
     "check:all": "node scripts/check-all.js"
   },
   "devDependencies": {

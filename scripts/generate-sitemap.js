@@ -4,12 +4,15 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..');
-const distDir = path.join(rootDir, 'site', 'generated', '.vitepress', 'dist');
+const sourceDist = fs.existsSync(path.join(rootDir, 'site', '.vitepress', 'dist'))
+  ? path.join(rootDir, 'site', '.vitepress', 'dist')
+  : path.join(rootDir, 'site', 'generated', '.vitepress', 'dist');
+const targetDist = path.join(rootDir, 'dist');
 
 console.log('[generate-sitemap] Generating XML sitemap from build artifacts ...');
 
-if (!fs.existsSync(distDir)) {
-  console.error('Error: dist directory does not exist. Run build first.');
+if (!fs.existsSync(sourceDist)) {
+  console.error('Error: build directory does not exist at ' + sourceDist + '. Run build first.');
   process.exit(1);
 }
 
@@ -23,7 +26,7 @@ function scanHtml(current) {
     if (entry.isDirectory()) {
       scanHtml(full);
     } else if (entry.isFile() && entry.name.endsWith('.html')) {
-      const rel = path.relative(distDir, full).replace(/\\/g, '/');
+      const rel = path.relative(sourceDist, full).replace(/\\/g, '/');
 
       // Exclude 404.html
       if (rel === '404.html') continue;
@@ -52,7 +55,7 @@ function scanHtml(current) {
   }
 }
 
-scanHtml(distDir);
+scanHtml(sourceDist);
 
 urls.sort((a, b) => b.priority.localeCompare(a.priority) || a.loc.localeCompare(b.loc));
 
@@ -70,7 +73,14 @@ for (const u of urls) {
 
 xml += `</urlset>\n`;
 
-const sitemapPath = path.join(distDir, 'sitemap.xml');
+const sitemapPath = path.join(sourceDist, 'sitemap.xml');
 fs.writeFileSync(sitemapPath, xml, 'utf8');
-
 console.log(`[generate-sitemap] Successfully generated sitemap.xml with ${urls.length} URLs at ${sitemapPath}`);
+
+// Also synchronize the complete build to root dist/ for Apache deployment
+console.log(`[generate-sitemap] Mirroring build output to ${targetDist} for Apache deployment ...`);
+if (fs.existsSync(targetDist)) {
+  fs.rmSync(targetDist, { recursive: true, force: true });
+}
+fs.cpSync(sourceDist, targetDist, { recursive: true });
+console.log(`[generate-sitemap] Root dist/ mirrored successfully.`);
