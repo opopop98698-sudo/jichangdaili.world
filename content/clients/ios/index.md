@@ -68,6 +68,32 @@ modifiedAt: "2026-10-21"
 - [Shadowrocket 小火箭首次下载与订阅导入图文实操](/install/shadowrocket/)
 - [Stash 导入 Clash YAML 配置与覆写规则配置教程](/subscription/)
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[商店条目识别](/clients/ios/app-store-identity/)
+
+iPhone 与 iPad 客户端下的「商店条目识别」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**认准正版Shadowrocket：官方开发者与App Store唯一识别码**](/clients/shadowrocket-official-app-store-identifier/)：针对「认准正版Shadowrocket：官方开发者与App Store唯一识别码」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**iOS四大进阶网络工具Surge、Loon、Stash与QX身份核验**](/clients/surge-loon-stash-quantumult-x-overview/)：针对「iOS四大进阶网络工具Surge、Loon、Stash与QX身份核验」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box在iOS平台的TestFlight公测与正式App Store入口**](/clients/singbox-ios-testflight-and-appstore-entry/)：针对「sing-box在iOS平台的TestFlight公测与正式App Store入口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[分发条件与购买记录](/clients/ios/distribution-purchase-history/)
+
+iPhone 与 iPad 客户端下的「分发条件与购买记录」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**非国区Apple ID下载客户端的安全流程与礼品卡充值须知**](/clients/us-region-apple-id-client-download-guide/)：针对「非国区Apple ID下载客户端的安全流程与礼品卡充值须知」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**网上共享Apple ID下载小火箭导致设备被锁的风险与防范**](/clients/shared-apple-id-security-risks-for-ios/)：针对「网上共享Apple ID下载小火箭导致设备被锁的风险与防范」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**换新iPhone后如何使用已购项目恢复已付费代理软件**](/clients/restoring-in-app-purchases-on-new-iphone/)：针对「换新iPhone后如何使用已购项目恢复已付费代理软件」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'Shadowrocket 安装与系统授权', url: '/install/shadowrocket/', taskType: 'install', description: 'iOS 安装后添加 VPN 配置与证书安装' },

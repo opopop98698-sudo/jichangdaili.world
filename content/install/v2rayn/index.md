@@ -1,5 +1,5 @@
 ---
-title: "v2rayN 安装｜安装教程｜机场代理｜安装教程｜机场代理"
+title: "v2rayN 安装"
 description: "v2rayN 安装｜安装教程｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：解压与运行环境 - v2rayN 安装｜机场代理
+### 集群：[核心启动与基础验收](/install/v2rayn/core-startup-verification/)
 
 v2rayN 安装下的「解压与运行环境」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **v2rayN解压路径选择：避开中文目录与系统C盘权限坑**：针对「v2rayN解压路径选择：避开中文目录与系统C盘权限坑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **安装v2rayN必备的Microsoft .NET 8 Desktop Runtime**：针对「安装v2rayN必备的Microsoft .NET 8 Desktop Runtime」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **v2rayN初次启动托盘图标变色逻辑与主界面基础布局**：针对「v2rayN初次启动托盘图标变色逻辑与主界面基础布局」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayN解压路径选择：避开中文目录与系统C盘权限坑**](/install/v2rayn-extract-and-folder-permissions/)：针对「v2rayN解压路径选择：避开中文目录与系统C盘权限坑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**安装v2rayN必备的Microsoft .NET 8 Desktop Runtime**](/install/dotnet-desktop-runtime-install-for-v2rayn/)：针对「安装v2rayN必备的Microsoft .NET 8 Desktop Runtime」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayN初次启动托盘图标变色逻辑与主界面基础布局**](/install/v2rayn-initial-settings-and-tray-icon/)：针对「v2rayN初次启动托盘图标变色逻辑与主界面基础布局」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：核心启动与基础验收 - v2rayN 安装｜机场代理
+### 集群：[核心启动与基础验收](/install/v2rayn/core-startup-verification/)
 
 v2rayN 安装下的「核心启动与基础验收」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **在v2rayN中选定默认运行核心：Xray与sing-box的切换**：针对「在v2rayN中选定默认运行核心：Xray与sing-box的切换」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **检查v2rayN核心是否正常监听10808与10809本地端口**：针对「检查v2rayN核心是否正常监听10808与10809本地端口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **处理Windows Defender安全中心首次弹出的防火墙网络许可**：针对「处理Windows Defender安全中心首次弹出的防火墙网络许可」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在v2rayN中选定默认运行核心：Xray与sing-box的切换**](/install/v2rayn-select-default-core-xray-vs-singbox/)：针对「在v2rayN中选定默认运行核心：Xray与sing-box的切换」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**检查v2rayN核心是否正常监听10808与10809本地端口**](/install/verifying-v2rayn-core-listen-ports/)：针对「检查v2rayN核心是否正常监听10808与10809本地端口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**处理Windows Defender安全中心首次弹出的防火墙网络许可**](/install/v2rayn-first-start-firewall-prompt-handling/)：针对「处理Windows Defender安全中心首次弹出的防火墙网络许可」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ v2rayN 安装下的「核心启动与基础验收」三级集群综合知识库�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[解压与运行环境](/install/v2rayn/extract-runtime-setup/)
+
+v2rayN 安装下的「解压与运行环境」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**v2rayN解压路径选择：避开中文目录与系统C盘权限坑**](/install/v2rayn-extract-and-folder-permissions/)：针对「v2rayN解压路径选择：避开中文目录与系统C盘权限坑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**安装v2rayN必备的Microsoft .NET 8 Desktop Runtime**](/install/dotnet-desktop-runtime-install-for-v2rayn/)：针对「安装v2rayN必备的Microsoft .NET 8 Desktop Runtime」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayN初次启动托盘图标变色逻辑与主界面基础布局**](/install/v2rayn-initial-settings-and-tray-icon/)：针对「v2rayN初次启动托盘图标变色逻辑与主界面基础布局」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

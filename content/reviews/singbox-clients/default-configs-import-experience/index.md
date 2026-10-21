@@ -1,5 +1,5 @@
 ---
-title: "默认配置与导入｜sing-box 客户端比较｜客户端评测"
+title: "默认配置与导入"
 description: "sing-box 客户端比较下的「默认配置与导入」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

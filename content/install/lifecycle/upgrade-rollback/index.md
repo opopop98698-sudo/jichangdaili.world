@@ -1,5 +1,5 @@
 ---
-title: "升级与回退｜升级、迁移与卸载｜安装教程"
+title: "升级与回退"
 description: "升级、迁移与卸载下的「升级与回退」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

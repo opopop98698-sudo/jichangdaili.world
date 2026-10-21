@@ -41,6 +41,32 @@ modifiedAt: "2026-10-21"
 - [Clash Verge Rev 点击后托盘无图标且进程静默退出的排查](/troubleshooting/troubleshoot-clash-verge-rev-silent-exit/)
 - [v2rayN 启动报错“应用程序发生未处理的异常”修复](/troubleshooting/troubleshoot-v2rayn-crash-on-splash-screen/)
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[启动与进程](/troubleshooting/startup/process-exit-startup/)
+
+客户端启动失败下的「启动与进程」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Clash Verge Rev点击后托盘无图标且进程静默退出的排查**](/troubleshooting/troubleshoot-clash-verge-rev-silent-exit/)：针对「Clash Verge Rev点击后托盘无图标且进程静默退出的排查」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayN启动报错“应用程序发生未处理的异常”修复**](/troubleshooting/troubleshoot-v2rayn-crash-on-splash-screen/)：针对「v2rayN启动报错“应用程序发生未处理的异常”修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Windows Defender SmartScreen拦截客户端启动的解除**](/troubleshooting/troubleshoot-client-app-blocked-by-smartscreen/)：针对「Windows Defender SmartScreen拦截客户端启动的解除」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[端口与多实例](/troubleshooting/startup/port-conflicts-instances/)
+
+客户端启动失败下的「端口与多实例」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**报错“bind: address already in use: 7890”端口占用诊断**](/troubleshooting/port-7890-already-in-use-diagnosis-and-fix/)：针对「报错“bind: address already in use: 7890”端口占用诊断」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**通过任务管理器排查并在后台终止僵尸状态的代理核心进程**](/troubleshooting/detecting-hidden-zombie-proxy-core-processes/)：针对「通过任务管理器排查并在后台终止僵尸状态的代理核心进程」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在配置文件中修改混合端口(mixed-port)彻底解决端口冲突**](/troubleshooting/changing-default-mixed-port-to-avoid-conflict/)：针对「在配置文件中修改混合端口(mixed-port)彻底解决端口冲突」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'Windows 安装依赖与准备', url: '/install/prerequisites/', taskType: 'install', description: '下载安装微软官方 VC++ 2015-2022 运行库' },

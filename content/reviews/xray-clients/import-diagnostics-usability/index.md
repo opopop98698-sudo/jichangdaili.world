@@ -1,5 +1,5 @@
 ---
-title: "导入和诊断｜Xray 与多核心客户端比较｜客户端评测"
+title: "导入和诊断"
 description: "Xray 与多核心客户端比较下的「导入和诊断」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

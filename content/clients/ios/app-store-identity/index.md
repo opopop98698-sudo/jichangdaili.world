@@ -1,5 +1,5 @@
 ---
-title: "商店条目识别｜iPhone 与 iPad 客户端｜客户端下载"
+title: "商店条目识别"
 description: "iPhone 与 iPad 客户端下的「商店条目识别」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

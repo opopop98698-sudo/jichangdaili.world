@@ -1,5 +1,5 @@
 ---
-title: "AI 与开发工具｜AI、视频与开发工具故障｜故障排查"
+title: "AI 与开发工具"
 description: "AI、视频与开发工具故障下的「AI 与开发工具」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

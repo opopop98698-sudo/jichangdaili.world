@@ -1,5 +1,5 @@
 ---
-title: "办公、AI与视频任务适配｜机场推荐｜机场代理｜机场推荐｜机场代理"
+title: "办公、AI与视频任务适配"
 description: "办公、AI与视频任务适配｜机场推荐｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：办公与AI需求 - 办公、AI与视频任务适配｜机场代理
+### 集群：[视频与高峰条件](/recommend/workload/streaming-peak-hours/)
 
 办公、AI与视频任务适配下的「办公与AI需求」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **ChatGPT与Claude等AI工具对原生IP纯净度与欺诈值的要求**：针对「ChatGPT与Claude等AI工具对原生IP纯净度与欺诈值的要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **开发者远程代码拉取与SSH连接长久保活的线路要求**：针对「开发者远程代码拉取与SSH连接长久保活的线路要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **跨国视频会议Zoom与Teams对抖动与丢包率的底线指标**：针对「跨国视频会议Zoom与Teams对抖动与丢包率的底线指标」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**ChatGPT与Claude等AI工具对原生IP纯净度与欺诈值的要求**](/recommend/chatgpt-claude-ai-clean-ip-airports/)：针对「ChatGPT与Claude等AI工具对原生IP纯净度与欺诈值的要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**开发者远程代码拉取与SSH连接长久保活的线路要求**](/recommend/github-remote-dev-ssh-airport-stability/)：针对「开发者远程代码拉取与SSH连接长久保活的线路要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**跨国视频会议Zoom与Teams对抖动与丢包率的底线指标**](/recommend/remote-office-zoom-teams-jitter-thresholds/)：针对「跨国视频会议Zoom与Teams对抖动与丢包率的底线指标」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：视频与高峰条件 - 办公、AI与视频任务适配｜机场代理
+### 集群：[视频与高峰条件](/recommend/workload/streaming-peak-hours/)
 
 办公、AI与视频任务适配下的「视频与高峰条件」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **4K超高清视频流媒体解锁与动态DNS证书检测**：针对「4K超高清视频流媒体解锁与动态DNS证书检测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **晚高峰期IPLC专线、IEPL专线与普通公网中转体验差异**：针对「晚高峰期IPLC专线、IEPL专线与普通公网中转体验差异」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **不同地区流媒体分流节点广播IP与原生机房IP的辨识**：针对「不同地区流媒体分流节点广播IP与原生机房IP的辨识」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**4K超高清视频流媒体解锁与动态DNS证书检测**](/recommend/netflix-disney-youtube-4k-airports/)：针对「4K超高清视频流媒体解锁与动态DNS证书检测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**晚高峰期IPLC专线、IEPL专线与普通公网中转体验差异**](/recommend/peak-hour-iplc-iepl-transit-lines-guide/)：针对「晚高峰期IPLC专线、IEPL专线与普通公网中转体验差异」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**不同地区流媒体分流节点广播IP与原生机房IP的辨识**](/recommend/regional-content-streaming-ip-types/)：针对「不同地区流媒体分流节点广播IP与原生机房IP的辨识」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[办公与AI需求](/recommend/workload/office-ai-workload/)
+
+办公、AI与视频任务适配下的「办公与AI需求」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**ChatGPT与Claude等AI工具对原生IP纯净度与欺诈值的要求**](/recommend/chatgpt-claude-ai-clean-ip-airports/)：针对「ChatGPT与Claude等AI工具对原生IP纯净度与欺诈值的要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**开发者远程代码拉取与SSH连接长久保活的线路要求**](/recommend/github-remote-dev-ssh-airport-stability/)：针对「开发者远程代码拉取与SSH连接长久保活的线路要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**跨国视频会议Zoom与Teams对抖动与丢包率的底线指标**](/recommend/remote-office-zoom-teams-jitter-thresholds/)：针对「跨国视频会议Zoom与Teams对抖动与丢包率的底线指标」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

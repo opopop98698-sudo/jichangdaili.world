@@ -1,5 +1,5 @@
 ---
-title: "FlClash 安装｜安装教程｜机场代理｜安装教程｜机场代理"
+title: "FlClash 安装"
 description: "FlClash 安装｜安装教程｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：桌面安装流程 - FlClash 安装｜机场代理
+### 集群：[移动安装与授权](/install/flclash/mobile-install-permissions/)
 
 FlClash 安装下的「桌面安装流程」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **FlClash在Windows系统的安装步骤与Flutter环境要求**：针对「FlClash在Windows系统的安装步骤与Flutter环境要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **FlClash在Mac平台安装与原生Apple Silicon支持验证**：针对「FlClash在Mac平台安装与原生Apple Silicon支持验证」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Linux下赋予FlClash AppImage执行权限并创建桌面快捷入口**：针对「Linux下赋予FlClash AppImage执行权限并创建桌面快捷入口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**FlClash在Windows系统的安装步骤与Flutter环境要求**](/install/flclash-windows-installation-and-setup/)：针对「FlClash在Windows系统的安装步骤与Flutter环境要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**FlClash在Mac平台安装与原生Apple Silicon支持验证**](/install/flclash-macos-installation-and-arm64-support/)：针对「FlClash在Mac平台安装与原生Apple Silicon支持验证」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Linux下赋予FlClash AppImage执行权限并创建桌面快捷入口**](/install/flclash-linux-appimage-run-permissions/)：针对「Linux下赋予FlClash AppImage执行权限并创建桌面快捷入口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：移动安装与授权 - FlClash 安装｜机场代理
+### 集群：[移动安装与授权](/install/flclash/mobile-install-permissions/)
 
 FlClash 安装下的「移动安装与授权」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **FlClash Android客户端安装与Material You界面初始化**：针对「FlClash Android客户端安装与Material You界面初始化」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **FlClash iOS公测版本安装与网络扩展授权说明**：针对「FlClash iOS公测版本安装与网络扩展授权说明」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **核对FlClash在各端统一的策略组管理与核心版本**：针对「核对FlClash在各端统一的策略组管理与核心版本」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**FlClash Android客户端安装与Material You界面初始化**](/install/flclash-android-installation-and-vpn-setup/)：针对「FlClash Android客户端安装与Material You界面初始化」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**FlClash iOS公测版本安装与网络扩展授权说明**](/install/flclash-ios-testflight-installation-notes/)：针对「FlClash iOS公测版本安装与网络扩展授权说明」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**核对FlClash在各端统一的策略组管理与核心版本**](/install/flclash-cross-device-ui-consistency-check/)：针对「核对FlClash在各端统一的策略组管理与核心版本」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ FlClash 安装下的「移动安装与授权」三级集群综合知识库，包
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[桌面安装流程](/install/flclash/desktop-install-workflow/)
+
+FlClash 安装下的「桌面安装流程」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**FlClash在Windows系统的安装步骤与Flutter环境要求**](/install/flclash-windows-installation-and-setup/)：针对「FlClash在Windows系统的安装步骤与Flutter环境要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**FlClash在Mac平台安装与原生Apple Silicon支持验证**](/install/flclash-macos-installation-and-arm64-support/)：针对「FlClash在Mac平台安装与原生Apple Silicon支持验证」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Linux下赋予FlClash AppImage执行权限并创建桌面快捷入口**](/install/flclash-linux-appimage-run-permissions/)：针对「Linux下赋予FlClash AppImage执行权限并创建桌面快捷入口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

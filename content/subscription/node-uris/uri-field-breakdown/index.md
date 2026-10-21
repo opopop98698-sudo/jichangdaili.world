@@ -1,5 +1,5 @@
 ---
-title: "节点链接字段｜VLESS、VMess 与 Trojan 节点｜订阅配置"
+title: "节点链接字段"
 description: "VLESS、VMess 与 Trojan 节点下的「节点链接字段」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

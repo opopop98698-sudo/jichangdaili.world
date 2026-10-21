@@ -1,5 +1,5 @@
 ---
-title: "苹果设备机场选择｜机场推荐｜机场代理｜机场推荐｜机场代理"
+title: "苹果设备机场选择"
 description: "苹果设备机场选择｜机场推荐｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：iPhone 与 iPad 选型 - 苹果设备机场选择｜机场代理
+### 集群：[Mac 与苹果多设备](/recommend/apple/macos-multi-device/)
 
 苹果设备机场选择下的「iPhone 与 iPad 选型」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **小火箭Shadowrocket用户选购机场的核心避坑清单**：针对「小火箭Shadowrocket用户选购机场的核心避坑清单」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **iOS按需连接On-Demand特性对节点握手延迟的严苛要求**：针对「iOS按需连接On-Demand特性对节点握手延迟的严苛要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Loon、Surge与Stash高端规则客户端对应的节点质量门槛**：针对「Loon、Surge与Stash高端规则客户端对应的节点质量门槛」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**小火箭Shadowrocket用户选购机场的核心避坑清单**](/recommend/shadowrocket-subscription-airport-checklist/)：针对「小火箭Shadowrocket用户选购机场的核心避坑清单」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**iOS按需连接On-Demand特性对节点握手延迟的严苛要求**](/recommend/ios-on-demand-vpn-airport-criteria/)：针对「iOS按需连接On-Demand特性对节点握手延迟的严苛要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Loon、Surge与Stash高端规则客户端对应的节点质量门槛**](/recommend/loon-surge-stash-premium-airport-fit/)：针对「Loon、Surge与Stash高端规则客户端对应的节点质量门槛」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：Mac 与苹果多设备 - 苹果设备机场选择｜机场代理
+### 集群：[Mac 与苹果多设备](/recommend/apple/macos-multi-device/)
 
 苹果设备机场选择下的「Mac 与苹果多设备」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Mac平台原生ARM架构客户端支持与机场多节点切换**：针对「Mac平台原生ARM架构客户端支持与机场多节点切换」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **iCloud专用代理与第三方客户端并存时的机场选型注意**：针对「iCloud专用代理与第三方客户端并存时的机场选型注意」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **苹果全家桶多设备同开时机场并发连接与IP限制核对**：针对「苹果全家桶多设备同开时机场并发连接与IP限制核对」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Mac平台原生ARM架构客户端支持与机场多节点切换**](/recommend/macos-apple-silicon-native-client-airports/)：针对「Mac平台原生ARM架构客户端支持与机场多节点切换」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**iCloud专用代理与第三方客户端并存时的机场选型注意**](/recommend/icloud-private-relay-airport-coexistence/)：针对「iCloud专用代理与第三方客户端并存时的机场选型注意」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**苹果全家桶多设备同开时机场并发连接与IP限制核对**](/recommend/apple-ecosystem-multi-device-concurrency/)：针对「苹果全家桶多设备同开时机场并发连接与IP限制核对」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[iPhone 与 iPad 选型](/recommend/apple/ios-ipados-selection/)
+
+苹果设备机场选择下的「iPhone 与 iPad 选型」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**小火箭Shadowrocket用户选购机场的核心避坑清单**](/recommend/shadowrocket-subscription-airport-checklist/)：针对「小火箭Shadowrocket用户选购机场的核心避坑清单」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**iOS按需连接On-Demand特性对节点握手延迟的严苛要求**](/recommend/ios-on-demand-vpn-airport-criteria/)：针对「iOS按需连接On-Demand特性对节点握手延迟的严苛要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Loon、Surge与Stash高端规则客户端对应的节点质量门槛**](/recommend/loon-surge-stash-premium-airport-fit/)：针对「Loon、Surge与Stash高端规则客户端对应的节点质量门槛」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

@@ -1,5 +1,5 @@
 ---
-title: "来源核验｜免费节点与订阅来源｜免费机场"
+title: "来源核验"
 description: "免费节点与订阅来源下的「来源核验」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

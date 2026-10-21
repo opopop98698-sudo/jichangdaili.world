@@ -73,6 +73,32 @@ sudo xattr -cr /Applications/Clash\ Verge.app
 
 ## 4. 相关教程与实操指引
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[芯片与构建类型](/clients/macos/apple-silicon-intel-builds/)
+
+macOS 客户端下的「芯片与构建类型」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**M1/M2/M3 Apple Silicon与Intel芯片该下载哪个macOS包**](/clients/apple-silicon-m-series-vs-intel-pkg-choice/)：针对「M1/M2/M3 Apple Silicon与Intel芯片该下载哪个macOS包」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**macOS通用二进制包与单架构原生构建的内存占用分析**](/clients/universal-binary-macos-proxy-performance/)：针对「macOS通用二进制包与单架构原生构建的内存占用分析」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**使用Rosetta转译运行老旧x64客户端的性能与续航损耗**](/clients/rosetta-translation-overhead-for-clients/)：针对「使用Rosetta转译运行老旧x64客户端的性能与续航损耗」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[系统与签名资料](/clients/macos/macos-signatures-gatekeeper/)
+
+macOS 客户端下的「系统与签名资料」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**macOS提示“无法打开因为无法验证开发者”的正规解法**](/clients/bypass-macos-gatekeeper-unidentified-dev/)：针对「macOS提示“无法打开因为无法验证开发者”的正规解法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**DMG直接拖入Applications与Homebrew Cask安装的优劣**](/clients/dmg-drag-install-vs-homebrew-cask-macos/)：针对「DMG直接拖入Applications与Homebrew Cask安装的优劣」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**macOS系统网络扩展授权与Helper工具安装官方指引**](/clients/system-network-extension-permissions-mac/)：针对「macOS系统网络扩展授权与Helper工具安装官方指引」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'Clash Verge Rev macOS 安装指南', url: '/install/verge-rev/', taskType: 'install', description: 'DMG 安装、首次授权与服务模式配置' },

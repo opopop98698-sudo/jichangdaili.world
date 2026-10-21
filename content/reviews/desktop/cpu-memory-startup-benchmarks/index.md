@@ -1,5 +1,5 @@
 ---
-title: "CPU、内存与启动｜桌面资源与连接表现｜客户端评测"
+title: "CPU、内存与启动"
 description: "桌面资源与连接表现下的「CPU、内存与启动」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

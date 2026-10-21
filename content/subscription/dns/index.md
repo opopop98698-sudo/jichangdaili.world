@@ -1,5 +1,5 @@
 ---
-title: "DNS 配置与解析策略｜订阅配置｜机场代理｜订阅配置｜机场代理"
+title: "DNS 配置与解析策略"
 description: "DNS 配置与解析策略｜订阅配置｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：解析链与选择 - DNS 配置与解析策略｜机场代理
+### 集群：[分流与地址结果](/subscription/dns/routing-address-resolution/)
 
 DNS 配置与解析策略下的「解析链与选择」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Clash DNS配置详解：nameserver与fallback的分流逻辑**：针对「Clash DNS配置详解：nameserver与fallback的分流逻辑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **在客户端中配置DoH与DoT加密DNS防止运营商劫持**：针对「在客户端中配置DoH与DoT加密DNS防止运营商劫持」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **default-nameserver引导DNS的作用与必须使用纯IP的原因**：针对「default-nameserver引导DNS的作用与必须使用纯IP的原因」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Clash DNS配置详解：nameserver与fallback的分流逻辑**](/subscription/clash-dns-nameserver-vs-fallback-chain/)：针对「Clash DNS配置详解：nameserver与fallback的分流逻辑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在客户端中配置DoH与DoT加密DNS防止运营商劫持**](/subscription/doh-dot-encrypted-dns-setup-in-clients/)：针对「在客户端中配置DoH与DoT加密DNS防止运营商劫持」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**default-nameserver引导DNS的作用与必须使用纯IP的原因**](/subscription/default-nameserver-bootstrap-resolution/)：针对「default-nameserver引导DNS的作用与必须使用纯IP的原因」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：分流与地址结果 - DNS 配置与解析策略｜机场代理
+### 集群：[分流与地址结果](/subscription/dns/routing-address-resolution/)
 
 DNS 配置与解析策略下的「分流与地址结果」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Fake-IP模式原理：198.18.0.0/16虚拟IP池如何提升响应速度**：针对「Fake-IP模式原理：198.18.0.0/16虚拟IP池如何提升响应速度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **配置fake-ip-filter避开网易云音乐、局域网与联机游戏**：针对「配置fake-ip-filter避开网易云音乐、局域网与联机游戏」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Redir-Host已被淘汰：为什么所有主流客户端转向Fake-IP**：针对「Redir-Host已被淘汰：为什么所有主流客户端转向Fake-IP」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Fake-IP模式原理：198.18.0.0/16虚拟IP池如何提升响应速度**](/subscription/understanding-fake-ip-pool-mechanics/)：针对「Fake-IP模式原理：198.18.0.0/16虚拟IP池如何提升响应速度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**配置fake-ip-filter避开网易云音乐、局域网与联机游戏**](/subscription/fake-ip-filter-tuning-for-local-apps/)：针对「配置fake-ip-filter避开网易云音乐、局域网与联机游戏」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Redir-Host已被淘汰：为什么所有主流客户端转向Fake-IP**](/subscription/redir-host-vs-fake-ip-in-modern-clients/)：针对「Redir-Host已被淘汰：为什么所有主流客户端转向Fake-IP」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ DNS 配置与解析策略下的「分流与地址结果」三级集群综合知�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[解析链与选择](/subscription/dns/resolution-chain-selection/)
+
+DNS 配置与解析策略下的「解析链与选择」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Clash DNS配置详解：nameserver与fallback的分流逻辑**](/subscription/clash-dns-nameserver-vs-fallback-chain/)：针对「Clash DNS配置详解：nameserver与fallback的分流逻辑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在客户端中配置DoH与DoT加密DNS防止运营商劫持**](/subscription/doh-dot-encrypted-dns-setup-in-clients/)：针对「在客户端中配置DoH与DoT加密DNS防止运营商劫持」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**default-nameserver引导DNS的作用与必须使用纯IP的原因**](/subscription/default-nameserver-bootstrap-resolution/)：针对「default-nameserver引导DNS的作用与必须使用纯IP的原因」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

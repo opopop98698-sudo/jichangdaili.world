@@ -39,6 +39,32 @@ modifiedAt: "2026-10-21"
 - [Clash Verge Rev在macOS上的安装与辅助功能权限授予](/install/clash-verge-rev-macos-dmg-install-guide/)
 - [安装Clash Verge服务模式(Service Mode)以启用TUN虚拟网卡](/install/install-verge-service-mode-for-tun/)
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[安装与首次启动](/install/verge-rev/install-first-launch/)
+
+Clash Verge Rev 安装下的「安装与首次启动」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Clash Verge Rev在Windows 11上的安装与首次启动教程**](/install/clash-verge-rev-windows-setup-walkthrough/)：针对「Clash Verge Rev在Windows 11上的安装与首次启动教程」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Clash Verge Rev在macOS上的安装与辅助功能权限授予**](/install/clash-verge-rev-macos-dmg-install-guide/)：针对「Clash Verge Rev在macOS上的安装与辅助功能权限授予」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**首次运行Clash Verge Rev切换中文界面与核对Mihomo核心**](/install/clash-verge-rev-first-run-language-and-kernel/)：针对「首次运行Clash Verge Rev切换中文界面与核对Mihomo核心」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[后台服务与退出](/install/verge-rev/service-mode-exit/)
+
+Clash Verge Rev 安装下的「后台服务与退出」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**安装Clash Verge服务模式(Service Mode)以启用TUN虚拟网卡**](/install/install-verge-service-mode-for-tun/)：针对「安装Clash Verge服务模式(Service Mode)以启用TUN虚拟网卡」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**配置开机无感静默自启与最小化到系统托盘**](/install/clash-verge-rev-auto-start-on-boot-config/)：针对「配置开机无感静默自启与最小化到系统托盘」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**彻底退出Clash Verge Rev并自动恢复Windows系统代理**](/install/clean-exit-and-system-proxy-reset-verge/)：针对「彻底退出Clash Verge Rev并自动恢复Windows系统代理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'Clash YAML 配置文件深度解析', url: '/subscription/clash-yaml/', taskType: 'subscription', description: '学习编写与阅读 Clash 的节点与策略组' },

@@ -1,5 +1,5 @@
 ---
-title: "移动安装与授权｜FlClash 安装｜安装教程"
+title: "移动安装与授权"
 description: "FlClash 安装下的「移动安装与授权」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

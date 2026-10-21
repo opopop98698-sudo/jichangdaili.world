@@ -1,5 +1,5 @@
 ---
-title: "Hiddify 安装｜安装教程｜机场代理｜安装教程｜机场代理"
+title: "Hiddify 安装"
 description: "Hiddify 安装｜安装教程｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：首次安装和初始化 - Hiddify 安装｜机场代理
+### 集群：[系统集成与卸载](/install/hiddify/system-integration-uninstall/)
 
 Hiddify 安装下的「首次安装和初始化」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Hiddify在Windows 10/11系统的安装与首次运行**：针对「Hiddify在Windows 10/11系统的安装与首次运行」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Hiddify Android端安装与原生中文语言包设置**：针对「Hiddify Android端安装与原生中文语言包设置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Hiddify macOS端安装包安全权限解锁与核心初始化**：针对「Hiddify macOS端安装包安全权限解锁与核心初始化」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify在Windows 10/11系统的安装与首次运行**](/install/hiddify-windows-setup-and-first-launch/)：针对「Hiddify在Windows 10/11系统的安装与首次运行」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify Android端安装与原生中文语言包设置**](/install/hiddify-android-apk-install-and-defaults/)：针对「Hiddify Android端安装与原生中文语言包设置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify macOS端安装包安全权限解锁与核心初始化**](/install/hiddify-macos-installation-and-security-prompt/)：针对「Hiddify macOS端安装包安全权限解锁与核心初始化」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：系统集成与卸载 - Hiddify 安装｜机场代理
+### 集群：[系统集成与卸载](/install/hiddify/system-integration-uninstall/)
 
 Hiddify 安装下的「系统集成与卸载」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **在Hiddify中一键开启系统代理与TUN虚拟网卡驱动**：针对「在Hiddify中一键开启系统代理与TUN虚拟网卡驱动」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **配置Hiddify开机自启动与最小化至系统托盘工作模式**：针对「配置Hiddify开机自启动与最小化至系统托盘工作模式」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **彻底卸载Hiddify并清除残留虚拟网卡与网络配置**：针对「彻底卸载Hiddify并清除残留虚拟网卡与网络配置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在Hiddify中一键开启系统代理与TUN虚拟网卡驱动**](/install/hiddify-system-proxy-and-tun-service-setup/)：针对「在Hiddify中一键开启系统代理与TUN虚拟网卡驱动」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**配置Hiddify开机自启动与最小化至系统托盘工作模式**](/install/hiddify-auto-startup-and-minimize-to-tray/)：针对「配置Hiddify开机自启动与最小化至系统托盘工作模式」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**彻底卸载Hiddify并清除残留虚拟网卡与网络配置**](/install/clean-uninstall-hiddify-and-remove-adapters/)：针对「彻底卸载Hiddify并清除残留虚拟网卡与网络配置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ Hiddify 安装下的「系统集成与卸载」三级集群综合知识库，包
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[首次安装和初始化](/install/hiddify/first-install-initialization/)
+
+Hiddify 安装下的「首次安装和初始化」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Hiddify在Windows 10/11系统的安装与首次运行**](/install/hiddify-windows-setup-and-first-launch/)：针对「Hiddify在Windows 10/11系统的安装与首次运行」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify Android端安装与原生中文语言包设置**](/install/hiddify-android-apk-install-and-defaults/)：针对「Hiddify Android端安装与原生中文语言包设置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify macOS端安装包安全权限解锁与核心初始化**](/install/hiddify-macos-installation-and-security-prompt/)：针对「Hiddify macOS端安装包安全权限解锁与核心初始化」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

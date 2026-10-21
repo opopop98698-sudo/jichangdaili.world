@@ -1,5 +1,5 @@
 ---
-title: "Clash 订阅适配｜Clash 与 Mihomo 兼容机场｜机场推荐"
+title: "Clash 订阅适配"
 description: "Clash 与 Mihomo 兼容机场下的「Clash 订阅适配」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

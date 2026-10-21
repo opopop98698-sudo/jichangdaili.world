@@ -75,16 +75,16 @@ modifiedAt: "2026-10-21"
 
 | 综合排名 | 品牌名称 | 推荐评级 | 核心线路架构 | 计费门槛与套餐参考 | 专属优惠码 | 测速证据 | 官方直达通道 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **No.1** | **光速云** | ⭐ 旗舰主推 | IEPL专线 + 企业内网 | 年付 ¥99 (¥8.3/月) / ¥147永久 | <CouponBadge code="AMM" /> | 📸 [含实测图](/recommend/guangsu-cloud-in-depth-review-and-plans-guide/) | [官网通道 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| **No.2** | **飞猫云** | ⭐ 编辑精选 | BGP优质隧道中转 | 年付 ¥120 (¥10.0/月) 起 | <CouponBadge code="feimao" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#2-飞猫云-feimao-cloud) | [官网通道 ↗](https://www.feimaoyun.org/#/register?code=6vPZ8mJt) |
-| **No.3** | **微风网络** | ⭐ 编辑精选 | IEPL内网专线 | 月付 ¥15 起 | <CouponBadge code="weifeng" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#3-微风网络-weifeng-cloud) | [官网通道 ↗](https://www.weifengcloud.com/#/register?code=B5uN4YkK) |
-| **No.4** | **星岛梦** | ⭐ 编辑精选 | IPLC内网中转 | 月付 ¥18 起 | <CouponBadge code="xdm2026" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#4-星岛梦-xingdaomeng) | [官网通道 ↗](https://www.xingdaomeng.com/#/register?code=j7Wb9xLm) |
-| **No.5** | **无忧链接** | ⭐ 稳定之选 | 优质BGP中转 | 月付 ¥12 起 | <CouponBadge code="wuyou" /> | 待复测更新 | [官网通道 ↗](https://www.wuyoulink.com/#/register?code=K9pQ2wZx) |
-| **No.6** | **二猫云** | ⭐ 均衡之选 | 专线中转 | 月付 ¥19 起 | <CouponBadge code="ermao" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#5-二猫云-ermao-cloud) | [官网通道 ↗](https://www.ermaoyun.com/#/register?code=M3vT8yKp) |
-| **No.7** | **唯兔云** | ⭐ 性价比之选 | 混合专线 | 月付 ¥16 起 | <CouponBadge code="weitu" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#6-唯兔云-weitu-cloud) | [官网通道 ↗](https://www.weitucloud.com/#/register?code=Q5rS1tYx) |
-| **No.8** | **Firefly** | ⭐ 跨境专选 | 国际专线 | 月付 ¥20 起 | <CouponBadge code="firefly" /> | 待复测更新 | [官网通道 ↗](https://www.fireflynet.org/#/register?code=Z8uW3xKp) |
-| **No.9** | **暮光加速** | ⭐ 游戏低延时 | 高速中转 | 月付 ¥15 起 | <CouponBadge code="muguang" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#7-幕光加速-muguang-speed) | [官网通道 ↗](https://www.muguangspeed.com/#/register?code=X4vN8mJt) |
-| **No.10** | **宇宙云** | ⭐ 弹性高并发 | 混合专线 | 月付 ¥14 起 | <CouponBadge code="yuzhou" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#8-宇宙云-yuzhou-cloud) | [官网通道 ↗](https://www.yuzhouyun.com/#/register?code=P2wZ9xLm) |
+| **No.1** | **光速云** | ⭐ 旗舰主推 | IEPL专线 + 企业内网 | 年付 ¥99 (¥8.3/月) / ¥147永久 | <CouponBadge code="AMM" /> | 📸 [含实测图](/recommend/guangsu-cloud-in-depth-review-and-plans-guide/) | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.2** | **飞猫云** | ⭐ 编辑精选 | BGP优质隧道中转 | 年付 ¥120 (¥10.0/月) 起 | <CouponBadge code="feimao" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#2-飞猫云-feimao-cloud) | <a href="https://www.feimaoyun.org/#/register?code=6vPZ8mJt" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.3** | **微风网络** | ⭐ 编辑精选 | IEPL内网专线 | 月付 ¥15 起 | <CouponBadge code="weifeng" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#3-微风网络-weifeng-cloud) | <a href="https://www.weifengcloud.com/#/register?code=B5uN4YkK" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.4** | **星岛梦** | ⭐ 编辑精选 | IPLC内网中转 | 月付 ¥18 起 | <CouponBadge code="xdm2026" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#4-星岛梦-xingdaomeng) | <a href="https://www.xingdaomeng.com/#/register?code=j7Wb9xLm" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.5** | **无忧链接** | ⭐ 稳定之选 | 优质BGP中转 | 月付 ¥12 起 | <CouponBadge code="wuyou" /> | 待复测更新 | <a href="https://www.wuyoulink.com/#/register?code=K9pQ2wZx" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.6** | **二猫云** | ⭐ 均衡之选 | 专线中转 | 月付 ¥19 起 | <CouponBadge code="ermao" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#5-二猫云-ermao-cloud) | <a href="https://www.ermaoyun.com/#/register?code=M3vT8yKp" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.7** | **唯兔云** | ⭐ 性价比之选 | 混合专线 | 月付 ¥16 起 | <CouponBadge code="weitu" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#6-唯兔云-weitu-cloud) | <a href="https://www.weitucloud.com/#/register?code=Q5rS1tYx" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.8** | **Firefly** | ⭐ 跨境专选 | 国际专线 | 月付 ¥20 起 | <CouponBadge code="firefly" /> | 待复测更新 | <a href="https://www.fireflynet.org/#/register?code=Z8uW3xKp" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.9** | **暮光加速** | ⭐ 游戏低延时 | 高速中转 | 月付 ¥15 起 | <CouponBadge code="muguang" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#7-幕光加速-muguang-speed) | <a href="https://www.muguangspeed.com/#/register?code=X4vN8mJt" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
+| **No.10** | **宇宙云** | ⭐ 弹性高并发 | 混合专线 | 月付 ¥14 起 | <CouponBadge code="yuzhou" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#8-宇宙云-yuzhou-cloud) | <a href="https://www.yuzhouyun.com/#/register?code=P2wZ9xLm" target="_blank" rel="sponsored nofollow noopener">官网通道 ↗</a> |
 
 ---
 
@@ -94,34 +94,34 @@ modifiedAt: "2026-10-21"
 
 | 序号 | 品牌名称 | 物理线路类型 | 兼容客户端协议 | 计费门槛与周期 | 实测截图认证 | 官方访问通道 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **光速云** | IEPL专线+企业内网 | VLESS / Shadowsocks | ¥99/年 (¥8.3/月) / ¥147永久 | ✅ 测速+解锁 | [官网直达 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| 2 | **飞猫云** | BGP优质隧道中转 | VMess / Trojan | ¥120/年 (¥10/月) | ✅ 全节点测速 | [官网直达 ↗](https://www.feimaoyun.org/#/register?code=6vPZ8mJt) |
-| 3 | **微风网络** | IEPL内网专线 | Shadowsocks / Trojan | ¥15/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.weifengcloud.com/#/register?code=B5uN4YkK) |
-| 4 | **星岛梦** | IPLC内网中转 | VLESS / Trojan | ¥18/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.xingdaomeng.com/#/register?code=j7Wb9xLm) |
-| 5 | **无忧链接** | 优质BGP中转 | Shadowsocks / VMess | ¥12/月 | 资料收录 | [官网直达 ↗](https://www.wuyoulink.com/#/register?code=K9pQ2wZx) |
-| 6 | **二猫云** | 专线中转 | Trojan / Shadowsocks | ¥19/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.ermaoyun.com/#/register?code=M3vT8yKp) |
-| 7 | **唯兔云** | 混合专线 | Shadowsocks / VLESS | ¥16/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.weitucloud.com/#/register?code=Q5rS1tYx) |
-| 8 | **Firefly** | 国际专线 | Trojan / Shadowsocks | ¥20/月 | 资料收录 | [官网直达 ↗](https://www.fireflynet.org/#/register?code=Z8uW3xKp) |
-| 9 | **暮光加速** | 高速中转 | Shadowsocks / Trojan | ¥15/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.muguangspeed.com/#/register?code=X4vN8mJt) |
-| 10 | **宇宙云** | 混合专线 | Shadowsocks / VMess | ¥14/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.yuzhouyun.com/#/register?code=P2wZ9xLm) |
-| 11 | **U1S1** | 隧道中转 | Shadowsocks / Trojan | ¥13/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.u1s1cloud.com/#/register?code=A7vB2xLm) |
-| 12 | **灵猫网络** | 高速中转 | Shadowsocks / Trojan | ¥17/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.lingmaonet.com/#/register?code=T9vC3wZx) |
-| 13 | **极连云** | 隧道中转 | Trojan / VMess | ¥16/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.jiliancloud.com/#/register?code=N4vE8yKp) |
-| 14 | **光年梯** | 专线中转 | Shadowsocks / Trojan | ¥15/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.guangnianti.com/#/register?code=H2vK9xLm) |
-| 15 | **一翻云** | 混合中转 | Shadowsocks / VMess | ¥12/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.yifanyun.com/#/register?code=Y5vP1tYx) |
-| 16 | **SOGO云** | 隧道中转 | Shadowsocks / Trojan | ¥15/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.sogocloud.com/#/register?code=F8uR3xKp) |
-| 17 | **可信云** | 隧道中转 | Trojan / VMess | ¥14/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.kexincloud.com/#/register?code=L1vM8mJt) |
-| 18 | **速界** | 高速中转 | Shadowsocks / Trojan | ¥16/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.sujiespeed.com/#/register?code=D6wN9xLm) |
-| 19 | **闪跃** | 隧道中转 | Shadowsocks / VMess | ¥13/月 | 资料收录 | [官网直达 ↗](https://www.shanyuecloud.com/#/register?code=K3pQ8wZx) |
-| 20 | **全球云** | 国际专线 | Trojan / Shadowsocks | ¥22/月 | ✅ 全节点测速 | [官网直达 ↗](https://www.quanqiuyun.com/#/register?code=R9vT2yKp) |
-| 21 | **闪电鼠** | 隧道中转 | Shadowsocks / Trojan | ¥12/月 | 资料收录 | [官网直达 ↗](https://www.shandianshu.com/#/register?code=B4vS7tYx) |
-| 22 | **大佬云** | 混合专线 | Shadowsocks / Trojan | ¥18/月 | 资料收录 | [官网直达 ↗](https://www.dalaoyun.com/#/register?code=W8uX1xKp) |
-| 23 | **云界线** | 隧道中转 | Shadowsocks / VMess | ¥15/月 | 资料收录 | [官网直达 ↗](https://www.yunjiexian.com/#/register?code=C2vL9mJt) |
-| 24 | **榴莲云** | 隧道中转 | Shadowsocks / Trojan | ¥14/月 | 资料收录 | [官网直达 ↗](https://www.liulianyun.com/#/register?code=Z7wK4xLm) |
-| 25 | **神行加速** | 专线中转 | Trojan / Shadowsocks | ¥17/月 | 资料收录 | [官网直达 ↗](https://www.shenxingspeed.com/#/register?code=J5vN3wZx) |
-| 26 | **环球梯** | 国际专线 | Shadowsocks / VMess | ¥20/月 | 资料收录 | [官网直达 ↗](https://www.huanqiuti.com/#/register?code=M1pT8yKp) |
-| 27 | **隐形人** | 隧道中转 | Shadowsocks / Trojan | ¥13/月 | 资料收录 | [官网直达 ↗](https://www.yinxingren.com/#/register?code=E6vR2tYx) |
-| 28 | **梯子云** | 隧道中转 | Shadowsocks / Trojan | ¥11/月 | 资料收录 | [官网直达 ↗](https://www.tiziyun.com/#/register?code=V3uY9xKp) |
+| 1 | **光速云** | IEPL专线+企业内网 | VLESS / Shadowsocks | ¥99/年 (¥8.3/月) / ¥147永久 | ✅ 测速+解锁 | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 2 | **飞猫云** | BGP优质隧道中转 | VMess / Trojan | ¥120/年 (¥10/月) | ✅ 全节点测速 | <a href="https://www.feimaoyun.org/#/register?code=6vPZ8mJt" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 3 | **微风网络** | IEPL内网专线 | Shadowsocks / Trojan | ¥15/月 | ✅ 全节点测速 | <a href="https://www.weifengcloud.com/#/register?code=B5uN4YkK" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 4 | **星岛梦** | IPLC内网中转 | VLESS / Trojan | ¥18/月 | ✅ 全节点测速 | <a href="https://www.xingdaomeng.com/#/register?code=j7Wb9xLm" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 5 | **无忧链接** | 优质BGP中转 | Shadowsocks / VMess | ¥12/月 | 资料收录 | <a href="https://www.wuyoulink.com/#/register?code=K9pQ2wZx" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 6 | **二猫云** | 专线中转 | Trojan / Shadowsocks | ¥19/月 | ✅ 全节点测速 | <a href="https://www.ermaoyun.com/#/register?code=M3vT8yKp" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 7 | **唯兔云** | 混合专线 | Shadowsocks / VLESS | ¥16/月 | ✅ 全节点测速 | <a href="https://www.weitucloud.com/#/register?code=Q5rS1tYx" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 8 | **Firefly** | 国际专线 | Trojan / Shadowsocks | ¥20/月 | 资料收录 | <a href="https://www.fireflynet.org/#/register?code=Z8uW3xKp" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 9 | **暮光加速** | 高速中转 | Shadowsocks / Trojan | ¥15/月 | ✅ 全节点测速 | <a href="https://www.muguangspeed.com/#/register?code=X4vN8mJt" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 10 | **宇宙云** | 混合专线 | Shadowsocks / VMess | ¥14/月 | ✅ 全节点测速 | <a href="https://www.yuzhouyun.com/#/register?code=P2wZ9xLm" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 11 | **U1S1** | 隧道中转 | Shadowsocks / Trojan | ¥13/月 | ✅ 全节点测速 | <a href="https://www.u1s1cloud.com/#/register?code=A7vB2xLm" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 12 | **灵猫网络** | 高速中转 | Shadowsocks / Trojan | ¥17/月 | ✅ 全节点测速 | <a href="https://www.lingmaonet.com/#/register?code=T9vC3wZx" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 13 | **极连云** | 隧道中转 | Trojan / VMess | ¥16/月 | ✅ 全节点测速 | <a href="https://www.jiliancloud.com/#/register?code=N4vE8yKp" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 14 | **光年梯** | 专线中转 | Shadowsocks / Trojan | ¥15/月 | ✅ 全节点测速 | <a href="https://www.guangnianti.com/#/register?code=H2vK9xLm" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 15 | **一翻云** | 混合中转 | Shadowsocks / VMess | ¥12/月 | ✅ 全节点测速 | <a href="https://www.yifanyun.com/#/register?code=Y5vP1tYx" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 16 | **SOGO云** | 隧道中转 | Shadowsocks / Trojan | ¥15/月 | ✅ 全节点测速 | <a href="https://www.sogocloud.com/#/register?code=F8uR3xKp" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 17 | **可信云** | 隧道中转 | Trojan / VMess | ¥14/月 | ✅ 全节点测速 | <a href="https://www.kexincloud.com/#/register?code=L1vM8mJt" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 18 | **速界** | 高速中转 | Shadowsocks / Trojan | ¥16/月 | ✅ 全节点测速 | <a href="https://www.sujiespeed.com/#/register?code=D6wN9xLm" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 19 | **闪跃** | 隧道中转 | Shadowsocks / VMess | ¥13/月 | 资料收录 | <a href="https://www.shanyuecloud.com/#/register?code=K3pQ8wZx" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 20 | **全球云** | 国际专线 | Trojan / Shadowsocks | ¥22/月 | ✅ 全节点测速 | <a href="https://www.quanqiuyun.com/#/register?code=R9vT2yKp" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 21 | **闪电鼠** | 隧道中转 | Shadowsocks / Trojan | ¥12/月 | 资料收录 | <a href="https://www.shandianshu.com/#/register?code=B4vS7tYx" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 22 | **大佬云** | 混合专线 | Shadowsocks / Trojan | ¥18/月 | 资料收录 | <a href="https://www.dalaoyun.com/#/register?code=W8uX1xKp" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 23 | **云界线** | 隧道中转 | Shadowsocks / VMess | ¥15/月 | 资料收录 | <a href="https://www.yunjiexian.com/#/register?code=C2vL9mJt" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 24 | **榴莲云** | 隧道中转 | Shadowsocks / Trojan | ¥14/月 | 资料收录 | <a href="https://www.liulianyun.com/#/register?code=Z7wK4xLm" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 25 | **神行加速** | 专线中转 | Trojan / Shadowsocks | ¥17/月 | 资料收录 | <a href="https://www.shenxingspeed.com/#/register?code=J5vN3wZx" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 26 | **环球梯** | 国际专线 | Shadowsocks / VMess | ¥20/月 | 资料收录 | <a href="https://www.huanqiuti.com/#/register?code=M1pT8yKp" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 27 | **隐形人** | 隧道中转 | Shadowsocks / Trojan | ¥13/月 | 资料收录 | <a href="https://www.yinxingren.com/#/register?code=E6vR2tYx" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
+| 28 | **梯子云** | 隧道中转 | Shadowsocks / Trojan | ¥11/月 | 资料收录 | <a href="https://www.tiziyun.com/#/register?code=V3uY9xKp" target="_blank" rel="sponsored nofollow noopener">官网直达 ↗</a> |
 | 29 | **WgetCloud** | 企业级优质中转 | Trojan / Shadowsocks | ¥39/月 | 行业知名 | [官网直达 ↗](https://www.wgetcloud.com/) |
 | 30 | **白月光** | 混合优质中转 | Shadowsocks / VLESS | ¥25/月 | 行业知名 | [官网直达 ↗](https://www.baiyueguang.com/) |
 | 31 | **FlyingBird** | 优质隧道专线 | Trojan / VMess | ¥18/月 | 行业知名 | [官网直达 ↗](https://www.flyingbird.com/) |
@@ -203,7 +203,7 @@ modifiedAt: "2026-10-21"
   :tasks="[
     { title: '全平台客户端下载', url: '/clients/', taskType: 'download', description: '获取官方正版 Clash、v2rayN、sing-box 等安装包' },
     { title: 'Clash Verge Rev 安装指南', url: '/install/verge-rev/', taskType: 'install', description: 'Windows 与 macOS 现代 Clash 桌面端安装与首次配置' },
-    { title: '订阅链接导入与配置', url: '/subscription/clash-profiles/', taskType: 'subscription', description: '将购买的机场订阅一键导入到客户端并更新节点' },
-    { title: '节点连通性故障排查', url: '/troubleshooting/node-timeout/', taskType: 'troubleshooting', description: '节点全部超时、显示为 -1 或无法连接的系统排错' }
+    { title: '订阅链接导入与配置', url: '/subscription/links/', taskType: 'subscription', description: '将购买的机场订阅一键导入到客户端并更新节点' },
+    { title: '节点连通性故障排查', url: '/troubleshooting/timeout/', taskType: 'troubleshooting', description: '节点全部超时、显示为 -1 或无法连接的系统排错' }
   ]"
 />

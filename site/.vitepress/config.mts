@@ -178,13 +178,36 @@ const hasAlgolia = Boolean(
 
 export default defineConfig({
   title: '机场代理',
-  titleTemplate: ':title｜机场代理 jichangdaili.world',
+  titleTemplate: ':title｜机场代理',
   description: '代理客户端官方下载、全平台安装、订阅配置、故障排查、客观评测与兼容机场指南。',
   lang: 'zh-CN',
   cleanUrls: true,
   srcDir: 'generated',
   sitemap: {
     hostname: 'https://jichangdaili.world'
+  },
+  markdown: {
+    config: (md) => {
+      const defaultRender = md.renderer.rules.link_open || function(tokens, idx, options, env, self) {
+        return self.renderToken(tokens, idx, options);
+      };
+      md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
+        const aIndex = tokens[idx].attrIndex('href');
+        if (aIndex >= 0) {
+          const href = tokens[idx].attrs[aIndex][1];
+          if (href.startsWith('http://') || href.startsWith('https://')) {
+            if (!href.includes('jichangdaili.world')) {
+              const isAffiliate = /aff|code=|gsyvip|flycat|breezenet|feimaoyun|weifengcloud|wuyoulink|xingdaomeng|worryfree/i.test(href);
+              if (isAffiliate) {
+                tokens[idx].attrSet('rel', 'sponsored nofollow noopener');
+                tokens[idx].attrSet('target', '_blank');
+              }
+            }
+          }
+        }
+        return defaultRender(tokens, idx, options, env, self);
+      };
+    }
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -199,7 +222,12 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }]
   ],
   themeConfig: {
-    logo: '/logo.png',
+    logo: {
+      src: '/logo.png',
+      alt: '机场代理 (jichangdaili.world) 官方徽标',
+      width: 32,
+      height: 32
+    },
     siteTitle: '机场代理',
     nav,
     sidebar,
@@ -248,8 +276,8 @@ export default defineConfig({
           }
         },
     footer: {
-      message: '机场代理 (jichangdaili.world) · 保持客观中立与证据溯源 · 绝不分发加壳或未验证客户端',
-      copyright: 'Copyright © 2026 jichangdaili.world. 保留所有权利。'
+      message: '<a href="/about/">关于我们</a> · <a href="/reviews/methodology/">评测方法论</a> · <a href="/brands/">品牌核验名录</a> · <a href="/disclosure/">推广披露</a> · <a href="/privacy/">隐私政策</a> · <a href="/terms/">服务条款</a>',
+      copyright: 'Copyright © 2026 jichangdaili.world. 保留所有权利。客观中立 · 证据溯源 · 绝不分发加壳或未验证客户端'
     }
   },
   transformPageData(pageData) {
@@ -266,39 +294,128 @@ export default defineConfig({
       { rel: 'canonical', href: canonicalUrl }
     ]);
 
-    // Inject JSON-LD Schema
     const isHome = canonicalPath === '/';
-    const jsonLd = isHome
-      ? {
-          '@context': 'https://schema.org',
-          '@type': 'WebSite',
-          'name': '机场代理',
-          'url': 'https://jichangdaili.world/',
-          'description': '专业且客观的代理客户端下载、安装教程、订阅配置、故障排查、客户端评测及兼容机场选型指南。',
-          'potentialAction': {
-            '@type': 'SearchAction',
-            'target': 'https://jichangdaili.world/?q={search_term_string}',
-            'query-input': 'required name=search_term_string'
-          }
+    const pageTitle = pageData.title || pageData.frontmatter.title || '机场代理';
+    const pageDesc = pageData.description || pageData.frontmatter.description || '代理客户端官方下载、全平台安装、订阅配置与兼容机场指南。';
+
+    if (isHome) {
+      const homeSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        'name': '机场代理',
+        'url': 'https://jichangdaili.world/',
+        'description': '专业且客观的代理客户端下载、安装教程、订阅配置、故障排查、客户端评测及兼容机场选型指南。',
+        'potentialAction': {
+          '@type': 'SearchAction',
+          'target': 'https://jichangdaili.world/?q={search_term_string}',
+          'query-input': 'required name=search_term_string'
         }
-      : {
+      };
+      pageData.frontmatter.head.push([
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify(homeSchema)
+      ]);
+    } else {
+      // Build BreadcrumbList
+      const sectionNames: Record<string, string> = {
+        recommend: '机场推荐',
+        free: '免费机场',
+        clients: '客户端下载',
+        install: '安装教程',
+        subscription: '订阅配置',
+        troubleshooting: '故障排查',
+        reviews: '客户端评测',
+        learn: '新手课堂',
+        about: '关于我们',
+        disclosure: '推广披露',
+        privacy: '隐私政策',
+        terms: '服务条款'
+      };
+
+      const segments = canonicalPath.replace(/^\/|\/$/g, '').split('/').filter(Boolean);
+      const breadcrumbItems = [
+        {
+          '@type': 'ListItem',
+          'position': 1,
+          'name': '首页',
+          'item': 'https://jichangdaili.world/'
+        }
+      ];
+
+      let accumulated = '';
+      for (let i = 0; i < segments.length; i++) {
+        accumulated += `/${segments[i]}`;
+        const isLast = i === segments.length - 1;
+        const itemUrl = `https://jichangdaili.world${accumulated}/`;
+        const segName = isLast
+          ? pageTitle
+          : (sectionNames[segments[i]] || segments[i]);
+        breadcrumbItems.push({
+          '@type': 'ListItem',
+          'position': i + 2,
+          'name': segName,
+          'item': itemUrl
+        });
+      }
+
+      const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': breadcrumbItems
+      };
+
+      // Determine page schema type
+      let specificSchema: any;
+      if (canonicalPath === '/about/') {
+        specificSchema = {
           '@context': 'https://schema.org',
-          '@type': 'TechArticle',
-          'headline': pageData.title || pageData.frontmatter.title,
-          'description': pageData.description || pageData.frontmatter.description,
+          '@type': 'AboutPage',
+          'name': pageTitle,
+          'description': pageDesc,
           'url': canonicalUrl,
-          'inLanguage': 'zh-CN',
           'publisher': {
             '@type': 'Organization',
             'name': '机场代理',
             'url': 'https://jichangdaili.world/'
           }
         };
+      } else {
+        specificSchema = {
+          '@context': 'https://schema.org',
+          '@type': 'TechArticle',
+          'headline': pageTitle,
+          'description': pageDesc,
+          'url': canonicalUrl,
+          'inLanguage': 'zh-CN',
+          'author': {
+            '@type': 'Organization',
+            'name': '机场代理编辑团队',
+            'url': 'https://jichangdaili.world/about/'
+          },
+          'publisher': {
+            '@type': 'Organization',
+            'name': '机场代理',
+            'url': 'https://jichangdaili.world/',
+            'logo': {
+              '@type': 'ImageObject',
+              'url': 'https://jichangdaili.world/logo.png'
+            }
+          }
+        };
+      }
 
-    pageData.frontmatter.head.push([
-      'script',
-      { type: 'application/ld+json' },
-      JSON.stringify(jsonLd)
-    ]);
+      pageData.frontmatter.head.push([
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify(breadcrumbSchema)
+      ]);
+
+      pageData.frontmatter.head.push([
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify(specificSchema)
+      ]);
+    }
   }
 });

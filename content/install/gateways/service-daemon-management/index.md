@@ -1,5 +1,5 @@
 ---
-title: "服务与启动管理｜Linux 服务与软路由部署｜安装教程"
+title: "服务与启动管理"
 description: "Linux 服务与软路由部署下的「服务与启动管理」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

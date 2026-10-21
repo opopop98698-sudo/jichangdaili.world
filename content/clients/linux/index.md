@@ -75,6 +75,32 @@ docker run -d \
 
 ## 4. 相关教程与实操指引
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[发行包类型](/clients/linux/distribution-packages/)
+
+Linux 客户端下的「发行包类型」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Ubuntu、Debian、Fedora该下载deb、rpm还是AppImage**](/clients/linux-deb-rpm-appimage-tar-gz-picker/)：针对「Ubuntu、Debian、Fedora该下载deb、rpm还是AppImage」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Arch Linux通过AUR安装维护Clash Verge与sing-box**](/clients/arch-linux-aur-proxy-client-maintenance/)：针对「Arch Linux通过AUR安装维护Clash Verge与sing-box」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Flatpak与Snap沙盒打包客户端在网络权限上的特殊限制**](/clients/flatpak-snap-sandbox-limitations-proxy/)：针对「Flatpak与Snap沙盒打包客户端在网络权限上的特殊限制」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[软件源与维护](/clients/linux/repositories-maintenance/)
+
+Linux 客户端下的「软件源与维护」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**官方APT/YUM镜像源配置与签名公钥导入步骤**](/clients/official-ppa-and-apt-repos-for-clients/)：针对「官方APT/YUM镜像源配置与签名公钥导入步骤」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Linux无头服务器仅下载CLI独立核心的轻量化实践**](/clients/headless-server-cli-core-download-guide/)：针对「Linux无头服务器仅下载CLI独立核心的轻量化实践」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Linux下为代理核心手动编写systemd后台服务守护单元**](/clients/systemd-service-file-integration-for-linux/)：针对「Linux下为代理核心手动编写systemd后台服务守护单元」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'Linux 服务与网关部署指南', url: '/install/gateways/', taskType: 'install', description: '基于 systemd 的守护进程与开机自启动配置' },

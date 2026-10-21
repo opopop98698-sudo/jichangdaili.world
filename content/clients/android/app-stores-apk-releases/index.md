@@ -1,5 +1,5 @@
 ---
-title: "应用商店与发布包｜Android 客户端｜客户端下载"
+title: "应用商店与发布包"
 description: "Android 客户端下的「应用商店与发布包」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

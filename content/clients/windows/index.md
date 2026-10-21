@@ -81,6 +81,32 @@ modifiedAt: "2026-10-21"
 - [Windows电脑该选x64、ARM64还是其他安装包：下载前核对方法](/clients/windows-x64-arm64-architecture-picker/)
 - [客户端同时提供含运行库和精简包时，应该下载哪一个？](/clients/setup-exe-with-runtime-vs-slim-packages/)
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[安装包形态](/clients/windows/package-types/)
+
+Windows 客户端下的「安装包形态」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Windows代理客户端安装版与便携版怎么下载：文件形态与适用情况**](/clients/windows-installer-vs-portable-zip-guide/)：针对「Windows代理客户端安装版与便携版怎么下载：文件形态与适用情况」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Windows电脑该选x64、ARM64还是其他安装包：下载前核对方法**](/clients/windows-x64-arm64-architecture-picker/)：针对「Windows电脑该选x64、ARM64还是其他安装包：下载前核对方法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**客户端同时提供含运行库和精简包时，应该下载哪一个？**](/clients/setup-exe-with-runtime-vs-slim-packages/)：针对「客户端同时提供含运行库和精简包时，应该下载哪一个？」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[系统支持资料](/clients/windows/system-support-matrix/)
+
+Windows 客户端下的「系统支持资料」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Windows 10与Windows 11各版本代理客户端驱动与内核兼容表**](/clients/windows-10-vs-windows-11-client-readiness/)：针对「Windows 10与Windows 11各版本代理客户端驱动与内核兼容表」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Windows 7与老旧系统上可继续运行的客户端版本归档**](/clients/windows-7-legacy-proxy-client-options/)：针对「Windows 7与老旧系统上可继续运行的客户端版本归档」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Wintun虚拟网卡驱动在不同Windows版本下的签名支持**](/clients/wintun-driver-compatibility-on-windows/)：针对「Wintun虚拟网卡驱动在不同Windows版本下的签名支持」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'Clash Verge Rev Windows 安装实操', url: '/install/verge-rev/', taskType: 'install', description: 'Windows 11 下服务模式与 TUN 驱动配置' },

@@ -1,5 +1,5 @@
 ---
-title: "安装包与应用初始化｜v2rayNG 安装｜安装教程"
+title: "安装包与应用初始化"
 description: "v2rayNG 安装下的「安装包与应用初始化」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

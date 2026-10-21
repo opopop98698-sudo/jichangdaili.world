@@ -1,5 +1,5 @@
 ---
-title: "Shadowrocket 安装｜安装教程｜机场代理｜安装教程｜机场代理"
+title: "Shadowrocket 安装"
 description: "Shadowrocket 安装｜安装教程｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：商店获取与首启 - Shadowrocket 安装｜机场代理
+### 集群：[系统授权与恢复](/install/shadowrocket/system-permissions-restore/)
 
 Shadowrocket 安装下的「商店获取与首启」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **从美区App Store检索、购买并下载Shadowrocket完整步骤**：针对「从美区App Store检索、购买并下载Shadowrocket完整步骤」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Shadowrocket初次启动主界面：节点、配置与感叹号状态**：针对「Shadowrocket初次启动主界面：节点、配置与感叹号状态」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **后续更新Shadowrocket版本时保留原有节点与规则的技巧**：针对「后续更新Shadowrocket版本时保留原有节点与规则的技巧」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**从美区App Store检索、购买并下载Shadowrocket完整步骤**](/install/installing-shadowrocket-from-us-app-store/)：针对「从美区App Store检索、购买并下载Shadowrocket完整步骤」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Shadowrocket初次启动主界面：节点、配置与感叹号状态**](/install/shadowrocket-initial-interface-breakdown/)：针对「Shadowrocket初次启动主界面：节点、配置与感叹号状态」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**后续更新Shadowrocket版本时保留原有节点与规则的技巧**](/install/updating-shadowrocket-without-losing-profiles/)：针对「后续更新Shadowrocket版本时保留原有节点与规则的技巧」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：系统授权与恢复 - Shadowrocket 安装｜机场代理
+### 集群：[系统授权与恢复](/install/shadowrocket/system-permissions-restore/)
 
 Shadowrocket 安装下的「系统授权与恢复」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **iOS系统提示“添加VPN配置”时的Face ID认证与通过**：针对「iOS系统提示“添加VPN配置”时的Face ID认证与通过」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **按需安装与信任本地HTTPS解密根证书的安全流程**：针对「按需安装与信任本地HTTPS解密根证书的安全流程」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **开启iCloud云盘同步在多台iPad与iPhone间共享节点**：针对「开启iCloud云盘同步在多台iPad与iPhone间共享节点」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**iOS系统提示“添加VPN配置”时的Face ID认证与通过**](/install/shadowrocket-add-vpn-configurations-allow/)：针对「iOS系统提示“添加VPN配置”时的Face ID认证与通过」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**按需安装与信任本地HTTPS解密根证书的安全流程**](/install/install-mitm-root-certificate-in-shadowrocket/)：针对「按需安装与信任本地HTTPS解密根证书的安全流程」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**开启iCloud云盘同步在多台iPad与iPhone间共享节点**](/install/icloud-backup-and-sync-for-shadowrocket/)：针对「开启iCloud云盘同步在多台iPad与iPhone间共享节点」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ Shadowrocket 安装下的「系统授权与恢复」三级集群综合知识库�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[商店获取与首启](/install/shadowrocket/app-store-get-first-run/)
+
+Shadowrocket 安装下的「商店获取与首启」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**从美区App Store检索、购买并下载Shadowrocket完整步骤**](/install/installing-shadowrocket-from-us-app-store/)：针对「从美区App Store检索、购买并下载Shadowrocket完整步骤」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Shadowrocket初次启动主界面：节点、配置与感叹号状态**](/install/shadowrocket-initial-interface-breakdown/)：针对「Shadowrocket初次启动主界面：节点、配置与感叹号状态」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**后续更新Shadowrocket版本时保留原有节点与规则的技巧**](/install/updating-shadowrocket-without-losing-profiles/)：针对「后续更新Shadowrocket版本时保留原有节点与规则的技巧」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

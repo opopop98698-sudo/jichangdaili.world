@@ -152,7 +152,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 1）。独有优势：IEPL+企业内网双线路、3档套餐、11地区节点。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 1）。独有优势：IEPL+企业内网双线路、3档套餐、11地区节点。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "feimao-cloud",
@@ -307,7 +308,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 2）。独有优势：7元档 + 8折。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 2）。独有优势：7元档 + 8折。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "weifeng",
@@ -462,7 +464,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 3）。独有优势：7元档 + 9折。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 3）。独有优势：7元档 + 9折。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "xingdaomeng",
@@ -617,7 +620,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 4）。独有优势：2020年运营 + 不限时套餐。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 4）。独有优势：2020年运营 + 不限时套餐。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "wuyou",
@@ -772,7 +776,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 5）。独有优势：订阅无需转换 + 6元轻量套餐。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 5）。独有优势：订阅无需转换 + 6元轻量套餐。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "ermao-cloud",
@@ -927,7 +932,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 6）。独有优势：20元130GB。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 6）。独有优势：20元130GB。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "weitu-cloud",
@@ -1082,7 +1088,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 7）。独有优势：60+节点 + 三网优化 + 智能负载均衡。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 7）。独有优势：60+节点 + 三网优化 + 智能负载均衡。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "firefly",
@@ -1237,7 +1244,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 8）。独有优势：IPLC + 6档套餐 + 免翻墙访问官网。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 8）。独有优势：IPLC + 6档套餐 + 免翻墙访问官网。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "muguang",
@@ -1392,7 +1400,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 9）。独有优势：无明确独有卖点。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 9）。独有优势：无明确独有卖点。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "yuzhou-cloud",
@@ -1441,7 +1450,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 10）。独有优势：IEPL+VLESS+自研客户端。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 10）。独有优势：IEPL+VLESS+自研客户端。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "u1s1",
@@ -1568,7 +1578,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 11）。独有优势：20元120GB 标准方案。主打 IPLC专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 11）。独有优势：20元120GB 标准方案。主打 IPLC专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "lingmao",
@@ -1708,7 +1719,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 12）。独有优势：19元150GB + 不限时套餐。主打 优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 12）。独有优势：19元150GB + 不限时套餐。主打 优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "jilian-cloud",
@@ -1757,7 +1769,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 13）。独有优势：18元100GB + 品牌资料说覆盖AI。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 13）。独有优势：18元100GB + 品牌资料说覆盖AI。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "guangnianti",
@@ -1806,7 +1819,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 14）。独有优势：18元110GB。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 14）。独有优势：18元110GB。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "yifan-cloud",
@@ -1973,7 +1987,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 15）。独有优势：20元150GB。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 15）。独有优势：20元150GB。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "sogo-cloud",
@@ -2022,7 +2037,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 16）。独有优势：2026年新品牌。主打 企业优化专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 16）。独有优势：2026年新品牌。主打 企业优化专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "kexin-cloud",
@@ -2071,7 +2087,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 17）。独有优势：品牌资料诚实标注数据缺口。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 17）。独有优势：品牌资料诚实标注数据缺口。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "sujie",
@@ -2120,7 +2137,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 18）。独有优势：品牌资料强调AI工具。主打 企业优化专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 18）。独有优势：品牌资料强调AI工具。主打 企业优化专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "shanyue",
@@ -2248,7 +2266,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 19）。独有优势：24元150GB。主打 IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 19）。独有优势：24元150GB。主打 IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "quanqiu-cloud",
@@ -2429,7 +2448,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 20）。独有优势：2026年新品牌。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 20）。独有优势：2026年新品牌。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "speedtest-verified"
   },
   {
     "id": "shandianshu",
@@ -2478,7 +2498,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 21）。独有优势：5.6元/月 + 60GB。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 21）。独有优势：5.6元/月 + 60GB。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "dalaoyun",
@@ -2633,7 +2654,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 22）。独有优势：5.6元/月 + 60GB。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 22）。独有优势：5.6元/月 + 60GB。主打 IEPL专线与IPLC专线与优质隧道中转 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "yunjiexian",
@@ -2682,7 +2704,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 23）。独有优势：5.6元/月 + 60GB（链接格式异常）。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 23）。独有优势：5.6元/月 + 60GB（链接格式异常）。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "liulianyun",
@@ -2731,7 +2754,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 24）。独有优势：5.6元/月 + 60GB（协议未明）。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 24）。独有优势：5.6元/月 + 60GB（协议未明）。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "shenxing",
@@ -2780,7 +2804,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 25）。独有优势：14元/月 + 120GB。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 25）。独有优势：14元/月 + 120GB。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "huanqiuti",
@@ -2829,7 +2854,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 26）。独有优势：5.6元/月 + 60GB（链接格式异常）。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 26）。独有优势：5.6元/月 + 60GB（链接格式异常）。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "yinxingren",
@@ -2982,7 +3008,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 27）。独有优势：60+节点详细清单 + 1小时修复承诺 + 不提供第三方订阅。主打 IPLC专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 27）。独有优势：60+节点详细清单 + 1小时修复承诺 + 不提供第三方订阅。主打 IPLC专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "tiziyun",
@@ -3031,7 +3058,8 @@
       "Claude",
       "Gemini"
     ],
-    "description": "2026 推荐机场之一（排名第 28）。独有优势：自研全平台客户端 + 一键登录 + 支持通用订阅。主打 IEPL专线 架构，兼容多客户端订阅导入。"
+    "description": "2026 推荐机场之一（排名第 28）。独有优势：自研全平台客户端 + 一键登录 + 支持通用订阅。主打 IEPL专线 架构，兼容多客户端订阅导入。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "wgetcloud",
@@ -3063,7 +3091,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "WgetCloud 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "WgetCloud 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "baiyueguang",
@@ -3095,7 +3124,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "白月光 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "白月光 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "flyingbird",
@@ -3127,7 +3157,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "FlyingBird 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "FlyingBird 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "cyberguard",
@@ -3159,7 +3190,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "CyberGuard 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "CyberGuard 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "longmaoyun",
@@ -3191,7 +3223,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "龙猫云 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "龙猫云 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "fatcat",
@@ -3223,7 +3256,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "FATCAT 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "FATCAT 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "tntcloud",
@@ -3255,7 +3289,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "TNTCloud 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "TNTCloud 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "qingyunti",
@@ -3287,7 +3322,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "青云梯 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "青云梯 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "shanshuiyun",
@@ -3319,7 +3355,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "山水云 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "山水云 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "lingdongyun",
@@ -3351,7 +3388,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "灵动云 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "灵动云 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "langwang",
@@ -3383,7 +3421,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "浪网 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "浪网 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "edgenova",
@@ -3415,7 +3454,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "EdgeNova 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "EdgeNova 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "yinghuochong",
@@ -3447,7 +3487,8 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "萤火虫 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "萤火虫 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   },
   {
     "id": "sslar",
@@ -3479,6 +3520,7 @@
       "ChatGPT (部分节点)",
       "Gemini"
     ],
-    "description": "sslar 是一项网络代理服务，提供多格式订阅支持与节点分流。"
+    "description": "sslar 是一项网络代理服务，提供多格式订阅支持与节点分流。",
+    "dataStatus": "official-catalog-archived"
   }
 ]

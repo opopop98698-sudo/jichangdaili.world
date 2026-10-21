@@ -1,5 +1,5 @@
 ---
-title: "Clash 系客户端比较｜客户端评测｜机场代理｜客户端评测｜机场代理"
+title: "Clash 系客户端比较"
 description: "Clash 系客户端比较｜客户端评测｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：界面与使用流程 - Clash 系客户端比较｜机场代理
+### 集群：[扩展与维护](/reviews/mihomo-clients/extensions-maintenance-cadence/)
 
 Clash 系客户端比较下的「界面与使用流程」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Clash Verge Rev对比Clash Nyanpasu：UI美观度与易用性实测**：针对「Clash Verge Rev对比Clash Nyanpasu：UI美观度与易用性实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **FlClash对比Clash Verge Rev：跨平台一致性与交互流畅度**：针对「FlClash对比Clash Verge Rev：跨平台一致性与交互流畅度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **多配置订阅同时存在时各Clash客户端的平滑切换体验**：针对「多配置订阅同时存在时各Clash客户端的平滑切换体验」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Clash Verge Rev对比Clash Nyanpasu：UI美观度与易用性实测**](/reviews/clash-verge-rev-vs-clash-nyanpasu-comparison/)：针对「Clash Verge Rev对比Clash Nyanpasu：UI美观度与易用性实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**FlClash对比Clash Verge Rev：跨平台一致性与交互流畅度**](/reviews/flclash-vs-clash-verge-rev-ux-benchmarks/)：针对「FlClash对比Clash Verge Rev：跨平台一致性与交互流畅度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**多配置订阅同时存在时各Clash客户端的平滑切换体验**](/reviews/clash-multi-profile-switching-experience/)：针对「多配置订阅同时存在时各Clash客户端的平滑切换体验」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：扩展与维护 - Clash 系客户端比较｜机场代理
+### 集群：[扩展与维护](/reviews/mihomo-clients/extensions-maintenance-cadence/)
 
 Clash 系客户端比较下的「扩展与维护」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **扩展配置与插件能力对比：JavaScript支持与Merge规则**：针对「扩展配置与插件能力对比：JavaScript支持与Merge规则」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **核对Mihomo核心版本跟进速度与各客户端内置更新器**：针对「核对Mihomo核心版本跟进速度与各客户端内置更新器」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Clash各大活跃分支的开源社区活跃度与Bug修复周期**：针对「Clash各大活跃分支的开源社区活跃度与Bug修复周期」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**扩展配置与插件能力对比：JavaScript支持与Merge规则**](/reviews/comparing-script-and-merge-capabilities-clash/)：针对「扩展配置与插件能力对比：JavaScript支持与Merge规则」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**核对Mihomo核心版本跟进速度与各客户端内置更新器**](/reviews/kernel-update-cadence-in-verge-and-nyanpasu/)：针对「核对Mihomo核心版本跟进速度与各客户端内置更新器」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Clash各大活跃分支的开源社区活跃度与Bug修复周期**](/reviews/open-source-community-health-of-clash-forks/)：针对「Clash各大活跃分支的开源社区活跃度与Bug修复周期」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ Clash 系客户端比较下的「扩展与维护」三级集群综合知识库�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[界面与使用流程](/reviews/mihomo-clients/ui-workflow-comparison/)
+
+Clash 系客户端比较下的「界面与使用流程」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Clash Verge Rev对比Clash Nyanpasu：UI美观度与易用性实测**](/reviews/clash-verge-rev-vs-clash-nyanpasu-comparison/)：针对「Clash Verge Rev对比Clash Nyanpasu：UI美观度与易用性实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**FlClash对比Clash Verge Rev：跨平台一致性与交互流畅度**](/reviews/flclash-vs-clash-verge-rev-ux-benchmarks/)：针对「FlClash对比Clash Verge Rev：跨平台一致性与交互流畅度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**多配置订阅同时存在时各Clash客户端的平滑切换体验**](/reviews/clash-multi-profile-switching-experience/)：针对「多配置订阅同时存在时各Clash客户端的平滑切换体验」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

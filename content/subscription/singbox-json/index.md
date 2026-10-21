@@ -1,5 +1,5 @@
 ---
-title: "sing-box JSON 配置｜订阅配置｜机场代理｜订阅配置｜机场代理"
+title: "sing-box JSON 配置"
 description: "sing-box JSON 配置｜订阅配置｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：对象与结构 - sing-box JSON 配置｜机场代理
+### 集群：[版本迁移与拆分](/subscription/singbox-json/version-migration-splitting/)
 
 sing-box JSON 配置下的「对象与结构」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **sing-box JSON核心结构拆解：inbounds、outbounds与route**：针对「sing-box JSON核心结构拆解：inbounds、outbounds与route」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **sing-box中selector策略组与urltest自动优选编写方法**：针对「sing-box中selector策略组与urltest自动优选编写方法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **sing-box独立DNS路由对象与规则匹配机制深度解析**：针对「sing-box独立DNS路由对象与规则匹配机制深度解析」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box JSON核心结构拆解：inbounds、outbounds与route**](/subscription/singbox-json-config-inbounds-outbounds-route/)：针对「sing-box JSON核心结构拆解：inbounds、outbounds与route」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box中selector策略组与urltest自动优选编写方法**](/subscription/understanding-singbox-selector-and-urltest/)：针对「sing-box中selector策略组与urltest自动优选编写方法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box独立DNS路由对象与规则匹配机制深度解析**](/subscription/singbox-dns-independent-object-configuration/)：针对「sing-box独立DNS路由对象与规则匹配机制深度解析」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：版本迁移与拆分 - sing-box JSON 配置｜机场代理
+### 集群：[版本迁移与拆分](/subscription/singbox-json/version-migration-splitting/)
 
 sing-box JSON 配置下的「版本迁移与拆分」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **从sing-box 1.8平滑升级到1.10+：语法变动与破坏性修复**：针对「从sing-box 1.8平滑升级到1.10+：语法变动与破坏性修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **将大型sing-box配置拆分为按功能模块化引用的JSON片段**：针对「将大型sing-box配置拆分为按功能模块化引用的JSON片段」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **从标准JSON规则列表编译为sing-box专用二进制.srs规则集**：针对「从标准JSON规则列表编译为sing-box专用二进制.srs规则集」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**从sing-box 1.8平滑升级到1.10+：语法变动与破坏性修复**](/subscription/migrating-singbox-config-from-1-8-to-1-10/)：针对「从sing-box 1.8平滑升级到1.10+：语法变动与破坏性修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**将大型sing-box配置拆分为按功能模块化引用的JSON片段**](/subscription/splitting-large-singbox-json-into-modular-files/)：针对「将大型sing-box配置拆分为按功能模块化引用的JSON片段」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**从标准JSON规则列表编译为sing-box专用二进制.srs规则集**](/subscription/compiling-srs-rule-sets-from-json-rules/)：针对「从标准JSON规则列表编译为sing-box专用二进制.srs规则集」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ sing-box JSON 配置下的「版本迁移与拆分」三级集群综合知识库
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[对象与结构](/subscription/singbox-json/json-objects-hierarchy/)
+
+sing-box JSON 配置下的「对象与结构」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**sing-box JSON核心结构拆解：inbounds、outbounds与route**](/subscription/singbox-json-config-inbounds-outbounds-route/)：针对「sing-box JSON核心结构拆解：inbounds、outbounds与route」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box中selector策略组与urltest自动优选编写方法**](/subscription/understanding-singbox-selector-and-urltest/)：针对「sing-box中selector策略组与urltest自动优选编写方法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box独立DNS路由对象与规则匹配机制深度解析**](/subscription/singbox-dns-independent-object-configuration/)：针对「sing-box独立DNS路由对象与规则匹配机制深度解析」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

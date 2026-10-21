@@ -43,7 +43,7 @@ modifiedAt: "2026-10-21"
 | **客户端兼容生态** | **Clash Verge Rev / Mihomo / v2rayN / sing-box / Shadowrocket** 原生直接导入 |
 | **真实起步资费** | **¥99 / 年**（折合约 ¥8.25/月）或 **¥147 永久不限时套餐** |
 | **专享优惠码** | <CouponBadge code="AMM" />（结算时输入享折上折） |
-| **官方直达通道** | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y)
+| **官方直达通道** | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a>
 | 开业运营时间     | 2020 年稳定运营至今（5 年以上老牌底蕴）                                   |
 | 底层线路架构     | IEPL 专线 + 企业级内网专线（双线路冗余，端到端不过公网防火墙）            |
 | 传输协议类型     | 原生 VLESS 协议（配合现代加密传输，抗封锁与抗干扰能力极强）               |
@@ -109,12 +109,12 @@ modifiedAt: "2026-10-21"
 ```
 | 套餐名称 | 计费周期 | 标价 | 每月流量 | 真实折算成本与定位 | 官方入口 |
 | :--- | :---: | :---: | :---: | :--- | :---: |
-| **光速云·轻量版 (性价比主力)** | 年付 | **¥99** | 69GB/月 | 折合 **¥8.25/月**，个人日常轻量办公首选 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| **光速云·极速版 (全 IPLC 体验)** | 月付 | **¥25** | 168GB/月 | 单月试错首选，全节点 1.0x 专线倍率 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| **光速云·流光版** | 月付 | **¥34** | 238GB/月 | 中度视频播放与跨端办公用户主力 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| **光速云·量子版** | 月付 | **¥68** | 500GB/月 | 重度追剧、大文件下载与多端共享 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| **光速云·致敬斯诺克 147 永久套餐** | 一次性付费 | **¥147** | 247GB | **永不过期**、不限设备、长期防失联绝佳备用梯 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| **光速云·定制套餐 (独立原生专线)** | 月付 | **¥680** | 500GB/月 | 独享原生 IP 与独立带宽保障，跨境电商首选 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
+| **光速云·轻量版 (性价比主力)** | 年付 | **¥99** | 69GB/月 | 折合 **¥8.25/月**，个人日常轻量办公首选 | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **光速云·极速版 (全 IPLC 体验)** | 月付 | **¥25** | 168GB/月 | 单月试错首选，全节点 1.0x 专线倍率 | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **光速云·流光版** | 月付 | **¥34** | 238GB/月 | 中度视频播放与跨端办公用户主力 | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **光速云·量子版** | 月付 | **¥68** | 500GB/月 | 重度追剧、大文件下载与多端共享 | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **光速云·致敬斯诺克 147 永久套餐** | 一次性付费 | **¥147** | 247GB | **永不过期**、不限设备、长期防失联绝佳备用梯 | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **光速云·定制套餐 (独立原生专线)** | 月付 | **¥680** | 500GB/月 | 独享原生 IP 与独立带宽保障，跨境电商首选 | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
 | 光速云·轻量版 (性价比主力)          | 年付       | ¥99    | 69GB/月  | 折合 ¥8.25/月，个人日常轻量首选     |
 | 光速云·极速版 (全 IPLC 体验)       | 月付       | ¥25    | 168GB/月 | 单月试错首选，全节点 1.0x 倍率      |
 | 光速云·流光版                      | 月付       | ¥34    | 238GB/月 | 中度视频与办公用户                  |

@@ -1,5 +1,5 @@
 ---
-title: "版本迁移与拆分｜sing-box JSON 配置｜订阅配置"
+title: "版本迁移与拆分"
 description: "sing-box JSON 配置下的「版本迁移与拆分」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

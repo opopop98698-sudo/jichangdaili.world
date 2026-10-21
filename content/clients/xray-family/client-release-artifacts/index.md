@@ -1,5 +1,5 @@
 ---
-title: "客户端发布文件｜v2rayN 与 Xray 客户端资料｜客户端下载"
+title: "客户端发布文件"
 description: "v2rayN 与 Xray 客户端资料下的「客户端发布文件」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

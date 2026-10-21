@@ -1,5 +1,5 @@
 ---
-title: "分发条件与购买记录｜iPhone 与 iPad 客户端｜客户端下载"
+title: "分发条件与购买记录"
 description: "iPhone 与 iPad 客户端下的「分发条件与购买记录」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

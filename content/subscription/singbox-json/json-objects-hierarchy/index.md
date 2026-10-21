@@ -1,5 +1,5 @@
 ---
-title: "对象与结构｜sing-box JSON 配置｜订阅配置"
+title: "对象与结构"
 description: "sing-box JSON 配置下的「对象与结构」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

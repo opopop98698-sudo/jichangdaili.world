@@ -1,5 +1,5 @@
 ---
-title: "系统、架构与版本常识｜新手课堂｜机场代理｜新手课堂｜机场代理"
+title: "系统、架构与版本常识"
 description: "系统、架构与版本常识｜新手课堂｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：系统与硬件身份 - 系统、架构与版本常识｜机场代理
+### 集群：[版本与维护知识](/learn/devices/version-release-channel-literacy/)
 
 系统、架构与版本常识下的「系统与硬件身份」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **CPU架构快速科普：x86_64、ARM64与mips该怎么看**：针对「CPU架构快速科普：x86_64、ARM64与mips该怎么看」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Windows、macOS与Linux在网络栈与代理机制上的底层差异**：针对「Windows、macOS与Linux在网络栈与代理机制上的底层差异」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **移动端iOS与Android沙盒环境对代理后台的严苛限制**：针对「移动端iOS与Android沙盒环境对代理后台的严苛限制」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**CPU架构快速科普：x86_64、ARM64与mips该怎么看**](/learn/demystifying-cpu-architectures-x64-arm64-armv7/)：针对「CPU架构快速科普：x86_64、ARM64与mips该怎么看」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Windows、macOS与Linux在网络栈与代理机制上的底层差异**](/learn/operating-system-differences-windows-mac-linux/)：针对「Windows、macOS与Linux在网络栈与代理机制上的底层差异」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**移动端iOS与Android沙盒环境对代理后台的严苛限制**](/learn/mobile-os-sandboxing-and-vpn-api-limitations/)：针对「移动端iOS与Android沙盒环境对代理后台的严苛限制」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：版本与维护知识 - 系统、架构与版本常识｜机场代理
+### 集群：[版本与维护知识](/learn/devices/version-release-channel-literacy/)
 
 系统、架构与版本常识下的「版本与维护知识」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **如何看懂软件版本号：为什么主版本号改变意味着破坏性改动**：针对「如何看懂软件版本号：为什么主版本号改变意味着破坏性改动」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Alpha、Beta、Release与Nightly版本发布通道的含义**：针对「Alpha、Beta、Release与Nightly版本发布通道的含义」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **代理软件的长期支持(LTS)理念与拒绝无脑跟风更新**：针对「代理软件的长期支持(LTS)理念与拒绝无脑跟风更新」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**如何看懂软件版本号：为什么主版本号改变意味着破坏性改动**](/learn/semantic-versioning-major-minor-patch-guide/)：针对「如何看懂软件版本号：为什么主版本号改变意味着破坏性改动」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Alpha、Beta、Release与Nightly版本发布通道的含义**](/learn/stable-beta-nightly-release-channels-explained/)：针对「Alpha、Beta、Release与Nightly版本发布通道的含义」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**代理软件的长期支持(LTS)理念与拒绝无脑跟风更新**](/learn/long-term-support-lts-concept-for-proxies/)：针对「代理软件的长期支持(LTS)理念与拒绝无脑跟风更新」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[系统与硬件身份](/learn/devices/os-cpu-architecture-matrix/)
+
+系统、架构与版本常识下的「系统与硬件身份」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**CPU架构快速科普：x86_64、ARM64与mips该怎么看**](/learn/demystifying-cpu-architectures-x64-arm64-armv7/)：针对「CPU架构快速科普：x86_64、ARM64与mips该怎么看」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Windows、macOS与Linux在网络栈与代理机制上的底层差异**](/learn/operating-system-differences-windows-mac-linux/)：针对「Windows、macOS与Linux在网络栈与代理机制上的底层差异」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**移动端iOS与Android沙盒环境对代理后台的严苛限制**](/learn/mobile-os-sandboxing-and-vpn-api-limitations/)：针对「移动端iOS与Android沙盒环境对代理后台的严苛限制」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

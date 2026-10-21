@@ -54,6 +54,32 @@ modifiedAt: "2026-10-21"
 - [Mihomo的proxy-providers如何与策略组关联：配置阅读示例](/subscription/mihomo-proxy-providers-and-rule-providers/)
 - [怎样制作最小可验证的Clash配置，而不是一次导入整套复杂规则？](/subscription/minimal-verifiable-clash-config-setup/)
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[配置结构与引用](/subscription/clash-yaml/yaml-structure-references/)
+
+Clash YAML 配置下的「配置结构与引用」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Clash YAML怎么读：节点、策略组、规则与外部资源的关系**](/subscription/how-to-read-clash-yaml-proxies-groups-rules/)：针对「Clash YAML怎么读：节点、策略组、规则与外部资源的关系」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Mihomo的proxy-providers如何与策略组关联：配置阅读示例**](/subscription/mihomo-proxy-providers-and-rule-providers/)：针对「Mihomo的proxy-providers如何与策略组关联：配置阅读示例」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**怎样制作最小可验证的Clash配置，而不是一次导入整套复杂规则？**](/subscription/minimal-verifiable-clash-config-setup/)：针对「怎样制作最小可验证的Clash配置，而不是一次导入整套复杂规则？」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[覆盖与增强](/subscription/clash-yaml/parsers-profile-mixins/)
+
+Clash YAML 配置下的「覆盖与增强」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**在Clash Verge Rev中编写扩展配置(Script/Merge)动态插入节点**](/subscription/writing-parsers-in-clash-verge-rev/)：针对「在Clash Verge Rev中编写扩展配置(Script/Merge)动态插入节点」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**通过配置覆盖功能强行修改机场订阅中的默认DNS设置**](/subscription/overriding-default-dns-settings-in-yaml/)：针对「通过配置覆盖功能强行修改机场订阅中的默认DNS设置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**利用Mixin机制为所有外部订阅统一附加本地直连规则**](/subscription/clash-profile-mixin-advanced-customization/)：针对「利用Mixin机制为所有外部订阅统一附加本地直连规则」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'VLESS、VMess 节点链接参数拆解', url: '/subscription/node-uris/', taskType: 'subscription', description: '深入理解节点 URI 各参数对应到 YAML 的字段' },

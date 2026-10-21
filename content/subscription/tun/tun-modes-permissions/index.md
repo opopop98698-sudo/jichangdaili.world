@@ -1,5 +1,5 @@
 ---
-title: "模式与权限｜TUN 与系统代理｜订阅配置"
+title: "模式与权限"
 description: "TUN 与系统代理下的「模式与权限」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

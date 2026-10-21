@@ -1,5 +1,5 @@
 ---
-title: "规则分流与策略组｜订阅配置｜机场代理｜订阅配置｜机场代理"
+title: "规则分流与策略组"
 description: "规则分流与策略组｜订阅配置｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：规则匹配与顺序 - 规则分流与策略组｜机场代理
+### 集群：[策略组与健康检查](/subscription/rules/policy-groups-health-check/)
 
 规则分流与策略组下的「规则匹配与顺序」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **规则匹配的自上而下顺序原理：为什么直连规则要靠前**：针对「规则匹配的自上而下顺序原理：为什么直连规则要靠前」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **DOMAIN-SUFFIX与DOMAIN-KEYWORD的使用场景与性能对比**：针对「DOMAIN-SUFFIX与DOMAIN-KEYWORD的使用场景与性能对比」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **利用GeoIP:CN与GeoSite:CN实现国内流量绝对直连**：针对「利用GeoIP:CN与GeoSite:CN实现国内流量绝对直连」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**规则匹配的自上而下顺序原理：为什么直连规则要靠前**](/subscription/rule-order-matters-top-to-bottom-precedence/)：针对「规则匹配的自上而下顺序原理：为什么直连规则要靠前」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**DOMAIN-SUFFIX与DOMAIN-KEYWORD的使用场景与性能对比**](/subscription/domain-suffix-vs-domain-keyword-matching/)：针对「DOMAIN-SUFFIX与DOMAIN-KEYWORD的使用场景与性能对比」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**利用GeoIP:CN与GeoSite:CN实现国内流量绝对直连**](/subscription/geoip-cn-and-geosite-cn-direct-routing/)：针对「利用GeoIP:CN与GeoSite:CN实现国内流量绝对直连」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：策略组与健康检查 - 规则分流与策略组｜机场代理
+### 集群：[策略组与健康检查](/subscription/rules/policy-groups-health-check/)
 
 规则分流与策略组下的「策略组与健康检查」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **配置URL-Test自动优选策略组：容差参数与检测间隔**：针对「配置URL-Test自动优选策略组：容差参数与检测间隔」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **为流媒体、OpenAI与普通网页分别创建专属分流策略组**：针对「为流媒体、OpenAI与普通网页分别创建专属分流策略组」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **负载均衡策略组Round-Robin轮询与一致性哈希的选择**：针对「负载均衡策略组Round-Robin轮询与一致性哈希的选择」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**配置URL-Test自动优选策略组：容差参数与检测间隔**](/subscription/configuring-url-test-auto-selection-group/)：针对「配置URL-Test自动优选策略组：容差参数与检测间隔」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**为流媒体、OpenAI与普通网页分别创建专属分流策略组**](/subscription/customizing-proxy-groups-for-media-and-ai/)：针对「为流媒体、OpenAI与普通网页分别创建专属分流策略组」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**负载均衡策略组Round-Robin轮询与一致性哈希的选择**](/subscription/load-balance-round-robin-vs-consistent-hash/)：针对「负载均衡策略组Round-Robin轮询与一致性哈希的选择」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[规则匹配与顺序](/subscription/rules/rule-matching-precedence/)
+
+规则分流与策略组下的「规则匹配与顺序」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**规则匹配的自上而下顺序原理：为什么直连规则要靠前**](/subscription/rule-order-matters-top-to-bottom-precedence/)：针对「规则匹配的自上而下顺序原理：为什么直连规则要靠前」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**DOMAIN-SUFFIX与DOMAIN-KEYWORD的使用场景与性能对比**](/subscription/domain-suffix-vs-domain-keyword-matching/)：针对「DOMAIN-SUFFIX与DOMAIN-KEYWORD的使用场景与性能对比」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**利用GeoIP:CN与GeoSite:CN实现国内流量绝对直连**](/subscription/geoip-cn-and-geosite-cn-direct-routing/)：针对「利用GeoIP:CN与GeoSite:CN实现国内流量绝对直连」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

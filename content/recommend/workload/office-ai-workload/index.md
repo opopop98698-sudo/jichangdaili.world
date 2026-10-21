@@ -1,5 +1,5 @@
 ---
-title: "办公与AI需求｜办公、AI与视频任务适配｜机场推荐"
+title: "办公与AI需求"
 description: "办公、AI与视频任务适配下的「办公与AI需求」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

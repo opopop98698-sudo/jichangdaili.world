@@ -1,5 +1,5 @@
 ---
-title: "sing-box 与 Hiddify 兼容机场｜机场推荐｜机场代理｜机场推荐｜机场代理"
+title: "sing-box 与 Hiddify 兼容机场"
 description: "sing-box 与 Hiddify 兼容机场｜机场推荐｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：配置与核心条件 - sing-box 与 Hiddify 兼容机场｜机场代理
+### 集群：[跨平台与更新维护](/recommend/singbox/cross-platform-maintenance/)
 
 sing-box 与 Hiddify 兼容机场下的「配置与核心条件」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **支持sing-box原生JSON订阅配置的机场挑选标准**：针对「支持sing-box原生JSON订阅配置的机场挑选标准」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Hiddify跨平台客户端与新一代多协议机场的适配矩阵**：针对「Hiddify跨平台客户端与新一代多协议机场的适配矩阵」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **独立规则集SRS二进制编译与机场订阅的分流兼容度**：针对「独立规则集SRS二进制编译与机场订阅的分流兼容度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**支持sing-box原生JSON订阅配置的机场挑选标准**](/recommend/singbox-native-json-airport-selection/)：针对「支持sing-box原生JSON订阅配置的机场挑选标准」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify跨平台客户端与新一代多协议机场的适配矩阵**](/recommend/hiddify-multi-protocol-airport-matching/)：针对「Hiddify跨平台客户端与新一代多协议机场的适配矩阵」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**独立规则集SRS二进制编译与机场订阅的分流兼容度**](/recommend/rule-set-srs-binary-airport-support/)：针对「独立规则集SRS二进制编译与机场订阅的分流兼容度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：跨平台与更新维护 - sing-box 与 Hiddify 兼容机场｜机场代理
+### 集群：[跨平台与更新维护](/recommend/singbox/cross-platform-maintenance/)
 
 sing-box 与 Hiddify 兼容机场下的「跨平台与更新维护」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **sing-box版本破坏性迭代时机场配置模版的跟进质量核对**：针对「sing-box版本破坏性迭代时机场配置模版的跟进质量核对」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Hiddify自动优选节点与多协议并发连接的机场支持情况**：针对「Hiddify自动优选节点与多协议并发连接的机场支持情况」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **全平台使用sing-box多端同步配置时的统一节点筛选要求**：针对「全平台使用sing-box多端同步配置时的统一节点筛选要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box版本破坏性迭代时机场配置模版的跟进质量核对**](/recommend/singbox-version-breaking-changes-prep/)：针对「sing-box版本破坏性迭代时机场配置模版的跟进质量核对」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify自动优选节点与多协议并发连接的机场支持情况**](/recommend/hiddify-auto-warp-multi-node-balance/)：针对「Hiddify自动优选节点与多协议并发连接的机场支持情况」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**全平台使用sing-box多端同步配置时的统一节点筛选要求**](/recommend/full-platform-singbox-sync-experience/)：针对「全平台使用sing-box多端同步配置时的统一节点筛选要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ sing-box 与 Hiddify 兼容机场下的「跨平台与更新维护」三级集�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[配置与核心条件](/recommend/singbox/config-core-criteria/)
+
+sing-box 与 Hiddify 兼容机场下的「配置与核心条件」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**支持sing-box原生JSON订阅配置的机场挑选标准**](/recommend/singbox-native-json-airport-selection/)：针对「支持sing-box原生JSON订阅配置的机场挑选标准」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify跨平台客户端与新一代多协议机场的适配矩阵**](/recommend/hiddify-multi-protocol-airport-matching/)：针对「Hiddify跨平台客户端与新一代多协议机场的适配矩阵」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**独立规则集SRS二进制编译与机场订阅的分流兼容度**](/recommend/rule-set-srs-binary-airport-support/)：针对「独立规则集SRS二进制编译与机场订阅的分流兼容度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

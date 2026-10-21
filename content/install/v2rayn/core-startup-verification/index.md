@@ -1,5 +1,5 @@
 ---
-title: "核心启动与基础验收｜v2rayN 安装｜安装教程"
+title: "核心启动与基础验收"
 description: "v2rayN 安装下的「核心启动与基础验收」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

@@ -1,5 +1,7 @@
 import DefaultTheme from 'vitepress/theme';
 import type { Theme } from 'vitepress';
+import { h } from 'vue';
+import { useData } from 'vitepress';
 import './style.css';
 
 // Import our custom components
@@ -18,9 +20,23 @@ import Disclosure from './components/Disclosure.vue';
 import Breadcrumbs from './components/Breadcrumbs.vue';
 import PublishedContentIndex from './components/PublishedContentIndex.vue';
 import CouponBadge from './components/CouponBadge.vue';
+import AuthorByline from './components/AuthorByline.vue';
 
 export default {
   extends: DefaultTheme,
+  Layout() {
+    const { frontmatter } = useData();
+    return h(DefaultTheme.Layout, null, {
+      'doc-footer-before': () => {
+        if (frontmatter.value.layout === 'home') return null;
+        return h(AuthorByline, {
+          author: frontmatter.value.author,
+          role: frontmatter.value.authorRole,
+          verifiedDate: frontmatter.value.lastUpdated || frontmatter.value.modifiedAt
+        });
+      }
+    });
+  },
   enhanceApp({ app }) {
     app.component('ClientIdentityCard', ClientIdentityCard);
     app.component('VerifiedDownloadLink', VerifiedDownloadLink);
@@ -37,5 +53,6 @@ export default {
     app.component('Breadcrumbs', Breadcrumbs);
     app.component('PublishedContentIndex', PublishedContentIndex);
     app.component('CouponBadge', CouponBadge);
+    app.component('AuthorByline', AuthorByline);
   }
 } satisfies Theme;

@@ -1,5 +1,5 @@
 ---
-title: "结果与证据｜测速与稳定性理解｜新手课堂"
+title: "结果与证据"
 description: "测速与稳定性理解下的「结果与证据」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

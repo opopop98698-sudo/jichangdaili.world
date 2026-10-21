@@ -1,5 +1,5 @@
 ---
-title: "应用接入与多设备配置｜订阅配置｜机场代理｜订阅配置｜机场代理"
+title: "应用接入与多设备配置"
 description: "应用接入与多设备配置｜订阅配置｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：浏览器、终端与开发工具 - 应用接入与多设备配置｜机场代理
+### 集群：[备份同步与访问控制](/subscription/integration/backup-sync-access-control/)
 
 应用接入与多设备配置下的「浏览器、终端与开发工具」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **在Chrome与Edge中配合SwitchyOmega插件接入本地代理端口**：针对「在Chrome与Edge中配合SwitchyOmega插件接入本地代理端口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **在PowerShell、CMD与Git Bash中配置HTTP/HTTPS/ALL_PROXY**：针对「在PowerShell、CMD与Git Bash中配置HTTP/HTTPS/ALL_PROXY」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **在VS Code与Cursor开发环境中设置代理拉取插件与模型**：针对「在VS Code与Cursor开发环境中设置代理拉取插件与模型」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在Chrome与Edge中配合SwitchyOmega插件接入本地代理端口**](/subscription/setting-up-http-proxy-in-chrome-edge/)：针对「在Chrome与Edge中配合SwitchyOmega插件接入本地代理端口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在PowerShell、CMD与Git Bash中配置HTTP/HTTPS/ALL_PROXY**](/subscription/configuring-proxy-in-terminal-powershell-git/)：针对「在PowerShell、CMD与Git Bash中配置HTTP/HTTPS/ALL_PROXY」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在VS Code与Cursor开发环境中设置代理拉取插件与模型**](/subscription/configuring-proxy-in-vscode-and-cursor/)：针对「在VS Code与Cursor开发环境中设置代理拉取插件与模型」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：备份同步与访问控制 - 应用接入与多设备配置｜机场代理
+### 集群：[备份同步与访问控制](/subscription/integration/backup-sync-access-control/)
 
 应用接入与多设备配置下的「备份同步与访问控制」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **开启Allow-LAN局域网共享：让同一WiFi下的手机使用电脑代理**：针对「开启Allow-LAN局域网共享：让同一WiFi下的手机使用电脑代理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **为局域网代理共享设置身份认证账号密码防止蹭网**：针对「为局域网代理共享设置身份认证账号密码防止蹭网」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **使用私有Git仓库或WebDAV在多台工作机之间无感同步配置**：针对「使用私有Git仓库或WebDAV在多台工作机之间无感同步配置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**开启Allow-LAN局域网共享：让同一WiFi下的手机使用电脑代理**](/subscription/allowing-lan-connections-to-share-proxy/)：针对「开启Allow-LAN局域网共享：让同一WiFi下的手机使用电脑代理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**为局域网代理共享设置身份认证账号密码防止蹭网**](/subscription/protecting-lan-proxy-with-authentication/)：针对「为局域网代理共享设置身份认证账号密码防止蹭网」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**使用私有Git仓库或WebDAV在多台工作机之间无感同步配置**](/subscription/syncing-profiles-via-git-or-webdav/)：针对「使用私有Git仓库或WebDAV在多台工作机之间无感同步配置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[浏览器、终端与开发工具](/subscription/integration/browser-terminal-ide-setup/)
+
+应用接入与多设备配置下的「浏览器、终端与开发工具」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**在Chrome与Edge中配合SwitchyOmega插件接入本地代理端口**](/subscription/setting-up-http-proxy-in-chrome-edge/)：针对「在Chrome与Edge中配合SwitchyOmega插件接入本地代理端口」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在PowerShell、CMD与Git Bash中配置HTTP/HTTPS/ALL_PROXY**](/subscription/configuring-proxy-in-terminal-powershell-git/)：针对「在PowerShell、CMD与Git Bash中配置HTTP/HTTPS/ALL_PROXY」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在VS Code与Cursor开发环境中设置代理拉取插件与模型**](/subscription/configuring-proxy-in-vscode-and-cursor/)：针对「在VS Code与Cursor开发环境中设置代理拉取插件与模型」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

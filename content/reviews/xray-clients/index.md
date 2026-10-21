@@ -1,5 +1,5 @@
 ---
-title: "Xray 与多核心客户端比较｜客户端评测｜机场代理｜客户端评测｜机场代理"
+title: "Xray 与多核心客户端比较"
 description: "Xray 与多核心客户端比较｜客户端评测｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：能力暴露与切换 - Xray 与多核心客户端比较｜机场代理
+### 集群：[导入和诊断](/reviews/xray-clients/import-diagnostics-usability/)
 
 Xray 与多核心客户端比较下的「能力暴露与切换」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **v2rayN对比NekoBox：高级路由配置与核心暴露深度评测**：针对「v2rayN对比NekoBox：高级路由配置与核心暴露深度评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **在v2rayN中无缝切换Xray与sing-box核心的稳定性表现**：针对「在v2rayN中无缝切换Xray与sing-box核心的稳定性表现」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **分组管理与批量测试功能：v2rayN海量节点运维效率**：针对「分组管理与批量测试功能：v2rayN海量节点运维效率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayN对比NekoBox：高级路由配置与核心暴露深度评测**](/reviews/v2rayn-vs-nekobox-multi-core-feature-depth/)：针对「v2rayN对比NekoBox：高级路由配置与核心暴露深度评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在v2rayN中无缝切换Xray与sing-box核心的稳定性表现**](/reviews/switching-between-xray-and-singbox-in-v2rayn/)：针对「在v2rayN中无缝切换Xray与sing-box核心的稳定性表现」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**分组管理与批量测试功能：v2rayN海量节点运维效率**](/reviews/sub-group-management-in-v2rayn-vs-nekoray/)：针对「分组管理与批量测试功能：v2rayN海量节点运维效率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：导入和诊断 - Xray 与多核心客户端比较｜机场代理
+### 集群：[导入和诊断](/reviews/xray-clients/import-diagnostics-usability/)
 
 Xray 与多核心客户端比较下的「导入和诊断」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **桌面端v2rayN与移动端v2rayNG剪贴板批量导入容错率对比**：针对「桌面端v2rayN与移动端v2rayNG剪贴板批量导入容错率对比」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **内置日志查看器与实时连接追踪功能的使用便利度**：针对「内置日志查看器与实时连接追踪功能的使用便利度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **v2rayN图形化路由规则编辑器的上手门槛与灵活性评测**：针对「v2rayN图形化路由规则编辑器的上手门槛与灵活性评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**桌面端v2rayN与移动端v2rayNG剪贴板批量导入容错率对比**](/reviews/v2rayn-vs-v2rayng-clipboard-import-speed/)：针对「桌面端v2rayN与移动端v2rayNG剪贴板批量导入容错率对比」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**内置日志查看器与实时连接追踪功能的使用便利度**](/reviews/comparing-built-in-log-viewers-for-troubleshooting/)：针对「内置日志查看器与实时连接追踪功能的使用便利度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayN图形化路由规则编辑器的上手门槛与灵活性评测**](/reviews/v2rayn-custom-routing-rule-editor-evaluation/)：针对「v2rayN图形化路由规则编辑器的上手门槛与灵活性评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ Xray 与多核心客户端比较下的「导入和诊断」三级集群综合知
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[能力暴露与切换](/reviews/xray-clients/capability-exposure-switching/)
+
+Xray 与多核心客户端比较下的「能力暴露与切换」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**v2rayN对比NekoBox：高级路由配置与核心暴露深度评测**](/reviews/v2rayn-vs-nekobox-multi-core-feature-depth/)：针对「v2rayN对比NekoBox：高级路由配置与核心暴露深度评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在v2rayN中无缝切换Xray与sing-box核心的稳定性表现**](/reviews/switching-between-xray-and-singbox-in-v2rayn/)：针对「在v2rayN中无缝切换Xray与sing-box核心的稳定性表现」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**分组管理与批量测试功能：v2rayN海量节点运维效率**](/reviews/sub-group-management-in-v2rayn-vs-nekoray/)：针对「分组管理与批量测试功能：v2rayN海量节点运维效率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

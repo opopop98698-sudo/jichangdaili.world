@@ -1,5 +1,5 @@
 ---
-title: "Clash 与 Mihomo 兼容机场｜机场推荐｜机场代理｜机场推荐｜机场代理"
+title: "Clash 与 Mihomo 兼容机场"
 description: "Clash 与 Mihomo 兼容机场｜机场推荐｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：Clash 订阅适配 - Clash 与 Mihomo 兼容机场｜机场代理
+### 集群：[Clash 使用需求选型](/recommend/mihomo/clash-requirements/)
 
 Clash 与 Mihomo 兼容机场下的「Clash 订阅适配」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Mihomo核心专属特性核对：Proxy-Provider与Hysteria2支持**：针对「Mihomo核心专属特性核对：Proxy-Provider与Hysteria2支持」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Clash Meta配置兼容测试：标准YAML格式与自定义规则拉取**：针对「Clash Meta配置兼容测试：标准YAML格式与自定义规则拉取」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **机场策略组命名规范与Clash Verge Rev自动识别逻辑**：针对「机场策略组命名规范与Clash Verge Rev自动识别逻辑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Mihomo核心专属特性核对：Proxy-Provider与Hysteria2支持**](/recommend/mihomo-extended-yaml-features-check/)：针对「Mihomo核心专属特性核对：Proxy-Provider与Hysteria2支持」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Clash Meta配置兼容测试：标准YAML格式与自定义规则拉取**](/recommend/clash-meta-yaml-compatibility-testing/)：针对「Clash Meta配置兼容测试：标准YAML格式与自定义规则拉取」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**机场策略组命名规范与Clash Verge Rev自动识别逻辑**](/recommend/clash-node-group-naming-conventions/)：针对「机场策略组命名规范与Clash Verge Rev自动识别逻辑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：Clash 使用需求选型 - Clash 与 Mihomo 兼容机场｜机场代理
+### 集群：[Clash 使用需求选型](/recommend/mihomo/clash-requirements/)
 
 Clash 与 Mihomo 兼容机场下的「Clash 使用需求选型」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Clash Verge Rev用户如何挑选低故障率且节点及时的机场**：针对「Clash Verge Rev用户如何挑选低故障率且节点及时的机场」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **分流规则重度用户选购机场的必看指标与节点健康检查频率**：针对「分流规则重度用户选购机场的必看指标与节点健康检查频率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **高并发长连接场景下Clash兼容机场的连接数限制核查**：针对「高并发长连接场景下Clash兼容机场的连接数限制核查」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Clash Verge Rev用户如何挑选低故障率且节点及时的机场**](/recommend/choose-airport-for-clash-verge-rev/)：针对「Clash Verge Rev用户如何挑选低故障率且节点及时的机场」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**分流规则重度用户选购机场的必看指标与节点健康检查频率**](/recommend/rule-based-airport-node-selection/)：针对「分流规则重度用户选购机场的必看指标与节点健康检查频率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**高并发长连接场景下Clash兼容机场的连接数限制核查**](/recommend/high-concurrency-clash-airport-criteria/)：针对「高并发长连接场景下Clash兼容机场的连接数限制核查」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ Clash 与 Mihomo 兼容机场下的「Clash 使用需求选型」三级集群综
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[Clash 订阅适配](/recommend/mihomo/clash-subscription/)
+
+Clash 与 Mihomo 兼容机场下的「Clash 订阅适配」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Mihomo核心专属特性核对：Proxy-Provider与Hysteria2支持**](/recommend/mihomo-extended-yaml-features-check/)：针对「Mihomo核心专属特性核对：Proxy-Provider与Hysteria2支持」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Clash Meta配置兼容测试：标准YAML格式与自定义规则拉取**](/recommend/clash-meta-yaml-compatibility-testing/)：针对「Clash Meta配置兼容测试：标准YAML格式与自定义规则拉取」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**机场策略组命名规范与Clash Verge Rev自动识别逻辑**](/recommend/clash-node-group-naming-conventions/)：针对「机场策略组命名规范与Clash Verge Rev自动识别逻辑」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

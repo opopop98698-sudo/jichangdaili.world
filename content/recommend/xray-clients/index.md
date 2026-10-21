@@ -1,5 +1,5 @@
 ---
-title: "v2rayN 与 v2rayNG 兼容机场｜机场推荐｜机场代理｜机场推荐｜机场代理"
+title: "v2rayN 与 v2rayNG 兼容机场"
 description: "v2rayN 与 v2rayNG 兼容机场｜机场推荐｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：v2rayN 服务选择 - v2rayN 与 v2rayNG 兼容机场｜机场代理
+### 集群：[v2rayNG 服务选择](/recommend/xray-clients/v2rayng-selection/)
 
 v2rayN 与 v2rayNG 兼容机场下的「v2rayN 服务选择」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **v2rayN多核心兼容性：Xray与sing-box核心切换选型**：针对「v2rayN多核心兼容性：Xray与sing-box核心切换选型」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **适合v2rayN高级自定义路由与GeoIP分流的机场特征**：针对「适合v2rayN高级自定义路由与GeoIP分流的机场特征」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **大规模节点导入后v2rayN真连接延迟测试的有效性辨析**：针对「大规模节点导入后v2rayN真连接延迟测试的有效性辨析」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayN多核心兼容性：Xray与sing-box核心切换选型**](/recommend/v2rayn-core-compatibility-matching/)：针对「v2rayN多核心兼容性：Xray与sing-box核心切换选型」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**适合v2rayN高级自定义路由与GeoIP分流的机场特征**](/recommend/v2rayn-custom-routing-airport-criteria/)：针对「适合v2rayN高级自定义路由与GeoIP分流的机场特征」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**大规模节点导入后v2rayN真连接延迟测试的有效性辨析**](/recommend/v2rayn-bulk-node-latency-testing/)：针对「大规模节点导入后v2rayN真连接延迟测试的有效性辨析」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：v2rayNG 服务选择 - v2rayN 与 v2rayNG 兼容机场｜机场代理
+### 集群：[v2rayNG 服务选择](/recommend/xray-clients/v2rayng-selection/)
 
 v2rayN 与 v2rayNG 兼容机场下的「v2rayNG 服务选择」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Android端v2rayNG长时间待机保活对节点稳定性的要求**：针对「Android端v2rayNG长时间待机保活对节点稳定性的要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **v2rayNG移动端订阅定时更新失败排查与机场链接要求**：针对「v2rayNG移动端订阅定时更新失败排查与机场链接要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **v2rayNG分应用代理配合机场原生IP节点的选型方法**：针对「v2rayNG分应用代理配合机场原生IP节点的选型方法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Android端v2rayNG长时间待机保活对节点稳定性的要求**](/recommend/v2rayng-android-power-saving-criteria/)：针对「Android端v2rayNG长时间待机保活对节点稳定性的要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayNG移动端订阅定时更新失败排查与机场链接要求**](/recommend/v2rayng-sub-auto-update-airport-check/)：针对「v2rayNG移动端订阅定时更新失败排查与机场链接要求」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayNG分应用代理配合机场原生IP节点的选型方法**](/recommend/v2rayng-split-tunnel-app-routing-tips/)：针对「v2rayNG分应用代理配合机场原生IP节点的选型方法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ v2rayN 与 v2rayNG 兼容机场下的「v2rayNG 服务选择」三级集群综�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[v2rayN 服务选择](/recommend/xray-clients/v2rayn-selection/)
+
+v2rayN 与 v2rayNG 兼容机场下的「v2rayN 服务选择」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**v2rayN多核心兼容性：Xray与sing-box核心切换选型**](/recommend/v2rayn-core-compatibility-matching/)：针对「v2rayN多核心兼容性：Xray与sing-box核心切换选型」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**适合v2rayN高级自定义路由与GeoIP分流的机场特征**](/recommend/v2rayn-custom-routing-airport-criteria/)：针对「适合v2rayN高级自定义路由与GeoIP分流的机场特征」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**大规模节点导入后v2rayN真连接延迟测试的有效性辨析**](/recommend/v2rayn-bulk-node-latency-testing/)：针对「大规模节点导入后v2rayN真连接延迟测试的有效性辨析」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

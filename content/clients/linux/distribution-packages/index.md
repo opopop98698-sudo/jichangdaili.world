@@ -1,5 +1,5 @@
 ---
-title: "发行包类型｜Linux 客户端｜客户端下载"
+title: "发行包类型"
 description: "Linux 客户端下的「发行包类型」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

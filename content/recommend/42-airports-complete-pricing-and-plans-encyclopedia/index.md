@@ -32,36 +32,36 @@ modifiedAt: "2026-10-21"
 
 | # | 品牌名称 | 官方入口 | 专属优惠码 | 真实起步门槛与周期 | 折算月均成本 | 线路架构与特色 |
 |---|---------|---------|-----------|------------------|-------------|---------------|
-| **1** | **光速云 (主推)** | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) | <CouponBadge code="AMM" /> | **¥99 / 年付** (69GB/月) 或 **¥147 永久** (247GB) | **约 ¥8.2/月** | IEPL+企业内网双专线、VLESS 协议、2020年老牌 |
-| **2** | **飞猫云** | [直达官网 ↗](https://guangs.flycataff.com/#/?code=6uq0Xe9y) | <CouponBadge code="flycat888" /> | ¥84 / 年付 (50GB/月) 或 ¥25 / 月付 (150GB) | 约 ¥7.0/月 | 专属客户端免配订阅、8折优惠码 |
-| **3** | **微风网络** | [直达官网 ↗](https://edp01.breezenetaff.com/#/?code=t3huofyI) | <CouponBadge code="flat888" /> | ¥84 / 年付 (50GB/月) 或 ¥22 / 月付 (150GB) | 约 ¥7.0/月 | IEPL 专线 + VLESS 协议、9折优惠码 |
-| **4** | **星岛梦** | [直达官网 ↗](https://guangs.xingdaomeng.com/#/?code=1TynBYnR) | <CouponBadge code="nmw888" /> | ¥99 / 年付 或 不限时永久包 | 约 ¥8.2/月 | 2020年稳定运营老牌、支持不限时套餐 |
-| **5** | **无忧链接** | [直达官网 ↗](https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL) | <CouponBadge code="wuyou666" /> | ¥72 / 年付 (轻量版) | 约 ¥6.0/月 | 订阅无需转换、多格式直接支持 |
-| **6** | **二猫云** | [直达官网 ↗](https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW) | <CouponBadge code="ermao5555" /> | ¥20 / 月付 (130GB) | ¥20.0/月 | 20元实用档位高性价比、BGP 专线 |
-| **7** | **唯兔云** | [直达官网 ↗](https://guangs.v2yunvipaff.com/#/?code=xIutqOBA) | <CouponBadge code="weitu666" /> | ¥18 / 月付起 | ¥18.0/月 | 60+ 丰富节点、三网优化智能负载均衡 |
-| **8** | **Firefly** | [直达官网 ↗](https://vip02.fireflyaff.com/#/?code=2n7VURre) | <CouponBadge code="firefly" /> | ¥25 / 月付起 (6档套餐) | ¥25.0/月 | 全 IPLC 专线、提供国内免翻墙直连官网 |
-| **9** | **暮光加速** | [直达官网 ↗](https://varnexa.twilightaff.com/#/?code=D1LHglg3) | <CouponBadge code="muguang5555" /> | ¥15 / 月付起 | ¥15.0/月 | 稳定隧道中转、流媒体与社交媒体解锁 |
-| **10** | **宇宙云** | [直达官网 ↗](https://wzjc.yuzoucloud.cc/#/?code=yrThwMP1) | <CouponBadge code="YUZHOU553" /> | ¥18 / 月付起 | ¥18.0/月 | IEPL 专线 + VLESS 协议 + 自研客户端 |
-| **11** | **U1S1** | [直达官网 ↗](https://guangs.vipaff.cc/#/?code=xhX5X22f) | <CouponBadge code="akaka" /> | ¥20 / 月付 (120GB) | ¥20.0/月 | 资费无套路标准方案、全节点 1.0x 倍率 |
-| **12** | **灵猫网络** | [直达官网 ↗](https://vip01.civetnet.com/#/?code=8MIAyxak) | <CouponBadge code="lmao888" /> | ¥19 / 月付 (150GB) | ¥19.0/月 | 19元实用档位、同时支持大容量不限时包 |
-| **13** | **极连云** | [直达官网 ↗](https://guangs.jlyvipaff.com/#/?code=VM1rKGUu) | <CouponBadge code="ji8888" /> | ¥18 / 月付 (100GB) | ¥18.0/月 | 优化节点针对 ChatGPT / Claude 生产力工具 |
-| **14** | **光年梯** | [直达官网 ↗](https://guangs.gntaff.com/#/?code=X1FoxjGE) | <CouponBadge code="gnt6666" /> | ¥18 / 月付 (110GB) | ¥18.0/月 | 轻量实用平民方案 |
-| **15** | **一翻云** | [直达官网 ↗](https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r) | <CouponBadge code="yfy6666" /> | ¥20 / 月付 (150GB) | ¥20.0/月 | 大流量月付、适合追剧党 |
-| **16** | **SOGO云** | [直达官网 ↗](https://guangs.sogoyunaff.cc/#/?code=327Vs0w7) | <CouponBadge code="sss777" /> | ¥15 / 月付起 | ¥15.0/月 | 2026 年新锐品牌、带宽充裕无超售压力 |
-| **17** | **可信云** | [直达官网 ↗](https://guangs.kosingaff.com/#/register?code=UYDtNlCY) | <CouponBadge code="kkk333" /> | ¥16 / 月付起 | ¥16.0/月 | 诚实标注数据缺口、数据透明度高 |
-| **18** | **速界** | [直达官网 ↗](https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB) | <CouponBadge code="sss1111" /> | ¥18 / 月付起 | ¥18.0/月 | 强调 AI 办公工具支持 |
-| **19** | **闪跃** | [直达官网 ↗](https://vip02.flashleapaff.com/#/?code=3lgzm9mm) | <CouponBadge code="shanyue" /> | ¥24 / 月付 (150GB) | ¥24.0/月 | 优化线路、低延迟亚太节点 |
-| **20** | **全球云** | [直达官网 ↗](https://guangs.gcvipaff.com/#/?code=Ov2nvU9C) | <CouponBadge code="qqy7777" /> | ¥20 / 月付起 | ¥20.0/月 | 60+ 丰富节点、专属客户端下载即用 |
-| **21** | **闪电鼠** | [直达官网 ↗](https://qwerty.shandianshuaff.com/#/?code=rUE75iYh) | <CouponBadge code="sd88" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 极致便宜门槛、季付及以上 7 折 |
-| **22** | **大佬云** | [直达官网 ↗](https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN) | <CouponBadge code="dly888" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 极致便宜门槛、轻量备用备用梯 |
-| **23** | **云界线** | [直达官网 ↗](https://qwerty.yunjiexianaff.com/?code=HBaZ91c6) | <CouponBadge code="yjx888" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 低价入门梯队 |
-| **24** | **榴莲云** | [直达官网 ↗](https://qwerty.liulianyunaff.com#/?code=hS5pvbfE) | <CouponBadge code="ll88" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 便宜入门选择 |
-| **25** | **神行加速** | [直达官网 ↗](https://qwerty.shenxingaff.com/#/?code=gawDQqVE) | <CouponBadge code="xs0077" /> | ¥14 / 月付 (120GB) | ¥14.0/月 | 14元实用平民月付 |
-| **26** | **环球梯** | [直达官网 ↗](https://qwerty.huanqiutiaff.com/?code=9I4KRNPH) | <CouponBadge code="HQ66" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 低预算备用方案 |
-| **27** | **隐形人** | [直达官网 ↗](https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT) | <CouponBadge code="yxr888" /> | ¥25 / 月付起 | ¥25.0/月 | 60+节点、1小时节点修复承诺（仅专属App）|
-| **28** | **梯子云** | [直达官网 ↗](https://tiziyun3.ladderaff.com/#/?code=7EmnpHs0) | <CouponBadge code="tiziyun" /> | ¥22 / 月付起 | ¥22.0/月 | 自研全平台App + 通用订阅双支持、2Gbps+ |
-| **29** | **WgetCloud** | [直达官网 ↗](https://invite.wgetcloud.ltd/auth/register?code=VLG2xb) | <CouponBadge code="官网活动" /> | **¥297 / 季付** (230GB/月) | **约 ¥99.0/月** | 纯高端 BGP+IPLC 专线、晚高峰极致保障 |
-| **30** | **白月光** | [直达官网 ↗](https://www.sibker.com/register?invite_code=gg6puAId) | <CouponBadge code="官网活动" /> | **¥66 / 季付** (100GB/月) | **约 ¥22.0/月** | 节点覆盖 79 地区、节点名目极其丰富 |
+| **1** | **光速云 (主推)** | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="AMM" /> | **¥99 / 年付** (69GB/月) 或 **¥147 永久** (247GB) | **约 ¥8.2/月** | IEPL+企业内网双专线、VLESS 协议、2020年老牌 |
+| **2** | **飞猫云** | <a href="https://guangs.flycataff.com/#/?code=6uq0Xe9y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="flycat888" /> | ¥84 / 年付 (50GB/月) 或 ¥25 / 月付 (150GB) | 约 ¥7.0/月 | 专属客户端免配订阅、8折优惠码 |
+| **3** | **微风网络** | <a href="https://edp01.breezenetaff.com/#/?code=t3huofyI" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="flat888" /> | ¥84 / 年付 (50GB/月) 或 ¥22 / 月付 (150GB) | 约 ¥7.0/月 | IEPL 专线 + VLESS 协议、9折优惠码 |
+| **4** | **星岛梦** | <a href="https://guangs.xingdaomeng.com/#/?code=1TynBYnR" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="nmw888" /> | ¥99 / 年付 或 不限时永久包 | 约 ¥8.2/月 | 2020年稳定运营老牌、支持不限时套餐 |
+| **5** | **无忧链接** | <a href="https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="wuyou666" /> | ¥72 / 年付 (轻量版) | 约 ¥6.0/月 | 订阅无需转换、多格式直接支持 |
+| **6** | **二猫云** | <a href="https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="ermao5555" /> | ¥20 / 月付 (130GB) | ¥20.0/月 | 20元实用档位高性价比、BGP 专线 |
+| **7** | **唯兔云** | <a href="https://guangs.v2yunvipaff.com/#/?code=xIutqOBA" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="weitu666" /> | ¥18 / 月付起 | ¥18.0/月 | 60+ 丰富节点、三网优化智能负载均衡 |
+| **8** | **Firefly** | <a href="https://vip02.fireflyaff.com/#/?code=2n7VURre" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="firefly" /> | ¥25 / 月付起 (6档套餐) | ¥25.0/月 | 全 IPLC 专线、提供国内免翻墙直连官网 |
+| **9** | **暮光加速** | <a href="https://varnexa.twilightaff.com/#/?code=D1LHglg3" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="muguang5555" /> | ¥15 / 月付起 | ¥15.0/月 | 稳定隧道中转、流媒体与社交媒体解锁 |
+| **10** | **宇宙云** | <a href="https://wzjc.yuzoucloud.cc/#/?code=yrThwMP1" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="YUZHOU553" /> | ¥18 / 月付起 | ¥18.0/月 | IEPL 专线 + VLESS 协议 + 自研客户端 |
+| **11** | **U1S1** | <a href="https://guangs.vipaff.cc/#/?code=xhX5X22f" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="akaka" /> | ¥20 / 月付 (120GB) | ¥20.0/月 | 资费无套路标准方案、全节点 1.0x 倍率 |
+| **12** | **灵猫网络** | <a href="https://vip01.civetnet.com/#/?code=8MIAyxak" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="lmao888" /> | ¥19 / 月付 (150GB) | ¥19.0/月 | 19元实用档位、同时支持大容量不限时包 |
+| **13** | **极连云** | <a href="https://guangs.jlyvipaff.com/#/?code=VM1rKGUu" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="ji8888" /> | ¥18 / 月付 (100GB) | ¥18.0/月 | 优化节点针对 ChatGPT / Claude 生产力工具 |
+| **14** | **光年梯** | <a href="https://guangs.gntaff.com/#/?code=X1FoxjGE" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="gnt6666" /> | ¥18 / 月付 (110GB) | ¥18.0/月 | 轻量实用平民方案 |
+| **15** | **一翻云** | <a href="https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="yfy6666" /> | ¥20 / 月付 (150GB) | ¥20.0/月 | 大流量月付、适合追剧党 |
+| **16** | **SOGO云** | <a href="https://guangs.sogoyunaff.cc/#/?code=327Vs0w7" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="sss777" /> | ¥15 / 月付起 | ¥15.0/月 | 2026 年新锐品牌、带宽充裕无超售压力 |
+| **17** | **可信云** | <a href="https://guangs.kosingaff.com/#/register?code=UYDtNlCY" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="kkk333" /> | ¥16 / 月付起 | ¥16.0/月 | 诚实标注数据缺口、数据透明度高 |
+| **18** | **速界** | <a href="https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="sss1111" /> | ¥18 / 月付起 | ¥18.0/月 | 强调 AI 办公工具支持 |
+| **19** | **闪跃** | <a href="https://vip02.flashleapaff.com/#/?code=3lgzm9mm" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="shanyue" /> | ¥24 / 月付 (150GB) | ¥24.0/月 | 优化线路、低延迟亚太节点 |
+| **20** | **全球云** | <a href="https://guangs.gcvipaff.com/#/?code=Ov2nvU9C" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="qqy7777" /> | ¥20 / 月付起 | ¥20.0/月 | 60+ 丰富节点、专属客户端下载即用 |
+| **21** | **闪电鼠** | <a href="https://qwerty.shandianshuaff.com/#/?code=rUE75iYh" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="sd88" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 极致便宜门槛、季付及以上 7 折 |
+| **22** | **大佬云** | <a href="https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="dly888" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 极致便宜门槛、轻量备用备用梯 |
+| **23** | **云界线** | <a href="https://qwerty.yunjiexianaff.com/?code=HBaZ91c6" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="yjx888" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 低价入门梯队 |
+| **24** | **榴莲云** | <a href="https://qwerty.liulianyunaff.com#/?code=hS5pvbfE" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="ll88" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 便宜入门选择 |
+| **25** | **神行加速** | <a href="https://qwerty.shenxingaff.com/#/?code=gawDQqVE" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="xs0077" /> | ¥14 / 月付 (120GB) | ¥14.0/月 | 14元实用平民月付 |
+| **26** | **环球梯** | <a href="https://qwerty.huanqiutiaff.com/?code=9I4KRNPH" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="HQ66" /> | ¥68 / 年付 (60GB/月) | **约 ¥5.6/月** | 低预算备用方案 |
+| **27** | **隐形人** | <a href="https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="yxr888" /> | ¥25 / 月付起 | ¥25.0/月 | 60+节点、1小时节点修复承诺（仅专属App）|
+| **28** | **梯子云** | <a href="https://tiziyun3.ladderaff.com/#/?code=7EmnpHs0" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="tiziyun" /> | ¥22 / 月付起 | ¥22.0/月 | 自研全平台App + 通用订阅双支持、2Gbps+ |
+| **29** | **WgetCloud** | <a href="https://invite.wgetcloud.ltd/auth/register?code=VLG2xb" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="官网活动" /> | **¥297 / 季付** (230GB/月) | **约 ¥99.0/月** | 纯高端 BGP+IPLC 专线、晚高峰极致保障 |
+| **30** | **白月光** | <a href="https://www.sibker.com/register?invite_code=gg6puAId" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> | <CouponBadge code="官网活动" /> | **¥66 / 季付** (100GB/月) | **约 ¥22.0/月** | 节点覆盖 79 地区、节点名目极其丰富 |
 | **31** | **FlyingBird** | [直达官网 ↗](https://flyingbird.com) | <CouponBadge code="官网活动" /> | ¥15 / 月付起 | ¥15.0/月 | 经典稳定中转方案 |
 | **32** | **CyberGuard** | [直达官网 ↗](https://cyberguard.com) | <CouponBadge code="官网活动" /> | ¥25 / 月付起 | ¥25.0/月 | 注重隐私与加密传输 |
 | **33** | **龙猫云** | [直达官网 ↗](https://longmaoyun.com) | <CouponBadge code="官网活动" /> | ¥18 / 月付起 | ¥18.0/月 | 多节点分流老牌 |

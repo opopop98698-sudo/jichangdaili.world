@@ -1,5 +1,5 @@
 ---
-title: "地址与路径｜网络与协议入门｜新手课堂"
+title: "地址与路径"
 description: "网络与协议入门下的「地址与路径」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

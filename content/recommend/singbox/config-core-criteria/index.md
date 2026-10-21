@@ -1,5 +1,5 @@
 ---
-title: "配置与核心条件｜sing-box 与 Hiddify 兼容机场｜机场推荐"
+title: "配置与核心条件"
 description: "sing-box 与 Hiddify 兼容机场下的「配置与核心条件」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

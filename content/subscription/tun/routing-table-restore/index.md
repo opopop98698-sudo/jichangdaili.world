@@ -1,5 +1,5 @@
 ---
-title: "路由与恢复｜TUN 与系统代理｜订阅配置"
+title: "路由与恢复"
 description: "TUN 与系统代理下的「路由与恢复」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

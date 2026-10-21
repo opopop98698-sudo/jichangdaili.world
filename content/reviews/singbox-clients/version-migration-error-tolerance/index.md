@@ -1,5 +1,5 @@
 ---
-title: "版本迁移与错误｜sing-box 客户端比较｜客户端评测"
+title: "版本迁移与错误"
 description: "sing-box 客户端比较下的「版本迁移与错误」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

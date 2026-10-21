@@ -1,5 +1,5 @@
 ---
-title: "覆盖与增强｜Clash YAML 配置｜订阅配置"
+title: "覆盖与增强"
 description: "Clash YAML 配置下的「覆盖与增强」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

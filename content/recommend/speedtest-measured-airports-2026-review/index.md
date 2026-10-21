@@ -31,21 +31,21 @@ modifiedAt: "2026-10-21"
 ```
 | 顺位 | 品牌名称 | 线路架构类型 | 起步月费估算 | 香港/亚太平均延迟 | 专属优惠码 | 核心特色与优势 | 官方入口 |
 | :---: | :--- | :--- | :---: | :---: | :---: | :--- | :---: |
-| **1** | **光速云** | IEPL + 企业内网双专线 | **约 ¥8/月** (年付) | **22.4 ms** (529M) | <CouponBadge code="AMM" /> | 147永久不限时包、双专线高可用 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| **2** | **飞猫云** | 优化专线中转 | 约 ¥7/月 (年付) | 21.0 ms (526M) | <CouponBadge code="flycat888" /> | 专属 App 免配订阅、8折优惠码 | [直达官网 ↗](https://guangs.flycataff.com/#/?code=6uq0Xe9y) |
-| **3** | **微风网络** | IEPL 专线 + VLESS | 约 ¥7/月 (年付) | 45.0 ms (413M) | <CouponBadge code="flat888" /> | 高性价比入门专线、9折优惠码 | [直达官网 ↗](https://edp01.breezenetaff.com/#/?code=t3huofyI) |
-| **4** | **星岛梦** | 优质专线中转 | 约 ¥15/月起 | 35.0 ms | <CouponBadge code="nmw888" /> | 2020年老牌、支持不限时套餐 | [直达官网 ↗](https://guangs.xingdaomeng.com/#/?code=1TynBYnR) |
-| **5** | **二猫云** | BGP 专线 | ¥20/月 130GB | 28.0 ms | <CouponBadge code="ermao5555" /> | 20元档位高性价比、BGP专线 | [直达官网 ↗](https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW) |
-| **6** | **唯兔云** | 三网优化专线 | ¥18/月起 | 32.0 ms | <CouponBadge code="weitu666" /> | 60+节点智能负载均衡 | [直达官网 ↗](https://guangs.v2yunvipaff.com/#/?code=xIutqOBA) |
-| **7** | **暮光加速** | 专线中转 | ¥15/月起 | 48.0 ms | <CouponBadge code="muguang5555" /> | 稳定中转与流媒体解锁 | [直达官网 ↗](https://varnexa.twilightaff.com/#/?code=D1LHglg3) |
-| **8** | **宇宙云** | IEPL 专线 + VLESS | ¥18/月起 | 36.0 ms | <CouponBadge code="YUZHOU553" /> | 自研客户端 + VLESS 协议 | [直达官网 ↗](https://wzjc.yuzoucloud.cc/#/?code=yrThwMP1) |
-| **9** | **U1S1** | 标准专线方案 | ¥20/月 120GB | 42.0 ms | <CouponBadge code="akaka" /> | 资费透明标准方案、1.0x倍率 | [直达官网 ↗](https://guangs.vipaff.cc/#/?code=xhX5X22f) |
-| **10** | **灵猫网络** | 优化隧道中转 | ¥19/月 150GB | 38.0 ms | <CouponBadge code="lmao888" /> | 19元档高频月付 + 不限时包 | [直达官网 ↗](https://vip01.civetnet.com/#/?code=8MIAyxak) |
-| **11** | **极连云** | 智能中转线路 | ¥18/月 100GB | 40.0 ms | <CouponBadge code="ji8888" /> | 针对 ChatGPT / Claude AI 优化 | [直达官网 ↗](https://guangs.jlyvipaff.com/#/?code=VM1rKGUu) |
-| **12** | **光年梯** | 优化专线 | ¥18/月 110GB | 44.0 ms | <CouponBadge code="gnt6666" /> | 轻量实惠日常方案 | [直达官网 ↗](https://guangs.gntaff.com/#/?code=X1FoxjGE) |
-| **13** | **一翻云** | 快速隧道 | ¥20/月 150GB | 39.0 ms | <CouponBadge code="yfy6666" /> | 大流量月付追剧首选 | [直达官网 ↗](https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r) |
-| **14** | **SOGO云** | 新锐专线 | ¥15/月起 | 46.0 ms | <CouponBadge code="sss777" /> | 2026年新锐无超售压力 | [直达官网 ↗](https://guangs.sogoyunaff.cc/#/?code=327Vs0w7) |
-| **15** | **可信云** | 透明线路 | ¥16/月起 | 45.0 ms | <CouponBadge code="kkk333" /> | 诚实标注数据缺口、数据透明 | [直达官网 ↗](https://guangs.kosingaff.com/#/register?code=UYDtNlCY) |
+| **1** | **光速云** | IEPL + 企业内网双专线 | **约 ¥8/月** (年付) | **22.4 ms** (529M) | <CouponBadge code="AMM" /> | 147永久不限时包、双专线高可用 | <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **2** | **飞猫云** | 优化专线中转 | 约 ¥7/月 (年付) | 21.0 ms (526M) | <CouponBadge code="flycat888" /> | 专属 App 免配订阅、8折优惠码 | <a href="https://guangs.flycataff.com/#/?code=6uq0Xe9y" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **3** | **微风网络** | IEPL 专线 + VLESS | 约 ¥7/月 (年付) | 45.0 ms (413M) | <CouponBadge code="flat888" /> | 高性价比入门专线、9折优惠码 | <a href="https://edp01.breezenetaff.com/#/?code=t3huofyI" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **4** | **星岛梦** | 优质专线中转 | 约 ¥15/月起 | 35.0 ms | <CouponBadge code="nmw888" /> | 2020年老牌、支持不限时套餐 | <a href="https://guangs.xingdaomeng.com/#/?code=1TynBYnR" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **5** | **二猫云** | BGP 专线 | ¥20/月 130GB | 28.0 ms | <CouponBadge code="ermao5555" /> | 20元档位高性价比、BGP专线 | <a href="https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **6** | **唯兔云** | 三网优化专线 | ¥18/月起 | 32.0 ms | <CouponBadge code="weitu666" /> | 60+节点智能负载均衡 | <a href="https://guangs.v2yunvipaff.com/#/?code=xIutqOBA" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **7** | **暮光加速** | 专线中转 | ¥15/月起 | 48.0 ms | <CouponBadge code="muguang5555" /> | 稳定中转与流媒体解锁 | <a href="https://varnexa.twilightaff.com/#/?code=D1LHglg3" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **8** | **宇宙云** | IEPL 专线 + VLESS | ¥18/月起 | 36.0 ms | <CouponBadge code="YUZHOU553" /> | 自研客户端 + VLESS 协议 | <a href="https://wzjc.yuzoucloud.cc/#/?code=yrThwMP1" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **9** | **U1S1** | 标准专线方案 | ¥20/月 120GB | 42.0 ms | <CouponBadge code="akaka" /> | 资费透明标准方案、1.0x倍率 | <a href="https://guangs.vipaff.cc/#/?code=xhX5X22f" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **10** | **灵猫网络** | 优化隧道中转 | ¥19/月 150GB | 38.0 ms | <CouponBadge code="lmao888" /> | 19元档高频月付 + 不限时包 | <a href="https://vip01.civetnet.com/#/?code=8MIAyxak" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **11** | **极连云** | 智能中转线路 | ¥18/月 100GB | 40.0 ms | <CouponBadge code="ji8888" /> | 针对 ChatGPT / Claude AI 优化 | <a href="https://guangs.jlyvipaff.com/#/?code=VM1rKGUu" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **12** | **光年梯** | 优化专线 | ¥18/月 110GB | 44.0 ms | <CouponBadge code="gnt6666" /> | 轻量实惠日常方案 | <a href="https://guangs.gntaff.com/#/?code=X1FoxjGE" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **13** | **一翻云** | 快速隧道 | ¥20/月 150GB | 39.0 ms | <CouponBadge code="yfy6666" /> | 大流量月付追剧首选 | <a href="https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **14** | **SOGO云** | 新锐专线 | ¥15/月起 | 46.0 ms | <CouponBadge code="sss777" /> | 2026年新锐无超售压力 | <a href="https://guangs.sogoyunaff.cc/#/?code=327Vs0w7" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
+| **15** | **可信云** | 透明线路 | ¥16/月起 | 45.0 ms | <CouponBadge code="kkk333" /> | 诚实标注数据缺口、数据透明 | <a href="https://guangs.kosingaff.com/#/register?code=UYDtNlCY" target="_blank" rel="sponsored nofollow noopener">直达官网 ↗</a> |
 | 1  | 光速云   | IEPL + 企业内网双专线 | 约 ¥8/月 (年付)| 22.4 ms (529M)   | AMM      | 147永久包+IEPL专线 |
 | 2  | 飞猫云   | 优化专线中转          | 约 ¥7/月 (年付)| 21.0 ms (526M)   | flycat888| 专属App免配订阅    |
 | 3  | 微风网络 | IEPL 专线 + VLESS     | 约 ¥7/月 (年付)| 45.0 ms (413M)   | flat888  | 高性价比入门专线   |

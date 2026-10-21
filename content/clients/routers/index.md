@@ -78,6 +78,32 @@ modifiedAt: "2026-10-21"
 - [Linux 服务与软路由网关部署指南](/install/gateways/)
 - [解决家庭局域网国内网站正常而代理节点超时排查](/troubleshooting/foreign-sites-work-domestic-sites-broken/)
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[固件与硬件匹配](/clients/routers/firmware-hardware-matching/)
+
+软路由与网络设备客户端下的「固件与硬件匹配」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**OpenWrt固件下载OpenClash对应CPU架构IPK包指引**](/clients/openwrt-luci-app-openclash-ipk-download/)：针对「OpenWrt固件下载OpenClash对应CPU架构IPK包指引」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**PassWall与SSR-Plus插件安装包与依赖核心版本核对**](/clients/passwall-ssr-plus-plugin-source-matching/)：针对「PassWall与SSR-Plus插件安装包与依赖核心版本核对」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**GL.iNet便携路由器内置代理功能的固件更新与插件补充**](/clients/gl-inet-router-native-proxy-client-guide/)：针对「GL.iNet便携路由器内置代理功能的固件更新与插件补充」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[插件与更新来源](/clients/routers/plugins-update-sources/)
+
+软路由与网络设备客户端下的「插件与更新来源」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**如何在GitHub Releases安全核对路由器插件的MD5与SHA256**](/clients/verifying-openwrt-plugin-github-releases/)：针对「如何在GitHub Releases安全核对路由器插件的MD5与SHA256」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**软路由断网环境下离线上传并安装核心依赖包**](/clients/offline-ipk-dependency-manual-install/)：针对「软路由断网环境下离线上传并安装核心依赖包」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**华硕梅林固件软件中心相关代理插件的当前维护现状**](/clients/asuswrt-merlin-koolshare-client-status/)：针对「华硕梅林固件软件中心相关代理插件的当前维护现状」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: '软路由网关系统安装与恢复', url: '/install/gateways/', taskType: 'install', description: '配置旁路网关与 DHCP 下发' },

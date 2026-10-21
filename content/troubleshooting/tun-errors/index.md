@@ -1,5 +1,5 @@
 ---
-title: "TUN、路由与模式冲突｜故障排查｜机场代理｜故障排查｜机场代理"
+title: "TUN、路由与模式冲突"
 description: "TUN、路由与模式冲突｜故障排查｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：虚拟网卡与权限 - TUN、路由与模式冲突｜机场代理
+### 集群：[路径与双栈](/troubleshooting/tun-errors/routing-loops-ipv6-leaks/)
 
 TUN、路由与模式冲突下的「虚拟网卡与权限」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **报错“failed to create TUN device”或无法创建虚拟网卡**：针对「报错“failed to create TUN device”或无法创建虚拟网卡」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **手动下载并向系统注入wintun.dll虚拟网卡驱动的指南**：针对「手动下载并向系统注入wintun.dll虚拟网卡驱动的指南」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **排查安全软件静默拦截虚拟网络适配器安装的日志证据**：针对「排查安全软件静默拦截虚拟网络适配器安装的日志证据」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**报错“failed to create TUN device”或无法创建虚拟网卡**](/troubleshooting/failed-to-create-tun-device-wintun-error/)：针对「报错“failed to create TUN device”或无法创建虚拟网卡」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**手动下载并向系统注入wintun.dll虚拟网卡驱动的指南**](/troubleshooting/manually-installing-wintun-dll-driver/)：针对「手动下载并向系统注入wintun.dll虚拟网卡驱动的指南」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**排查安全软件静默拦截虚拟网络适配器安装的日志证据**](/troubleshooting/antivirus-blocking-tun-adapter-creation/)：针对「排查安全软件静默拦截虚拟网络适配器安装的日志证据」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：路径与双栈 - TUN、路由与模式冲突｜机场代理
+### 集群：[路径与双栈](/troubleshooting/tun-errors/routing-loops-ipv6-leaks/)
 
 TUN、路由与模式冲突下的「路径与双栈」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **报错“routing loop detected”死循环导致核心崩溃的排错**：针对「报错“routing loop detected”死循环导致核心崩溃的排错」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **本地IPv6网络绕过TUN虚拟网卡导致真实公网IP暴露的防御**：针对「本地IPv6网络绕过TUN虚拟网卡导致真实公网IP暴露的防御」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Hyper-V与VMware虚拟交换机与代理TUN网卡冲突的处理**：针对「Hyper-V与VMware虚拟交换机与代理TUN网卡冲突的处理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**报错“routing loop detected”死循环导致核心崩溃的排错**](/troubleshooting/routing-loop-detected-crashing-proxy-core/)：针对「报错“routing loop detected”死循环导致核心崩溃的排错」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**本地IPv6网络绕过TUN虚拟网卡导致真实公网IP暴露的防御**](/troubleshooting/ipv6-traffic-bypassing-tun-causing-ip-leak/)：针对「本地IPv6网络绕过TUN虚拟网卡导致真实公网IP暴露的防御」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hyper-V与VMware虚拟交换机与代理TUN网卡冲突的处理**](/troubleshooting/hyper-v-vmware-virtual-switches-conflict-tun/)：针对「Hyper-V与VMware虚拟交换机与代理TUN网卡冲突的处理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ TUN、路由与模式冲突下的「路径与双栈」三级集群综合知识�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[虚拟网卡与权限](/troubleshooting/tun-errors/wintun-virtual-adapter-crash/)
+
+TUN、路由与模式冲突下的「虚拟网卡与权限」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**报错“failed to create TUN device”或无法创建虚拟网卡**](/troubleshooting/failed-to-create-tun-device-wintun-error/)：针对「报错“failed to create TUN device”或无法创建虚拟网卡」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**手动下载并向系统注入wintun.dll虚拟网卡驱动的指南**](/troubleshooting/manually-installing-wintun-dll-driver/)：针对「手动下载并向系统注入wintun.dll虚拟网卡驱动的指南」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**排查安全软件静默拦截虚拟网络适配器安装的日志证据**](/troubleshooting/antivirus-blocking-tun-adapter-creation/)：针对「排查安全软件静默拦截虚拟网络适配器安装的日志证据」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

@@ -1,5 +1,5 @@
 ---
-title: "sing-box 客户端比较｜客户端评测｜机场代理｜客户端评测｜机场代理"
+title: "sing-box 客户端比较"
 description: "sing-box 客户端比较｜客户端评测｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：默认配置与导入 - sing-box 客户端比较｜机场代理
+### 集群：[版本迁移与错误](/reviews/singbox-clients/version-migration-error-tolerance/)
 
 sing-box 客户端比较下的「默认配置与导入」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **sing-box官方图形界面对比Hiddify：开箱即用度实测**：针对「sing-box官方图形界面对比Hiddify：开箱即用度实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Karing对比Hiddify：通用订阅导入与协议兼容度全方位横评**：针对「Karing对比Hiddify：通用订阅导入与协议兼容度全方位横评」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **各三方sing-box客户端生成配置与官方标准格式的符合度**：针对「各三方sing-box客户端生成配置与官方标准格式的符合度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box官方图形界面对比Hiddify：开箱即用度实测**](/reviews/official-singbox-gui-vs-hiddify-comparison/)：针对「sing-box官方图形界面对比Hiddify：开箱即用度实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Karing对比Hiddify：通用订阅导入与协议兼容度全方位横评**](/reviews/karing-vs-hiddify-multi-protocol-support/)：针对「Karing对比Hiddify：通用订阅导入与协议兼容度全方位横评」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**各三方sing-box客户端生成配置与官方标准格式的符合度**](/reviews/singbox-universal-json-generation-compliance/)：针对「各三方sing-box客户端生成配置与官方标准格式的符合度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：版本迁移与错误 - sing-box 客户端比较｜机场代理
+### 集群：[版本迁移与错误](/reviews/singbox-clients/version-migration-error-tolerance/)
 
 sing-box 客户端比较下的「版本迁移与错误」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **sing-box核心升级导致语法变动时不同客户端的容错表现**：针对「sing-box核心升级导致语法变动时不同客户端的容错表现」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **配置出现非法字段时各GUI客户端的崩溃预防与错误提示**：针对「配置出现非法字段时各GUI客户端的崩溃预防与错误提示」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **远程.srs规则集二进制自动拉取与本地更新缓存机制对比**：针对「远程.srs规则集二进制自动拉取与本地更新缓存机制对比」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**sing-box核心升级导致语法变动时不同客户端的容错表现**](/reviews/how-different-singbox-apps-handle-schema-breakage/)：针对「sing-box核心升级导致语法变动时不同客户端的容错表现」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**配置出现非法字段时各GUI客户端的崩溃预防与错误提示**](/reviews/crash-recovery-in-singbox-gui-clients/)：针对「配置出现非法字段时各GUI客户端的崩溃预防与错误提示」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**远程.srs规则集二进制自动拉取与本地更新缓存机制对比**](/reviews/singbox-rule-set-auto-download-efficiency/)：针对「远程.srs规则集二进制自动拉取与本地更新缓存机制对比」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ sing-box 客户端比较下的「版本迁移与错误」三级集群综合知�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[默认配置与导入](/reviews/singbox-clients/default-configs-import-experience/)
+
+sing-box 客户端比较下的「默认配置与导入」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**sing-box官方图形界面对比Hiddify：开箱即用度实测**](/reviews/official-singbox-gui-vs-hiddify-comparison/)：针对「sing-box官方图形界面对比Hiddify：开箱即用度实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Karing对比Hiddify：通用订阅导入与协议兼容度全方位横评**](/reviews/karing-vs-hiddify-multi-protocol-support/)：针对「Karing对比Hiddify：通用订阅导入与协议兼容度全方位横评」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**各三方sing-box客户端生成配置与官方标准格式的符合度**](/reviews/singbox-universal-json-generation-compliance/)：针对「各三方sing-box客户端生成配置与官方标准格式的符合度」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

@@ -1,5 +1,5 @@
 ---
-title: "v2rayNG 安装｜安装教程｜机场代理｜安装教程｜机场代理"
+title: "v2rayNG 安装"
 description: "v2rayNG 安装｜安装教程｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：安装包与应用初始化 - v2rayNG 安装｜机场代理
+### 集群：[VPN 授权与后台](/install/v2rayng/vpn-permission-background/)
 
 v2rayNG 安装下的「安装包与应用初始化」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **Android手机侧载安装v2rayNG APK安装包图文流程**：针对「Android手机侧载安装v2rayNG APK安装包图文流程」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **v2rayNG首次打开设置默认界面语言与分流策略**：针对「v2rayNG首次打开设置默认界面语言与分流策略」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **授予外部存储与媒体读写权限以支持本地配置导出**：针对「授予外部存储与媒体读写权限以支持本地配置导出」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Android手机侧载安装v2rayNG APK安装包图文流程**](/install/v2rayng-sideload-install-on-android/)：针对「Android手机侧载安装v2rayNG APK安装包图文流程」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayNG首次打开设置默认界面语言与分流策略**](/install/v2rayng-first-open-ui-and-language-setup/)：针对「v2rayNG首次打开设置默认界面语言与分流策略」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**授予外部存储与媒体读写权限以支持本地配置导出**](/install/v2rayng-storage-permission-for-config-export/)：针对「授予外部存储与媒体读写权限以支持本地配置导出」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：VPN 授权与后台 - v2rayNG 安装｜机场代理
+### 集群：[VPN 授权与后台](/install/v2rayng/vpn-permission-background/)
 
 v2rayNG 安装下的「VPN 授权与后台」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **确认系统级VPN连接请求对话框与密钥图标显示**：针对「确认系统级VPN连接请求对话框与密钥图标显示」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **在华为、小米、OPPO手机上关闭电池优化防止后台被杀**：针对「在华为、小米、OPPO手机上关闭电池优化防止后台被杀」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **开启常驻通知栏控制开关与Android下拉快捷磁贴配置**：针对「开启常驻通知栏控制开关与Android下拉快捷磁贴配置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**确认系统级VPN连接请求对话框与密钥图标显示**](/install/android-vpn-profile-authorization-prompt/)：针对「确认系统级VPN连接请求对话框与密钥图标显示」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**在华为、小米、OPPO手机上关闭电池优化防止后台被杀**](/install/disable-battery-optimization-for-v2rayng/)：针对「在华为、小米、OPPO手机上关闭电池优化防止后台被杀」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**开启常驻通知栏控制开关与Android下拉快捷磁贴配置**](/install/v2rayng-notification-toggle-and-quick-settings/)：针对「开启常驻通知栏控制开关与Android下拉快捷磁贴配置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ v2rayNG 安装下的「VPN 授权与后台」三级集群综合知识库，包�
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[安装包与应用初始化](/install/v2rayng/apk-app-init/)
+
+v2rayNG 安装下的「安装包与应用初始化」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Android手机侧载安装v2rayNG APK安装包图文流程**](/install/v2rayng-sideload-install-on-android/)：针对「Android手机侧载安装v2rayNG APK安装包图文流程」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayNG首次打开设置默认界面语言与分流策略**](/install/v2rayng-first-open-ui-and-language-setup/)：针对「v2rayNG首次打开设置默认界面语言与分流策略」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**授予外部存储与媒体读写权限以支持本地配置导出**](/install/v2rayng-storage-permission-for-config-export/)：针对「授予外部存储与媒体读写权限以支持本地配置导出」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

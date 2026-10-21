@@ -1,5 +1,5 @@
 ---
-title: "命令行核心初始化｜sing-box 安装｜安装教程"
+title: "命令行核心初始化"
 description: "sing-box 安装下的「命令行核心初始化」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

@@ -1,5 +1,5 @@
 ---
-title: "维护状态与历史｜Clash 系软件下载资料｜客户端下载"
+title: "维护状态与历史"
 description: "Clash 系软件下载资料下的「维护状态与历史」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

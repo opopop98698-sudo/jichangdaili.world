@@ -1,5 +1,5 @@
 ---
-title: "界面与使用流程｜Clash 系客户端比较｜客户端评测"
+title: "界面与使用流程"
 description: "Clash 系客户端比较下的「界面与使用流程」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

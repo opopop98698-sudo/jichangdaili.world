@@ -1,5 +1,5 @@
 ---
-title: "构建覆盖与说明｜sing-box 与跨平台软件资料｜客户端下载"
+title: "构建覆盖与说明"
 description: "sing-box 与跨平台软件资料下的「构建覆盖与说明」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

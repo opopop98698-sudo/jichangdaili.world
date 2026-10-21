@@ -1,5 +1,5 @@
 ---
-title: "分流、DNS 与 TUN 行为｜客户端评测｜机场代理｜客户端评测｜机场代理"
+title: "分流、DNS 与 TUN 行为"
 description: "分流、DNS 与 TUN 行为｜客户端评测｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：分流准确性 - 分流、DNS 与 TUN 行为｜机场代理
+### 集群：[解析与双栈](/reviews/network-behavior/dns-leak-dualstack-handling/)
 
 分流、DNS 与 TUN 行为下的「分流准确性」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **常见GeoIP与GeoSite规则库在国内外网站分流上的准确率**：针对「常见GeoIP与GeoSite规则库在国内外网站分流上的准确率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **全平台主流客户端DNS防泄露实测：谁在悄悄向ISP查询**：针对「全平台主流客户端DNS防泄露实测：谁在悄悄向ISP查询」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **开启代理后WebRTC真实IP泄露测试与各客户端防御效果**：针对「开启代理后WebRTC真实IP泄露测试与各客户端防御效果」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**常见GeoIP与GeoSite规则库在国内外网站分流上的准确率**](/reviews/evaluating-accuracy-of-geoip-and-geosite-routing/)：针对「常见GeoIP与GeoSite规则库在国内外网站分流上的准确率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**全平台主流客户端DNS防泄露实测：谁在悄悄向ISP查询**](/reviews/dns-leak-test-results-across-all-clients/)：针对「全平台主流客户端DNS防泄露实测：谁在悄悄向ISP查询」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**开启代理后WebRTC真实IP泄露测试与各客户端防御效果**](/reviews/udp-and-webrtc-leak-prevention-benchmark/)：针对「开启代理后WebRTC真实IP泄露测试与各客户端防御效果」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：解析与双栈 - 分流、DNS 与 TUN 行为｜机场代理
+### 集群：[解析与双栈](/reviews/network-behavior/dns-leak-dualstack-handling/)
 
 分流、DNS 与 TUN 行为下的「解析与双栈」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **IPv4/IPv6双栈环境下各客户端的优先解析与回退策略**：针对「IPv4/IPv6双栈环境下各客户端的优先解析与回退策略」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Wintun虚拟网卡模式对比系统代理模式的吞吐量与丢包率**：针对「Wintun虚拟网卡模式对比系统代理模式的吞吐量与丢包率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **内置DNS缓存命中率对日常网页首屏加载时间的提升评测**：针对「内置DNS缓存命中率对日常网页首屏加载时间的提升评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**IPv4/IPv6双栈环境下各客户端的优先解析与回退策略**](/reviews/ipv4-ipv6-dual-stack-routing-behavior/)：针对「IPv4/IPv6双栈环境下各客户端的优先解析与回退策略」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Wintun虚拟网卡模式对比系统代理模式的吞吐量与丢包率**](/reviews/wintun-vs-system-proxy-packet-loss-comparison/)：针对「Wintun虚拟网卡模式对比系统代理模式的吞吐量与丢包率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**内置DNS缓存命中率对日常网页首屏加载时间的提升评测**](/reviews/local-dns-cache-hit-rate-and-latency-benchmarks/)：针对「内置DNS缓存命中率对日常网页首屏加载时间的提升评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[分流准确性](/reviews/network-behavior/rule-routing-accuracy-tests/)
+
+分流、DNS 与 TUN 行为下的「分流准确性」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**常见GeoIP与GeoSite规则库在国内外网站分流上的准确率**](/reviews/evaluating-accuracy-of-geoip-and-geosite-routing/)：针对「常见GeoIP与GeoSite规则库在国内外网站分流上的准确率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**全平台主流客户端DNS防泄露实测：谁在悄悄向ISP查询**](/reviews/dns-leak-test-results-across-all-clients/)：针对「全平台主流客户端DNS防泄露实测：谁在悄悄向ISP查询」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**开启代理后WebRTC真实IP泄露测试与各客户端防御效果**](/reviews/udp-and-webrtc-leak-prevention-benchmark/)：针对「开启代理后WebRTC真实IP泄露测试与各客户端防御效果」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

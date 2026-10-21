@@ -1,5 +1,5 @@
 ---
-title: "解析链与选择｜DNS 配置与解析策略｜订阅配置"
+title: "解析链与选择"
 description: "DNS 配置与解析策略下的「解析链与选择」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

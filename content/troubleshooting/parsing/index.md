@@ -1,5 +1,5 @@
 ---
-title: "订阅解析与导入错误｜故障排查｜机场代理｜故障排查｜机场代理"
+title: "订阅解析与导入错误"
 description: "订阅解析与导入错误｜故障排查｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：结构与编码 - 订阅解析与导入错误｜机场代理
+### 集群：[字段与版本](/troubleshooting/parsing/field-schema-mismatch/)
 
 订阅解析与导入错误下的「结构与编码」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **报错“yaml: line X: mapping values are not allowed”格式修复**：针对「报错“yaml: line X: mapping values are not allowed”格式修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **导入Base64订阅提示“illegal base64 data at input”清洗**：针对「导入Base64订阅提示“illegal base64 data at input”清洗」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **订阅拉取到的内容是HTML登录页面而非配置文件的排错**：针对「订阅拉取到的内容是HTML登录页面而非配置文件的排错」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**报错“yaml: line X: mapping values are not allowed”格式修复**](/troubleshooting/fix-yaml-syntax-error-mapping-values-not-allowed/)：针对「报错“yaml: line X: mapping values are not allowed”格式修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**导入Base64订阅提示“illegal base64 data at input”清洗**](/troubleshooting/handling-illegal-base64-character-errors/)：针对「导入Base64订阅提示“illegal base64 data at input”清洗」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**订阅拉取到的内容是HTML登录页面而非配置文件的排错**](/troubleshooting/subscription-returns-html-login-page-instead-of-config/)：针对「订阅拉取到的内容是HTML登录页面而非配置文件的排错」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：字段与版本 - 订阅解析与导入错误｜机场代理
+### 集群：[字段与版本](/troubleshooting/parsing/field-schema-mismatch/)
 
 订阅解析与导入错误下的「字段与版本」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **客户端报错“unsupported proxy type: hysteria2”核心版本过旧**：针对「客户端报错“unsupported proxy type: hysteria2”核心版本过旧」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **配置中存在同名节点导致“proxy duplicated: 香港01”报错修复**：针对「配置中存在同名节点导致“proxy duplicated: 香港01”报错修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **节点配置缺失cipher加密方式或password密码的补全办法**：针对「节点配置缺失cipher加密方式或password密码的补全办法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**客户端报错“unsupported proxy type: hysteria2”核心版本过旧**](/troubleshooting/fixing-unsupported-proxy-type-error/)：针对「客户端报错“unsupported proxy type: hysteria2”核心版本过旧」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**配置中存在同名节点导致“proxy duplicated: 香港01”报错修复**](/troubleshooting/resolving-duplicate-proxy-name-conflicts/)：针对「配置中存在同名节点导致“proxy duplicated: 香港01”报错修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**节点配置缺失cipher加密方式或password密码的补全办法**](/troubleshooting/missing-cipher-or-password-field-in-node/)：针对「节点配置缺失cipher加密方式或password密码的补全办法」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[结构与编码](/troubleshooting/parsing/structure-encoding-errors/)
+
+订阅解析与导入错误下的「结构与编码」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**报错“yaml: line X: mapping values are not allowed”格式修复**](/troubleshooting/fix-yaml-syntax-error-mapping-values-not-allowed/)：针对「报错“yaml: line X: mapping values are not allowed”格式修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**导入Base64订阅提示“illegal base64 data at input”清洗**](/troubleshooting/handling-illegal-base64-character-errors/)：针对「导入Base64订阅提示“illegal base64 data at input”清洗」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**订阅拉取到的内容是HTML登录页面而非配置文件的排错**](/troubleshooting/subscription-returns-html-login-page-instead-of-config/)：针对「订阅拉取到的内容是HTML登录页面而非配置文件的排错」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

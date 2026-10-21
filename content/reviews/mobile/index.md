@@ -1,5 +1,5 @@
 ---
-title: "移动端续航与网络切换｜客户端评测｜机场代理｜客户端评测｜机场代理"
+title: "移动端续航与网络切换"
 description: "移动端续航与网络切换｜客户端评测｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：电量与后台 - 移动端续航与网络切换｜机场代理
+### 集群：[切网与应用体验](/reviews/mobile/network-handover-latency/)
 
 移动端续航与网络切换下的「电量与后台」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **v2rayNG、Clash Meta与Hiddify在Android下的耗电量评测**：针对「v2rayNG、Clash Meta与Hiddify在Android下的耗电量评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **iOS端小火箭Shadowrocket对比Surge后台待机耗电实测**：针对「iOS端小火箭Shadowrocket对比Surge后台待机耗电实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **国内品牌手机激进杀后台机制下各客户端的保活存活率**：针对「国内品牌手机激进杀后台机制下各客户端的保活存活率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**v2rayNG、Clash Meta与Hiddify在Android下的耗电量评测**](/reviews/android-proxy-battery-drain-comparison/)：针对「v2rayNG、Clash Meta与Hiddify在Android下的耗电量评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**iOS端小火箭Shadowrocket对比Surge后台待机耗电实测**](/reviews/ios-shadowrocket-vs-surge-battery-impact/)：针对「iOS端小火箭Shadowrocket对比Surge后台待机耗电实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**国内品牌手机激进杀后台机制下各客户端的保活存活率**](/reviews/aggressive-oem-battery-killer-survival-rates/)：针对「国内品牌手机激进杀后台机制下各客户端的保活存活率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：切网与应用体验 - 移动端续航与网络切换｜机场代理
+### 集群：[切网与应用体验](/reviews/mobile/network-handover-latency/)
 
 移动端续航与网络切换下的「切网与应用体验」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **从WiFi切换到蜂窝移动网络时节点重连的延迟测算**：针对「从WiFi切换到蜂窝移动网络时节点重连的延迟测算」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **地铁与地下车库弱网环境下各移动客户端快速恢复表现**：针对「地铁与地下车库弱网环境下各移动客户端快速恢复表现」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **移动端分应用代理开启后对国内主流App加载速度的影响**：针对「移动端分应用代理开启后对国内主流App加载速度的影响」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**从WiFi切换到蜂窝移动网络时节点重连的延迟测算**](/reviews/wifi-to-cellular-handover-reconnect-latency/)：针对「从WiFi切换到蜂窝移动网络时节点重连的延迟测算」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**地铁与地下车库弱网环境下各移动客户端快速恢复表现**](/reviews/subway-weak-signal-recovery-comparison/)：针对「地铁与地下车库弱网环境下各移动客户端快速恢复表现」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**移动端分应用代理开启后对国内主流App加载速度的影响**](/reviews/split-tunnel-app-proxy-performance-mobile/)：针对「移动端分应用代理开启后对国内主流App加载速度的影响」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[电量与后台](/reviews/mobile/battery-drain-background-keepalive/)
+
+移动端续航与网络切换下的「电量与后台」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**v2rayNG、Clash Meta与Hiddify在Android下的耗电量评测**](/reviews/android-proxy-battery-drain-comparison/)：针对「v2rayNG、Clash Meta与Hiddify在Android下的耗电量评测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**iOS端小火箭Shadowrocket对比Surge后台待机耗电实测**](/reviews/ios-shadowrocket-vs-surge-battery-impact/)：针对「iOS端小火箭Shadowrocket对比Surge后台待机耗电实测」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**国内品牌手机激进杀后台机制下各客户端的保活存活率**](/reviews/aggressive-oem-battery-killer-survival-rates/)：针对「国内品牌手机激进杀后台机制下各客户端的保活存活率」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

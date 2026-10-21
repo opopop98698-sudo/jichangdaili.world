@@ -1,5 +1,5 @@
 ---
-title: "格式匹配｜免费资源客户端适配｜免费机场"
+title: "格式匹配"
 description: "免费资源客户端适配下的「格式匹配」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

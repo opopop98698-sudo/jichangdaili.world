@@ -1,5 +1,5 @@
 ---
-title: "安装、升级与权限错误｜故障排查｜机场代理｜故障排查｜机场代理"
+title: "安装、升级与权限错误"
 description: "安装、升级与权限错误｜故障排查｜机场代理二级专题全景指南：涵盖子集群架构、深度技术规范与选型评测。"
 status: "published"
 publishedAt: "2026-10-21"
@@ -25,23 +25,23 @@ modifiedAt: "2026-10-21"
 
 本专题下设两大核心技术集群，覆盖从基础核验到进阶运维的完整生命周期：
 
-### 集群：安装包与依赖 - 安装、升级与权限错误｜机场代理
+### 集群：[升级后回归问题](/troubleshooting/installation-errors/post-upgrade-regressions/)
 
 安装、升级与权限错误下的「安装包与依赖」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **启动提示缺少VCRUNTIME140.dll或MSVCP140.dll的修复方案**：针对「启动提示缺少VCRUNTIME140.dll或MSVCP140.dll的修复方案」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **Windows Installer服务无法访问导致安装包安装失败处理**：针对「Windows Installer服务无法访问导致安装包安装失败处理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **下载安装包提示“文件已损坏”或解压CRC校验失败排错**：针对「下载安装包提示“文件已损坏”或解压CRC校验失败排错」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**启动提示缺少VCRUNTIME140.dll或MSVCP140.dll的修复方案**](/troubleshooting/fix-missing-vcruntime140-dll-error/)：针对「启动提示缺少VCRUNTIME140.dll或MSVCP140.dll的修复方案」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Windows Installer服务无法访问导致安装包安装失败处理**](/troubleshooting/fix-windows-installer-service-unavailable/)：针对「Windows Installer服务无法访问导致安装包安装失败处理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**下载安装包提示“文件已损坏”或解压CRC校验失败排错**](/troubleshooting/troubleshoot-corrupted-download-hash-mismatch/)：针对「下载安装包提示“文件已损坏”或解压CRC校验失败排错」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
-### 集群：升级后回归问题 - 安装、升级与权限错误｜机场代理
+### 集群：[升级后回归问题](/troubleshooting/installation-errors/post-upgrade-regressions/)
 
 安装、升级与权限错误下的「升级后回归问题」三级集群综合知识库，包含针对性问答与独立解决方案。
 
 **核心研究与解决问题清单**：
-- **客户端版本升级后界面出现白屏或无限加载排查**：针对「客户端版本升级后界面出现白屏或无限加载排查」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **核心升级后报错“unmarshal configuration failed”语法不兼容**：针对「核心升级后报错“unmarshal configuration failed”语法不兼容」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
-- **客户端更新后TUN虚拟网卡丢失或无法启用的重新注册步骤**：针对「客户端更新后TUN虚拟网卡丢失或无法启用的重新注册步骤」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**客户端版本升级后界面出现白屏或无限加载排查**](/troubleshooting/fix-client-blank-white-screen-after-upgrade/)：针对「客户端版本升级后界面出现白屏或无限加载排查」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**核心升级后报错“unmarshal configuration failed”语法不兼容**](/troubleshooting/fixing-config-schema-mismatch-after-core-update/)：针对「核心升级后报错“unmarshal configuration failed”语法不兼容」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**客户端更新后TUN虚拟网卡丢失或无法启用的重新注册步骤**](/troubleshooting/re-registering-tun-virtual-adapter-after-update/)：针对「客户端更新后TUN虚拟网卡丢失或无法启用的重新注册步骤」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
 
 
 ---
@@ -56,6 +56,22 @@ modifiedAt: "2026-10-21"
 ---
 
 ## 3. 关联栏目与下一步任务
+
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[安装包与依赖](/troubleshooting/installation-errors/package-dependency-errors/)
+
+安装、升级与权限错误下的「安装包与依赖」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**启动提示缺少VCRUNTIME140.dll或MSVCP140.dll的修复方案**](/troubleshooting/fix-missing-vcruntime140-dll-error/)：针对「启动提示缺少VCRUNTIME140.dll或MSVCP140.dll的修复方案」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Windows Installer服务无法访问导致安装包安装失败处理**](/troubleshooting/fix-windows-installer-service-unavailable/)：针对「Windows Installer服务无法访问导致安装包安装失败处理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**下载安装包提示“文件已损坏”或解压CRC校验失败排错**](/troubleshooting/troubleshoot-corrupted-download-hash-mismatch/)：针对「下载安装包提示“文件已损坏”或解压CRC校验失败排错」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
 
 <RelatedTasks 
   :tasks="[

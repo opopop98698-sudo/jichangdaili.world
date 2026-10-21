@@ -1,5 +1,5 @@
 ---
-title: "芯片与构建类型｜macOS 客户端｜客户端下载"
+title: "芯片与构建类型"
 description: "macOS 客户端下的「芯片与构建类型」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

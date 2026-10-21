@@ -1,5 +1,5 @@
 ---
-title: "分流与 Fake-IP｜DNS 解析异常｜故障排查"
+title: "分流与 Fake-IP"
 description: "DNS 解析异常下的「分流与 Fake-IP」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

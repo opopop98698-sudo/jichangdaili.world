@@ -76,6 +76,32 @@ modifiedAt: "2026-10-21"
 
 ## 4. 相关教程与实操指引
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[应用商店与发布包](/clients/android/app-stores-apk-releases/)
+
+Android 客户端下的「应用商店与发布包」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**Google Play商店版与GitHub发布版APK功能差异核对**](/clients/google-play-vs-github-apk-differences/)：针对「Google Play商店版与GitHub发布版APK功能差异核对」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**警惕应用商店中的套壳仿冒客户端：官方作者识别技巧**](/clients/identifying-fake-proxy-apps-on-playstore/)：针对「警惕应用商店中的套壳仿冒客户端：官方作者识别技巧」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**无Google框架的国产Android手机安全下载独立APK指南**](/clients/downloading-standalone-apk-without-google/)：针对「无Google框架的国产Android手机安全下载独立APK指南」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[版本与分支](/clients/android/versions-branches/)
+
+Android 客户端下的「版本与分支」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**v2rayNG下载该选arm64-v8a还是universal通用架构包**](/clients/v2rayng-arm64-v8a-vs-universal-apk/)：针对「v2rayNG下载该选arm64-v8a还是universal通用架构包」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Clash Meta for Android正式版与预发布版分支取舍**](/clients/clash-meta-android-release-channel-guide/)：针对「Clash Meta for Android正式版与预发布版分支取舍」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**Hiddify Android稳定版与Nightly构建包的稳定性对照**](/clients/hiddify-android-nightly-vs-stable-builds/)：针对「Hiddify Android稳定版与Nightly构建包的稳定性对照」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'v2rayNG 安卓快速安装与配置', url: '/install/v2rayng/', taskType: 'install', description: '新手第一步：导入订阅与 VpnService 授权' },

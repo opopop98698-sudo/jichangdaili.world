@@ -1,5 +1,5 @@
 ---
-title: "Mac 与苹果多设备｜苹果设备机场选择｜机场推荐"
+title: "Mac 与苹果多设备"
 description: "苹果设备机场选择下的「Mac 与苹果多设备」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

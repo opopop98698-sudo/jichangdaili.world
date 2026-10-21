@@ -47,6 +47,32 @@ modifiedAt: "2026-10-21"
 - [已连接节点但浏览器提示“无法访问此网站”核心诊断树](/troubleshooting/connected-to-proxy-but-no-internet-checklist/)
 - [国外网站正常打开但国内微信、百度无法访问的分流修复](/troubleshooting/foreign-sites-work-domestic-sites-broken/)
 
+
+
+---
+
+## 专题技术集群与下属实操文档
+
+### 集群：[请求是否经过代理](/troubleshooting/no-internet/traffic-proxy-bypass-check/)
+
+已连接但无法上网下的「请求是否经过代理」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**已连接节点但浏览器提示“无法访问此网站”核心诊断树**](/troubleshooting/connected-to-proxy-but-no-internet-checklist/)：针对「已连接节点但浏览器提示“无法访问此网站”核心诊断树」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**检查Windows“设置-网络-代理”开关是否被其他应用强制关闭**](/troubleshooting/checking-windows-system-proxy-toggle-switch/)：针对「检查Windows“设置-网络-代理”开关是否被其他应用强制关闭」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**排查托盘菜单是否误选了Direct直连模式导致所有请求未代理**](/troubleshooting/direct-mode-selected-accidentally-in-tray/)：针对「排查托盘菜单是否误选了Direct直连模式导致所有请求未代理」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
+### 集群：[本地访问与断开恢复](/troubleshooting/no-internet/local-access-disconnect-recovery/)
+
+已连接但无法上网下的「本地访问与断开恢复」三级集群综合知识库，包含针对性问答与独立解决方案。
+
+**核心研究与解决问题清单**：
+- [**国外网站正常打开但国内微信、百度无法访问的分流修复**](/troubleshooting/foreign-sites-work-domestic-sites-broken/)：针对「国外网站正常打开但国内微信、百度无法访问的分流修复」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**关闭代理客户端后整台电脑彻底无法上网的紧急恢复指南**](/troubleshooting/turn-off-proxy-and-lose-internet-completely/)：针对「关闭代理客户端后整台电脑彻底无法上网的紧急恢复指南」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+- [**开启代理后局域网共享打印机和NAS无法访问的白名单设置**](/troubleshooting/lan-network-shared-printer-unreachable-under-proxy/)：针对「开启代理后局域网共享打印机和NAS无法访问的白名单设置」的深度解析与实操步骤，提供可复查证据、适用版本与排查方案。
+
+
 <RelatedTasks 
   :tasks="[
     { title: 'TUN 虚拟网卡模式与权限配置', url: '/subscription/tun/', taskType: 'subscription', description: '配置透明网络接管，绕过脆弱的浏览器系统代理' },

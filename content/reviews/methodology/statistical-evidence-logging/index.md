@@ -1,5 +1,5 @@
 ---
-title: "统计与证据｜评测方法与样本｜客户端评测"
+title: "统计与证据"
 description: "评测方法与样本下的「统计与证据」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"

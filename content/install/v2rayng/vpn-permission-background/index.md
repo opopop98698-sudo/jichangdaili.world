@@ -1,5 +1,5 @@
 ---
-title: "VPN 授权与后台｜v2rayNG 安装｜安装教程"
+title: "VPN 授权与后台"
 description: "v2rayNG 安装下的「VPN 授权与后台」三级集群综合知识库，包含针对性问答与独立解决方案。"
 status: "published"
 publishedAt: "2026-10-21"
