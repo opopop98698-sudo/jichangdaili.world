@@ -75,16 +75,16 @@ modifiedAt: "2026-10-21"
 
 | 综合排名 | 品牌名称 | 推荐评级 | 核心线路架构 | 计费门槛与套餐参考 | 专属优惠码 | 测速证据 | 官方直达通道 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **No.1** | **光速云** | ⭐ 旗舰主推 | IEPL专线 + 企业内网 | 年付 ¥99 (¥8.3/月) / ¥147永久 | `AMM` | 📸 [含实测图](/recommend/guangsu-cloud-in-depth-review-and-plans-guide/) | [官网通道 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
-| **No.2** | **飞猫云** | ⭐ 编辑精选 | BGP优质隧道中转 | 年付 ¥120 (¥10.0/月) 起 | `feimao` | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#2-飞猫云-feimao-cloud) | [官网通道 ↗](https://www.feimaoyun.org/#/register?code=6vPZ8mJt) |
-| **No.3** | **微风网络** | ⭐ 编辑精选 | IEPL内网专线 | 月付 ¥15 起 | `weifeng` | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#3-微风网络-weifeng-cloud) | [官网通道 ↗](https://www.weifengcloud.com/#/register?code=B5uN4YkK) |
-| **No.4** | **星岛梦** | ⭐ 编辑精选 | IPLC内网中转 | 月付 ¥18 起 | `xdm2026` | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#4-星岛梦-xingdaomeng) | [官网通道 ↗](https://www.xingdaomeng.com/#/register?code=j7Wb9xLm) |
-| **No.5** | **无忧链接** | ⭐ 稳定之选 | 优质BGP中转 | 月付 ¥12 起 | `wuyou` | 待复测更新 | [官网通道 ↗](https://www.wuyoulink.com/#/register?code=K9pQ2wZx) |
-| **No.6** | **二猫云** | ⭐ 均衡之选 | 专线中转 | 月付 ¥19 起 | `ermao` | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#5-二猫云-ermao-cloud) | [官网通道 ↗](https://www.ermaoyun.com/#/register?code=M3vT8yKp) |
-| **No.7** | **唯兔云** | ⭐ 性价比之选 | 混合专线 | 月付 ¥16 起 | `weitu` | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#6-唯兔云-weitu-cloud) | [官网通道 ↗](https://www.weitucloud.com/#/register?code=Q5rS1tYx) |
-| **No.8** | **Firefly** | ⭐ 跨境专选 | 国际专线 | 月付 ¥20 起 | `firefly` | 待复测更新 | [官网通道 ↗](https://www.fireflynet.org/#/register?code=Z8uW3xKp) |
-| **No.9** | **暮光加速** | ⭐ 游戏低延时 | 高速中转 | 月付 ¥15 起 | `muguang` | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#7-幕光加速-muguang-speed) | [官网通道 ↗](https://www.muguangspeed.com/#/register?code=X4vN8mJt) |
-| **No.10** | **宇宙云** | ⭐ 弹性高并发 | 混合专线 | 月付 ¥14 起 | `yuzhou` | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#8-宇宙云-yuzhou-cloud) | [官网通道 ↗](https://www.yuzhouyun.com/#/register?code=P2wZ9xLm) |
+| **No.1** | **光速云** | ⭐ 旗舰主推 | IEPL专线 + 企业内网 | 年付 ¥99 (¥8.3/月) / ¥147永久 | <CouponBadge code="AMM" /> | 📸 [含实测图](/recommend/guangsu-cloud-in-depth-review-and-plans-guide/) | [官网通道 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
+| **No.2** | **飞猫云** | ⭐ 编辑精选 | BGP优质隧道中转 | 年付 ¥120 (¥10.0/月) 起 | <CouponBadge code="feimao" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#2-飞猫云-feimao-cloud) | [官网通道 ↗](https://www.feimaoyun.org/#/register?code=6vPZ8mJt) |
+| **No.3** | **微风网络** | ⭐ 编辑精选 | IEPL内网专线 | 月付 ¥15 起 | <CouponBadge code="weifeng" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#3-微风网络-weifeng-cloud) | [官网通道 ↗](https://www.weifengcloud.com/#/register?code=B5uN4YkK) |
+| **No.4** | **星岛梦** | ⭐ 编辑精选 | IPLC内网中转 | 月付 ¥18 起 | <CouponBadge code="xdm2026" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#4-星岛梦-xingdaomeng) | [官网通道 ↗](https://www.xingdaomeng.com/#/register?code=j7Wb9xLm) |
+| **No.5** | **无忧链接** | ⭐ 稳定之选 | 优质BGP中转 | 月付 ¥12 起 | <CouponBadge code="wuyou" /> | 待复测更新 | [官网通道 ↗](https://www.wuyoulink.com/#/register?code=K9pQ2wZx) |
+| **No.6** | **二猫云** | ⭐ 均衡之选 | 专线中转 | 月付 ¥19 起 | <CouponBadge code="ermao" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#5-二猫云-ermao-cloud) | [官网通道 ↗](https://www.ermaoyun.com/#/register?code=M3vT8yKp) |
+| **No.7** | **唯兔云** | ⭐ 性价比之选 | 混合专线 | 月付 ¥16 起 | <CouponBadge code="weitu" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#6-唯兔云-weitu-cloud) | [官网通道 ↗](https://www.weitucloud.com/#/register?code=Q5rS1tYx) |
+| **No.8** | **Firefly** | ⭐ 跨境专选 | 国际专线 | 月付 ¥20 起 | <CouponBadge code="firefly" /> | 待复测更新 | [官网通道 ↗](https://www.fireflynet.org/#/register?code=Z8uW3xKp) |
+| **No.9** | **暮光加速** | ⭐ 游戏低延时 | 高速中转 | 月付 ¥15 起 | <CouponBadge code="muguang" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#7-幕光加速-muguang-speed) | [官网通道 ↗](https://www.muguangspeed.com/#/register?code=X4vN8mJt) |
+| **No.10** | **宇宙云** | ⭐ 弹性高并发 | 混合专线 | 月付 ¥14 起 | <CouponBadge code="yuzhou" /> | 📸 [含实测图](/recommend/speedtest-measured-airports-2026-review/#8-宇宙云-yuzhou-cloud) | [官网通道 ↗](https://www.yuzhouyun.com/#/register?code=P2wZ9xLm) |
 
 ---
 

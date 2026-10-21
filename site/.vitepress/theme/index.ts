@@ -17,6 +17,7 @@ import ServicePlanCard from './components/ServicePlanCard.vue';
 import Disclosure from './components/Disclosure.vue';
 import Breadcrumbs from './components/Breadcrumbs.vue';
 import PublishedContentIndex from './components/PublishedContentIndex.vue';
+import CouponBadge from './components/CouponBadge.vue';
 
 export default {
   extends: DefaultTheme,
@@ -35,5 +36,6 @@ export default {
     app.component('Disclosure', Disclosure);
     app.component('Breadcrumbs', Breadcrumbs);
     app.component('PublishedContentIndex', PublishedContentIndex);
+    app.component('CouponBadge', CouponBadge);
   }
 } satisfies Theme;

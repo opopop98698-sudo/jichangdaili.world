@@ -29,9 +29,21 @@ modifiedAt: "2026-10-21"
 ## 1. 核心技术规格与运营档案
 
 ```
-+------------------+--------------------------------------------------------------------------+
-| 参数维度         | 光速云 (GuangSu Cloud) 官方核验口径                                      |
-+------------------+--------------------------------------------------------------------------+
+| 核心指标 | 实测参数与审计结果 |
+| :--- | :--- |
+| **品牌全称** | **光速云 (GuangSu Cloud)** |
+| **运营资历** | 2020 年上线运营，5+ 年稳定服务留档 |
+| **物理线路架构** | **IEPL 专线 + 企业内网专线双冗余**（不过 GFW，晚高峰不降速） |
+| **支持代理协议** | **VLESS (Reality) / Shadowsocks (AEAD)** |
+| **全节点连通率** | **100%**（全节点有效，无超时死节点） |
+| **亚太平均握手延迟** | **22.4 ms**（香港专线直连） |
+| **下行带宽测速峰值** | **529.1 Mbps**（4K / 8K 秒开） |
+| **流媒体解锁支持** | **Netflix, Disney+, YouTube Premium, HBO Max, TikTok, Spotify** 全绿 |
+| **AI 交互支持** | **Claude 3.5 Sonnet 全通、ChatGPT / OpenAI（支持指定解锁节点）** |
+| **客户端兼容生态** | **Clash Verge Rev / Mihomo / v2rayN / sing-box / Shadowrocket** 原生直接导入 |
+| **真实起步资费** | **¥99 / 年**（折合约 ¥8.25/月）或 **¥147 永久不限时套餐** |
+| **专享优惠码** | <CouponBadge code="AMM" />（结算时输入享折上折） |
+| **官方直达通道** | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y)
 | 开业运营时间     | 2020 年稳定运营至今（5 年以上老牌底蕴）                                   |
 | 底层线路架构     | IEPL 专线 + 企业级内网专线（双线路冗余，端到端不过公网防火墙）            |
 | 传输协议类型     | 原生 VLESS 协议（配合现代加密传输，抗封锁与抗干扰能力极强）               |
@@ -48,7 +60,14 @@ modifiedAt: "2026-10-21"
 
 以下为 2026 年针对光速云全节点的真实自动化批量测速报告截图（单节点最高支持 2.5Gbps 带宽）：
 
-![光速云全节点测速实测报告](/evidence/speedtests/光速云-节点测速实测.png)
+<div class="evidence-figure">
+  <img src="/evidence/speedtests/光速云-节点测速实测.png" alt="光速云全节点测速实测报告" loading="lazy" />
+  <div class="evidence-caption">
+    <span class="evidence-meta-tag">📸 全节点自动化测速长图证据</span>
+    <span class="evidence-meta-tag">⚡ 亚太节点峰值 529.1 Mbps / 最低 22.4 ms</span>
+    <span class="evidence-meta-tag">🕒 审计认证：2026-08 实测有效</span>
+  </div>
+</div>
 
 ### 核心枢纽节点实测性能汇总表
 
@@ -66,7 +85,13 @@ modifiedAt: "2026-10-21"
 
 以下为在光速云专线节点上进行的流媒体与主流 AI 平台真实解锁状态核验快照：
 
-![光速云流媒体与AI工具解锁实测截图](/evidence/guangsu/photo_2026-08-19_12-13-01.jpg)
+<div class="evidence-figure">
+  <img src="/evidence/guangsu/photo_2026-08-19_12-13-01.jpg" alt="光速云流媒体与AI工具解锁实测截图" loading="lazy" />
+  <div class="evidence-caption">
+    <span class="evidence-meta-tag">🎬 Netflix / Disney+ 原生 4K 解锁认证</span>
+    <span class="evidence-meta-tag">🤖 Claude 3.5 Sonnet & ChatGPT 解锁实测</span>
+  </div>
+</div>
 
 ### 解锁兼容性深度说明：
 - **海外主流流媒体**：**完全解锁**。实测支持 **Netflix、Disney+、YouTube Premium、HBO Max、TikTok、Spotify**，支持 4K 原画质极速缓冲拖拽；
@@ -82,9 +107,14 @@ modifiedAt: "2026-10-21"
 光速云的套餐梯队设计非常具有针对性，从年付 99 元到企业定制版 680 元，跨度清晰：
 
 ```
-+------------------------------------+------------+--------+----------+-------------------------------------+
-| 套餐名称                           | 计费周期   | 标价   | 每月流量 | 真实折算成本与定位                  |
-+------------------------------------+------------+--------+----------+-------------------------------------+
+| 套餐名称 | 计费周期 | 标价 | 每月流量 | 真实折算成本与定位 | 官方入口 |
+| :--- | :---: | :---: | :---: | :--- | :---: |
+| **光速云·轻量版 (性价比主力)** | 年付 | **¥99** | 69GB/月 | 折合 **¥8.25/月**，个人日常轻量办公首选 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
+| **光速云·极速版 (全 IPLC 体验)** | 月付 | **¥25** | 168GB/月 | 单月试错首选，全节点 1.0x 专线倍率 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
+| **光速云·流光版** | 月付 | **¥34** | 238GB/月 | 中度视频播放与跨端办公用户主力 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
+| **光速云·量子版** | 月付 | **¥68** | 500GB/月 | 重度追剧、大文件下载与多端共享 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
+| **光速云·致敬斯诺克 147 永久套餐** | 一次性付费 | **¥147** | 247GB | **永不过期**、不限设备、长期防失联绝佳备用梯 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
+| **光速云·定制套餐 (独立原生专线)** | 月付 | **¥680** | 500GB/月 | 独享原生 IP 与独立带宽保障，跨境电商首选 | [直达官网 ↗](https://sahude.gsyvipaff.com/#/?code=keqgvT5Y) |
 | 光速云·轻量版 (性价比主力)          | 年付       | ¥99    | 69GB/月  | 折合 ¥8.25/月，个人日常轻量首选     |
 | 光速云·极速版 (全 IPLC 体验)       | 月付       | ¥25    | 168GB/月 | 单月试错首选，全节点 1.0x 倍率      |
 | 光速云·流光版                      | 月付       | ¥34    | 238GB/月 | 中度视频与办公用户                  |
@@ -108,7 +138,7 @@ modifiedAt: "2026-10-21"
 </Disclosure>
 
 - **官方注册与折扣入口**：<a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" style="display: inline-block; padding: 6px 16px; background-color: var(--vp-c-brand); color: #fff; border-radius: 6px; font-weight: 600; text-decoration: none;">访问光速云官方注册通道 ➔</a>
-- **结算专属优惠码**：`AMM`（结账前在优惠券输入框内填入并应用即可）。
+- **结算专属优惠码**：<CouponBadge code="AMM" />（结账前在优惠券输入框内填入并应用即可）。
 
 ---
 

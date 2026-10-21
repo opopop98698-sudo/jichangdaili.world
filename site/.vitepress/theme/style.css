@@ -180,28 +180,62 @@ body {
   border-color: var(--vp-c-brand-1);
 }
 
-/* Table layout with zebra stripes & row hover tracking */
+/* Table layout: fluid, responsive, with overflow scrolling & anti-break safeguards */
 .vp-doc table {
-  display: table;
+  display: block;
   width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.75rem 0;
   border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-  overflow: hidden;
-  font-size: 0.9rem;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.vp-doc table::-webkit-scrollbar {
+  height: 6px;
+}
+
+.vp-doc table::-webkit-scrollbar-track {
+  background: var(--vp-c-bg-soft);
+  border-radius: 0 0 8px 8px;
+}
+
+.vp-doc table::-webkit-scrollbar-thumb {
+  background: var(--vp-c-divider);
+  border-radius: 3px;
+}
+
+.vp-doc table::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-1);
 }
 
 .vp-doc th, .vp-doc td {
-  padding: 0.85rem 1rem;
-  border: 1px solid var(--vp-c-divider);
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  border-right: 1px solid var(--vp-c-divider);
   text-align: left;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.vp-doc th:last-child, .vp-doc td:last-child {
+  border-right: none;
+}
+
+.vp-doc tr:last-child td {
+  border-bottom: none;
 }
 
 .vp-doc th {
   background-color: var(--vp-c-bg-alt);
   color: var(--vp-c-text-1);
   font-weight: 700;
+  white-space: nowrap !important;
   letter-spacing: 0.02em;
   border-bottom: 2px solid var(--vp-c-divider);
 }
@@ -213,6 +247,109 @@ body {
 .vp-doc tbody tr:hover {
   background-color: var(--vp-c-brand-soft);
   transition: background-color 0.15s ease;
+}
+
+/* Table Content Anti-Break & Visual Micro-components */
+.vp-doc table td code {
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.85em;
+  font-family: var(--vp-font-family-mono);
+  border-radius: 4px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border: 1px solid rgba(0, 102, 204, 0.2);
+  font-weight: 600;
+}
+
+/* Official Outbound Links in Tables rendered as crisp action pill buttons */
+.vp-doc table td a[target="_blank"],
+.vp-doc table td a.table-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffffff !important;
+  background: var(--vp-c-brand-1);
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 6px;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 3px rgba(0, 102, 204, 0.2);
+  cursor: pointer;
+}
+
+.vp-doc table td a[target="_blank"]:hover,
+.vp-doc table td a.table-btn:hover {
+  background: var(--vp-c-brand-2);
+  border-color: var(--vp-c-brand-2);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 102, 204, 0.32);
+}
+
+/* Internal links in tables: neat pill or clean link without wrapping */
+.vp-doc table td a:not([target="_blank"]) {
+  white-space: nowrap !important;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.vp-doc table td a:not([target="_blank"]):hover {
+  text-decoration: underline;
+}
+
+/* Evidence and Screenshot Container Refinement */
+.evidence-figure {
+  margin: 2.25rem 0;
+  padding: 1.25rem;
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.evidence-figure img {
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+  display: block;
+}
+
+.evidence-caption {
+  margin-top: 0.85rem;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.evidence-meta-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  font-size: 0.775rem;
+  border-radius: 4px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
 }
 
 /* Dark mode card hover enhancement */
@@ -231,11 +368,6 @@ body {
   }
   .vp-doc h3 {
     font-size: 1.1rem;
-  }
-  .vp-doc table {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
   }
 }
 
